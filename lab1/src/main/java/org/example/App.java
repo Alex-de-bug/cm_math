@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 import static java.lang.Math.abs;
+import static java.lang.System.exit;
 
 public class App
 {
@@ -40,6 +41,7 @@ public class App
                     fileScanner.close();
                 } catch (FileNotFoundException e) {
                     System.out.println("Файл не найден.");
+                    exit(0);
                 }
                 break;
         }
@@ -47,7 +49,11 @@ public class App
         int permutations = matrix.gaussianElimination();
         double determinant = matrix.calculateDeterminant(permutations);
 
-        System.out.println("\nDet: "+determinant);
+        if (Double.toString(determinant).contains("E")) {
+            System.out.println(Double.toString(determinant).replace("E", "*10^")+" ");
+        }else {
+            System.out.println(determinant + " ");
+        }
         if(abs(determinant) != 0){
             System.out.println("\nDiagonal matrix: ");
             matrix.backwardSubstitution();
@@ -60,6 +66,22 @@ public class App
                 System.out.println("СЛАУ не имеет решений (несовместна). Найден вектор (0 ... 0 | x), где x!=0");
             }
             matrix.printMatrix();
+        }
+        int er;
+        Scanner scanner1 = new Scanner(System.in);
+        do {
+            System.out.println("1 - exit\n2 - повтор");
+            while (!scanner1.hasNextInt()) {
+                System.out.println("Пожалуйста, введите число 1, 2");
+                scanner1.next();
+            }
+            er = scanner1.nextInt();
+        } while (er < 1 || er > 3);
+        switch (er) {
+            case 1:
+                exit(0);
+            case 2:
+                main(new String[]{});
         }
     }
 }

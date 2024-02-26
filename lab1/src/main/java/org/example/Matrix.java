@@ -4,6 +4,8 @@ package org.example;
 import java.util.Random;
 import java.util.Scanner;
 
+import static java.lang.System.exit;
+
 public class Matrix {
     private int size;
     private double[][] matrix_a;
@@ -38,10 +40,15 @@ public class Matrix {
 
     public void randomMatrixFromInput() {
         Scanner scanner = new Scanner(System.in);
-        size = scanner.nextInt();
+        try {
+            size = scanner.nextInt();
+        }catch (Exception e){
+            System.out.println("пока");
+            exit(0);
+        }
         if(size>20 || size<1){
             System.out.println("Размерность неверна");
-            System.exit(888);
+            exit(888);
         }
         matrix_a = new double[size][size];
         matrix_b = new double[size];
@@ -66,7 +73,11 @@ public class Matrix {
     public void printMatrix() {
         for (int i = 0; i < this.size; i++) {
             for (int j = 0; j < this.size; j++) {
-                System.out.print(this.matrix_a[i][j] + " ");
+                if (Double.toString(matrix_a[i][j]).contains("E")) {
+                    System.out.print(Double.toString(matrix_a[i][j]).replace("E", "*10^")+" ");
+                }else {
+                    System.out.print(this.matrix_a[i][j] + " ");
+                }
             }
             System.out.print("| ");
             System.out.println(this.matrix_b[i]);
@@ -145,7 +156,11 @@ public class Matrix {
             for (int j = 0; j < this.size; j++) {
                 sum+= matrix_old_a[i][j]*solutions[j];
             }
-            System.out.println(sum- matrix_old_b[i]);
+            if (Double.toString(sum- matrix_old_b[i]).contains("E")) {
+                System.out.println(Double.toString(sum- matrix_old_b[i]).replace("E", "*10^")+" ");
+            }else {
+                System.out.println(sum- matrix_old_b[i] + " ");
+            }
         }
     }
 
