@@ -6,12 +6,11 @@ export const sendTry = createAsyncThunk(
     async ({ x, y, r }, thunkAPI) => {
         await new Promise(resolve => setTimeout(resolve, 100));
         try {
-            let link = "http://localhost:8080/api/auth/attempt";
+            let link = "http://localhost:8080/api/attempt";
             const params = {
                 x: x,
                 y: y,
-                r: r,
-                token: localStorage.getItem('token')
+                r: r
             };
             const response = await axios.post(link, params, {
                 headers: { "Content-Type": "application/json" }

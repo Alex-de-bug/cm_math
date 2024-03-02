@@ -1,10 +1,7 @@
-import { BrowserRouter } from "react-router-dom";
-import Router from "./Router.jsx";
 import "./styles/NavigationBar.css"
+import Home from "./pages/Home.jsx";
 export default function App() {
   return (
-    <BrowserRouter>
-      <Router />
-    </BrowserRouter>
+    <Home/>
   );
 }

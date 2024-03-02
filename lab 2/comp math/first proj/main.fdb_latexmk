@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1709342387 "/Users/alexalex/Desktop/cm_math/lab 2/comp math/first proj/main.tex" "main.pdf" "main" 1709342390 0
-  "/Users/alexalex/Desktop/cm_math/lab 2/comp math/first proj/main.tex" 1709342387 18524 f8d58d0056b3979d4e4fd83984b9b509 ""
+["pdflatex"] 1709379301 "/Users/alexalex/Desktop/cm_math/lab 2/comp math/first proj/main.tex" "main.pdf" "main" 1709379303 0
+  "/Users/alexalex/Desktop/cm_math/lab 2/comp math/first proj/main.tex" 1709379300 20767 847b9c9d8522c7c2ee2fea2b4e87f594 ""
   "/Users/alexalex/Library/texlive/2023/texmf-var/fonts/tfm/lh/lh-t2a/labx1000.tfm" 1684784477 3300 6abb8e321227ead2a8e929e5abc72bd3 ""
   "/Users/alexalex/Library/texlive/2023/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1683825241 3308 eee81981029f67083258db36df06e523 ""
   "/Users/alexalex/Library/texlive/2023/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1683825105 3304 6a543c07045572737981351171e0505e ""
@@ -196,8 +196,8 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1683823977 4643411 5ced174c6d521e21dd58a10751c00482 ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1683824033 7886842 9318a877a941dc86aae3806e8adeccb7 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "main.aux" 1709342390 1515 08c53e4290444040955358b7b0b90422 "pdflatex"
-  "main.tex" 1709342387 18524 f8d58d0056b3979d4e4fd83984b9b509 ""
+  "main.aux" 1709379303 1659 125fa16fc94f97f7b3fd48a7360b8083 "pdflatex"
+  "main.tex" 1709379300 20767 847b9c9d8522c7c2ee2fea2b4e87f594 ""
   (generated)
   "main.aux"
   "main.log"

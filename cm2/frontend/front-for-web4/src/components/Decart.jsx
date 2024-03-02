@@ -9,11 +9,10 @@ const CanvasGraph = ({ r }) => {
     const {array} = useSelector(
         homeSelector
     );
-    const [formData, setFormData] = useState({
+    const [formData] = useState({
         x: '',
         y: '',
-        r: '',
-        token: localStorage.getItem('token')
+        r: ''
     });
 
 

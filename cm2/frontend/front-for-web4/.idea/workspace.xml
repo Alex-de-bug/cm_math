@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f950eb-7371-46f5-b7f9-8448526fe1ed" name="Changes" comment="adaptive" />
+    <list default="true" id="71f950eb-7371-46f5-b7f9-8448526fe1ed" name="Changes" comment="adaptive">
+      <change afterPath="$PROJECT_DIR$/../../../cm_new_2/demo/src/main/java/Web4Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../cm_new_2/demo/src/main/java/controllers/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../cm_new_2/my-app/src/Components/SendNumberForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.fdb_latexmk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.tex" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/alexalex/Desktop/cm_math/cm2/frontend/front-for-web4",
+    "last_opened_file_path": "/Users/alexalex/Desktop/cm_math/cm2/frontend/front-for-web4/src/components",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,6 +60,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/components" />
@@ -77,6 +90,8 @@
       <workItem from="1701777047315" duration="15209000" />
       <workItem from="1708988713759" duration="12000" />
       <workItem from="1708988955743" duration="2040000" />
+      <workItem from="1709380081026" duration="668000" />
+      <workItem from="1709384040911" duration="11464000" />
     </task>
     <task id="LOCAL-00001" summary="first front">
       <created>1701183907484</created>

@@ -1,10 +1,9 @@
-import Navbar from "../components/Navbar.jsx";
 import Table from "../components/Table.jsx";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
-import { clearState, deleteTry, getTry, homeSelector, sendTry } from "../store/slices/HomeSlice.jsx";
-import { useEffect, useState } from "react";
+import { homeSelector, sendTry } from "../store/slices/HomeSlice.jsx";
+import { useState } from "react";
 import Decart from "../components/Decart.jsx";
+import Graph from "../components/Graph.jsx";
 import {Snackbar, Alert, Grid} from '@mui/material';
 import {
     Button,
@@ -22,8 +21,7 @@ import "../styles/Home.css";
 
 function Home() {
     const dispatch = useDispatch();
-    const navigate = useNavigate();
-    const { isFetching, isSuccess, isError, errorMessage } = useSelector(homeSelector);
+    const { isFetching, errorMessage } = useSelector(homeSelector);
     const [selectedItemX, setSelectedItemX] = useState();
     const [selectedItemR, setSelectedItemR] = useState();
     const [formData, setFormData] = useState({
@@ -59,54 +57,23 @@ function Home() {
 
     const onSubmit = (data) => {
         console.log(data);
-        dispatch(sendTry(data)).then(() => {
-            dispatch(getTry());
-        });
+        dispatch(sendTry(data));
     };
 
-    const onDelete = () => {
-        dispatch(deleteTry()).then(() => {
-            dispatch(getTry());
-        });
-    };
-
-    useEffect(() => {
-        return () => {
-            dispatch(clearState());
-            dispatch(getTry());
-        };
-    }, [isSuccess]);
-
-    useEffect(() => {
-        if (isError) {
-            dispatch(clearState());
-            setOpenError(true);
-            setTimeout(() => {
-                setOpenError(false);
-                dispatch(clearState());
-            }, 3000);
-        }
-
-        if (isError) {
-            dispatch(clearState());
-            navigate('/');
-            localStorage.removeItem('token');
-            window.location.reload();
-        }
-    }, [isError, isSuccess]);
 
 
     return (
         <div>
-            <Navbar />
+            <Graph/>
             <Container maxWidth="sm" sx={{ mt: 4 }}>
                 <Paper sx={{ p: 4 }}>
 
-                    <div className="parent">
-                        <div className="centered">
-                            <Decart r={formData.r}/>
-                        </div>
-                    </div>
+
+                    {/*<div className="parent">*/}
+                    {/*    <div className="centered">*/}
+                    {/*        <Decart r={formData.r}/>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
                     {/*<Decart r={formData.r} />*/}
                     <form onSubmit={handleFormSubmit}>
@@ -169,11 +136,6 @@ function Home() {
                             <Grid item xs={6}>
                                 <Button variant="contained" type="submit" disabled={isFetching}>
                                     {isFetching ? 'Sending...' : 'Send'}
-                                </Button>
-                            </Grid>
-                            <Grid item xs={6}>
-                                <Button variant="contained" onClick={onDelete} disabled={isFetching}>
-                                    {isFetching ? 'Deleting...' : 'Delete'}
                                 </Button>
                             </Grid>
                         </Grid>
