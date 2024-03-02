@@ -18,6 +18,7 @@ export const sendTry = createAsyncThunk(
             });
             let data = await response.data;
             if (response.status === 200||response.status === 201) {
+                console.log(data)
                 return data;
             } else {
                 return thunkAPI.rejectWithValue(data);
