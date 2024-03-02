@@ -44,22 +44,6 @@ const CanvasGraph = ({ r }) => {
                     );
                 }
             }
-            // if(window.innerWidth<550){
-            //     drawPointe(
-            //         x * 14 + 110,
-            //         (-y * 14 + 110),
-            //         x,
-            //         y, ctx, canvas
-            //     );
-            // }else{
-            //     drawPointe(
-            //         x * 40 + 250,
-            //         (-y * 40 + 250),
-            //         x,
-            //         y, ctx, canvas
-            //     );
-            // }
-
         }
     }, [r, array]);
 
