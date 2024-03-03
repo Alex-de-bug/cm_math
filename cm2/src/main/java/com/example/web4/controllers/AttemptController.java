@@ -1,15 +1,18 @@
 package com.example.web4.controllers;
 
 import com.example.web4.dto.Coordinates;
-import com.example.web4.dto.HitResult;
-import com.example.web4.utils.CoordinatesValidation;
-import com.example.web4.utils.OutOfCoordinatesBoundsException;
+import com.example.web4.utils.CoordinatesValidator;
 import jakarta.servlet.http.HttpServletRequest;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,19 +31,39 @@ public class AttemptController {
                 "Метод: "+pointRequest.getMetod()+"\n"+
                 "Граница левая: "+pointRequest.getA()+"\n"+
                 "Граница правая: "+pointRequest.getB()+"\n"+
-                "Точность: "+pointRequest.getEps()+"\n"
+                "Точность: "+pointRequest.getEps()+"\n"+
+                "Файл: "+pointRequest.getFile()+"\n"
                 );
-        return new ResponseEntity<>(HttpStatus.CREATED);
+        double func  = pointRequest.getFunc();
+        double metod = pointRequest.getMetod();
+        double a = pointRequest.getA();
+        double b = pointRequest.getB();
+        double epsil = pointRequest.getEps();
+        boolean file = pointRequest.getFile();
+
+        if(!CoordinatesValidator.validateAndCreate(func, metod, a, b, epsil, file)){
+            return new ResponseEntity<>("bad req", HttpStatus.BAD_REQUEST);
+        }
+        if(!pointRequest.checkRootsCount()){
+            return new ResponseEntity<>("bad bounds", HttpStatus.BAD_REQUEST);
+        }
+
+        pointRequest.calculate();
+
+        Resource resource = new ClassPathResource("tmp.json");
+        try {
+            String data = new String(Files.readAllBytes(Path.of("tmp.json")));
+            return new ResponseEntity<>(data, HttpStatus.CREATED);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 
     @GetMapping()
     public ResponseEntity<?> getHits(HttpServletRequest request) {
-        List<HitResult> hits = new ArrayList<>();
-        try {
-            return new ResponseEntity<>(hits, HttpStatus.OK);
-        } catch (Exception exception) {
-            return ResponseEntity.badRequest().body(exception.getMessage());
-        }
+            return new ResponseEntity<>(HttpStatus.OK);
+
     }
 
     @DeleteMapping()

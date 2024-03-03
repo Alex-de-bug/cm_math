@@ -29,7 +29,8 @@ function Home() {
         metod: '0',
         a: 0,
         b: 0,
-        eps: 0
+        eps: 0,
+        file: false
     });
     const [openError, setOpenError] = useState(false);
     const [method, setMethod] = useState('0');
@@ -59,6 +60,8 @@ function Home() {
         if((event.target.value === '3')||(event.target.value === '4')){
             formData.metod = "3";
             setMethod('3');
+        }else{
+            formData.metod = "0";
         }
         console.log(formData);
     };
@@ -91,12 +94,17 @@ function Home() {
         reader.readAsText(file);
     };
 
+    const handleFileChange = () => {
+        const tmp1 = !formData.file
+        formData.file = tmp1;
+    };
+
 
 
     return (
         <div>
-            <Graph fu = {func}/>
-            <Container maxWidth="sm" sx={{ mt: 4 }}>
+            <Graph fu={func}/>
+            <Container maxWidth="sm" sx={{mt: 4}}>
                 <Paper sx={{p: 4}}>
                     <Grid item xs={12}>
                         <FormControl component="fieldset">
@@ -122,7 +130,7 @@ function Home() {
                     </Grid>
                     <div>
                         {((func === '0') || (func === '1') || (func === '2')) && (
-                            <select name={"typeFunction"} value={method} onChange={handleChangeType}>
+                            <select name={"typeFunction"} value={formData.metod} onChange={handleChangeType}>
                                 <option value={"0"}>Метод половинного деления</option>
                                 <option value={"1"}>Метод Ньютона</option>
                                 <option value={"2"}>Метод простой итерации</option>
@@ -151,11 +159,14 @@ function Home() {
                         <input type="number" value={formData.eps} onChange={(e) => handleInputChange(e, 'eps')}
                                step="0.01" max={50}/>
                     </div>
+                    <p>Нужно ли сорхранить результаты работы в файл</p>
+                    <div>
+                        <input type="checkbox" onChange={handleFileChange}/>
+                    </div>
 
                     <input type="file" onChange={handleFileInputChange}/>
 
                     <form onSubmit={handleFormSubmit}>
-                        <input value={func} type={"hidden"}></input>
                         <Grid item xs={6}>
                             <Button variant="contained" type="submit" disabled={isFetching}>
                                 {isFetching ? 'Sending...' : 'Send'}
@@ -170,6 +181,13 @@ function Home() {
                     {errorMessage}
                 </Alert>
             </Snackbar>
+            <div>
+                {errorMessage && (
+                    <div style={{color: 'red', marginTop: '10px'}}>
+                        Ошибка: {errorMessage}
+                    </div>
+                )}
+            </div>
         </div>
     );
 

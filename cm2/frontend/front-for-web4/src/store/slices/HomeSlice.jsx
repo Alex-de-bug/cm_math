@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const sendTry = createAsyncThunk(
     "home/sendTry",
-    async ({ func, metod, a, b, eps }, thunkAPI) => {
+    async ({ func, metod, a, b, eps, file }, thunkAPI) => {
         await new Promise(resolve => setTimeout(resolve, 100));
         try {
             let link = "http://localhost:8080/api/attempt";
@@ -12,7 +12,8 @@ export const sendTry = createAsyncThunk(
                 metod: metod,
                 a: a,
                 b: b,
-                eps: eps
+                eps: eps,
+                file: file
             };
             const response = await axios.post(link, params, {
                 headers: { "Content-Type": "application/json" }
@@ -115,15 +116,16 @@ export const HomeSlice = createSlice({
         builder
             .addCase(sendTry.fulfilled, (state, { payload }) => {
                 console.log(payload);
-                state.token = payload.token;
                 state.isFetching = false;
+                state.errorMessage = "";
                 return state;
             })
             .addCase(sendTry.rejected, (state, { payload }) => {
                 console.log(payload);
                 state.isFetching = false;
                 state.isError = true;
-                // state.errorMessage = payload
+                state.errorMessage = payload;
+                console.log(payload);
             })
             .addCase(sendTry.pending, (state) => {
                 state.isFetching = true;

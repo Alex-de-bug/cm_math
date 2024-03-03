@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="web@localhost">
-  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.43">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.51">
     <root id="1"/>
     <database id="2" parent="1" name="web">
       <Current>1</Current>
@@ -15,8 +15,6 @@
 13449||10|U|G</Grants>
       <IntrospectionStateNumber>2834</IntrospectionStateNumber>
       <ObjectId>17309</ObjectId>
-      <Relations>sequence|table|17751|17752|1
-</Relations>
       <OwnerName>postgres</OwnerName>
     </database>
     <database id="3" parent="1" name="postgres">
@@ -3447,15 +3445,18 @@
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="266" parent="265" name="attempts_seq">
-      <DataType>bigint|0s</DataType>
+      <DasType>bigint|0s</DasType>
       <ObjectId>17557</ObjectId>
-      <SequenceIdentity>null+50</SequenceIdentity>
+      <SequenceIdentity>1+50</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>2358</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <sequence id="267" parent="265" name="users_id_seq">
-      <DataType>bigint|0s</DataType>
+      <DasType>bigint|0s</DasType>
       <ObjectId>17751</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
       <StateNumber>2548</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
@@ -3472,38 +3473,38 @@
       <OwnerName>postgres</OwnerName>
     </table>
     <column id="270" parent="268" name="id">
-      <DataType>bigint|0s</DataType>
+      <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>2604</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="271" parent="268" name="hit">
-      <DataType>integer|0s</DataType>
+      <DasType>integer|0s</DasType>
       <Position>2</Position>
       <StateNumber>2604</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="272" parent="268" name="r">
-      <DataType>double precision|0s</DataType>
+      <DasType>double precision|0s</DasType>
       <Position>3</Position>
       <StateNumber>2604</StateNumber>
       <TypeId>701</TypeId>
     </column>
     <column id="273" parent="268" name="x">
-      <DataType>double precision|0s</DataType>
+      <DasType>double precision|0s</DasType>
       <Position>4</Position>
       <StateNumber>2604</StateNumber>
       <TypeId>701</TypeId>
     </column>
     <column id="274" parent="268" name="y">
-      <DataType>double precision|0s</DataType>
+      <DasType>double precision|0s</DasType>
       <Position>5</Position>
       <StateNumber>2604</StateNumber>
       <TypeId>701</TypeId>
     </column>
     <column id="275" parent="268" name="user_id">
-      <DataType>bigint|0s</DataType>
+      <DasType>bigint|0s</DasType>
       <Position>6</Position>
       <StateNumber>2604</StateNumber>
       <TypeId>20</TypeId>
@@ -3511,9 +3512,9 @@
     <foreign-key id="276" parent="268" name="fk9ajal069gdogf73v6rl1ic0bc">
       <ColNames>user_id</ColNames>
       <ObjectId>17772</ObjectId>
-      <RefColNames>id</RefColNames>
-      <RefColPositions>1</RefColPositions>
       <StateNumber>2605</StateNumber>
+      <RefKeyColPositions>1</RefKeyColPositions>
+      <RefKeyColNames>id</RefKeyColNames>
       <RefTableId>17752</RefTableId>
       <RefTableName>users</RefTableName>
       <RefTableKind>table</RefTableKind>
@@ -3535,33 +3536,34 @@
       <UnderlyingIndexId>17770</UnderlyingIndexId>
     </key>
     <column id="279" parent="269" name="id">
-      <DataType>bigint|0s</DataType>
+      <DasType>bigint|0s</DasType>
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StateNumber>2548</StateNumber>
+      <SequenceId>17751</SequenceId>
       <TypeId>20</TypeId>
     </column>
     <column id="280" parent="269" name="date_of_created">
-      <DataType>timestamp(6)|0s</DataType>
+      <DasType>timestamp(6)|0s</DasType>
       <Position>2</Position>
       <StateNumber>2548</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="281" parent="269" name="email">
-      <DataType>varchar(255)|0s</DataType>
+      <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
       <StateNumber>2548</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="282" parent="269" name="name">
-      <DataType>varchar(255)|0s</DataType>
+      <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
       <StateNumber>2548</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="283" parent="269" name="password">
-      <DataType>varchar(1000)|0s</DataType>
+      <DasType>varchar(1000)|0s</DasType>
       <Position>5</Position>
       <StateNumber>2548</StateNumber>
       <TypeId>1043</TypeId>
