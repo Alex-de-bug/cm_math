@@ -3,9 +3,9 @@ package com.example.web4.utils;
 import com.example.web4.dto.Coordinates;
 
 public class AreaCheck {
-    public static boolean isHit(Coordinates coordinates) {
-        return coordinates != null && isHit(coordinates.getX(), coordinates.getY(), coordinates.getR());
-    }
+//    public static boolean isHit(Coordinates coordinates) {
+////        return coordinates != null && isHit(coordinates.getX(), coordinates.getY(), coordinates.getR());
+//    }
 
     public static boolean isHit(double x, double y, double r) {
         return isCircleHit(x, y, r) || isRectangleHit(x, y, r) || isTriangleHit(x, y, r);

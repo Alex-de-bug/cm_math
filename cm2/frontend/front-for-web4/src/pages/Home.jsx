@@ -47,7 +47,7 @@ function Home() {
 
     const onSubmit = (data) => {
         console.log(data);
-        //dispatch(sendTry(data));
+        dispatch(sendTry(data));
     };
 
     const [func, setFunc] = useState('0');
@@ -62,7 +62,7 @@ function Home() {
         }
         console.log(formData);
     };
-    const myArray = ["\\frac{1}{x^3+y^2+z^2}", "\\frac{1}{x^2+y^2+z^2}", "\\frac{1}{x^4+y^2+z^2}", "\\frac{1}{x^2+y^2+z^2}", "\\frac{1}{x^4+y^2+z^2}"];
+    const myArray = ["x^3 - 4.5x^2 - 9.21x - 0.383", "x^3 - x + 4", "sin(x) + 0.1", "\\frac{1}{x^2+y^2+z^2}", "\\frac{1}{x^4+y^2+z^2}"];
 
     const handleChangeType = (event) => {
         formData.metod = event.target.value;

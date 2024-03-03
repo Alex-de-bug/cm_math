@@ -5,45 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ca071c-6bba-4269-8808-54cfc9ffc480" name="Changes" comment="1. First step to front auth;&#10;2. Smart front web with redux;&#10;3. For realisation redux, i use redux toolkit, bcs this tool makes the code easier;&#10;4. Delete all useless relation in bd;">
-      <change afterPath="$PROJECT_DIR$/../cm_new_2/demo/src/main/java/Web4Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cm_new_2/demo/src/main/java/controllers/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cm_new_2/my-app/src/Components/SendNumberForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/123.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/PrivateRoute.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/Router.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Decart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Decart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Navbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Table.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Table.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Graph.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Graph.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/pages/Login.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/pages/SignUp.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/store/slices/HomeSlice.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/store/slices/HomeSlice.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/store/slices/LoginSlice.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/store/slices/SignUpSlice.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/store/store.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/store/store.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/controllers/AttemptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/controllers/AttemptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/controllers/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/AuthorizedUserCredentials.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/UserCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/UserCredentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/models/Attempt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/models/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/repositories/AttemptRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/repositories/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/security/jwt/AuthEntryPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/security/jwt/AuthTokenFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/security/jwt/JwtUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/security/sevices/AuthUsersDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/security/sevices/AuthUsersDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/service/AttemptService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/service/CustomUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/validators/UserValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/validators/UserValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab 2/comp math/first proj/main.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 2/comp math/first proj/main.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/HitResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/HitResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/AreaCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/AreaCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/CoordinatesValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/CoordinatesValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab 2/comp math/first proj/main.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 2/comp math/first proj/main.fdb_latexmk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab 2/comp math/first proj/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 2/comp math/first proj/main.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab 2/comp math/first proj/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 2/comp math/first proj/main.pdf" afterDir="false" />
@@ -89,34 +61,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/alexalex/Desktop/cm_math/cm2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;6aa06354490a4b1b5139b329bdb8a12e&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/alexalex/Desktop/cm_math/cm2/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "show.run.dashboard.notification": "false",
+    "spring.configuration.checksum": "6aa06354490a4b1b5139b329bdb8a12e"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/web4" />
     </key>
   </component>
@@ -163,6 +136,7 @@
       <workItem from="1708988913762" duration="1514000" />
       <workItem from="1709380040532" duration="703000" />
       <workItem from="1709383869938" duration="2309000" />
+      <workItem from="1709458404066" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="new functional auth">
       <created>1700822021496</created>

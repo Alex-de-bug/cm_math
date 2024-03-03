@@ -12,11 +12,11 @@ const Graph = ({fu}) => {
     const f = (x) => {
         switch (fu) {
             case "0":
-                return 3 * (x * x * x) + 1.7 * (x * x) - 15.42 * x + 6.89;
+                return x*x*x - 4.5*x*x - 9.21*x - 0.383;
             case "1":
-                return 2 * (x * x) + 2 * x - 7;
+                return x*x*x - x + 4;
             case "2":
-                return 2 * (x * x) + 5 * x - 7;
+                return Math.sin(x) + 0.1;
             case "3":
                 return x;
             case "4":

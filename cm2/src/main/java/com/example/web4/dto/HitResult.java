@@ -14,6 +14,6 @@ public class HitResult {
     private boolean result;
 
     public HitResult(Coordinates coordinates, boolean result) {
-        this(coordinates.getX(), coordinates.getY(), coordinates.getR(), result);
+//        this(coordinates.getX(), coordinates.getY(), coordinates.getR(), result);
     }
 }

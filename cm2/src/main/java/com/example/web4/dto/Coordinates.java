@@ -8,8 +8,9 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Coordinates {
-    private double x;
-    private double y;
-    private double r;
-    private String token;
+    private double func;
+    private double metod;
+    private double a;
+    private double b;
+    private double eps;
 }

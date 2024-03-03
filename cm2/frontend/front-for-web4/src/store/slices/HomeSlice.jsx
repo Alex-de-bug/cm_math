@@ -3,14 +3,16 @@ import axios from "axios";
 
 export const sendTry = createAsyncThunk(
     "home/sendTry",
-    async ({ x, y, r }, thunkAPI) => {
+    async ({ func, metod, a, b, eps }, thunkAPI) => {
         await new Promise(resolve => setTimeout(resolve, 100));
         try {
             let link = "http://localhost:8080/api/attempt";
             const params = {
-                x: x,
-                y: y,
-                r: r
+                func: func,
+                metod: metod,
+                a: a,
+                b: b,
+                eps: eps
             };
             const response = await axios.post(link, params, {
                 headers: { "Content-Type": "application/json" }

@@ -23,8 +23,14 @@ public class AttemptController {
 
     @PostMapping("")
     public ResponseEntity<?> createPoint(@RequestBody Coordinates pointRequest, HttpServletRequest request) {
-            System.out.println("yes");
-            return new ResponseEntity<>(HttpStatus.CREATED);
+
+        System.out.println("Функция: "+pointRequest.getFunc()+"\n"+
+                "Метод: "+pointRequest.getMetod()+"\n"+
+                "Граница левая: "+pointRequest.getA()+"\n"+
+                "Граница правая: "+pointRequest.getB()+"\n"+
+                "Точность: "+pointRequest.getEps()+"\n"
+                );
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
     @GetMapping()
