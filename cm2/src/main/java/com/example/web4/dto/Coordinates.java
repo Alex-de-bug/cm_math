@@ -3,6 +3,7 @@ package com.example.web4.dto;
 import com.example.web4.utils.BisectionMethod;
 import com.example.web4.utils.NewtownMethod;
 import com.example.web4.utils.SimpleMethod;
+import com.example.web4.utils.slau.SimpleMethodForSis;
 import lombok.*;
 
 @Getter
@@ -26,6 +27,60 @@ public class Coordinates {
             default -> Math.random() * 100;
         };
     }
+    public double getValueSis(double x, int number){
+        if(func == 3){
+            return switch (number) {
+                case 1 -> x*x*x - x;
+                case 2 -> 3 * (x * x) + 12 * x +3;
+                default -> Math.random() * 100;
+            };
+        }else{
+            return switch (number) {
+                case 1 -> 5 * (x * x) + 4 * x - 7;
+                case 2 -> Math.abs(Math.cos(x)+0.3);
+                default -> Math.random() * 100;
+            };
+        }
+
+    }
+
+    public double getFiSis(double x, double y, int number){
+        if(func == 3){
+            return switch (number) {
+                case 1 -> -0.25*x*x-0.25+y/12;
+                case 2 -> -x*x-x*y;
+                default -> Math.random() * 100;
+            };
+        }else{
+            return switch (number) {
+                case 1 -> -1.25 * (x * x) +1.75+0.25*y;
+                case 2 -> Math.abs(Math.cos(x)+0.3);
+                default -> Math.random() * 100;
+            };
+        }
+    }
+
+    public double getFiSisPdv(double x, double y, int number){
+        if(func == 3){
+            return switch (number) {
+                case 1 -> -0.5*x;
+                case 2 -> 1/12;
+                case 3 -> -2*x-y;
+                case 4 -> -x;
+                default -> Math.random() * 100;
+            };
+        }else{
+            return switch (number) {
+                case 1 -> -2.5*x;
+                case 2 -> 0.25;
+                case 3 -> -((5*Math.sin(2*x)+3*Math.sin(x))/(10*Math.abs(Math.cos(x)+0.3)));
+                case 4 -> 0;
+                default -> Math.random() * 100;
+            };
+        }
+    }
+
+
     public double getDev(int y, double x){
         if(y==1) {
             return switch ((int) func) {
@@ -41,8 +96,6 @@ public class Coordinates {
             case 2 -> -Math.sin(x);
             default -> Math.random() * 100;
         };
-
-
     }
 
     public void calculate(){
@@ -58,6 +111,11 @@ public class Coordinates {
             SimpleMethod simpleMethod = new SimpleMethod();
             simpleMethod.simple(this);
         }
+        if(metod == 3){
+            SimpleMethodForSis simpleMethodForSis = new SimpleMethodForSis();
+            simpleMethodForSis.simpl(this);
+        }
+
     }
 
     public boolean checkRootsCount() {

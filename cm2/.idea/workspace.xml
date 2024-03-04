@@ -5,34 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ca071c-6bba-4269-8808-54cfc9ffc480" name="Changes" comment="1. First step to front auth;&#10;2. Smart front web with redux;&#10;3. For realisation redux, i use redux toolkit, bcs this tool makes the code easier;&#10;4. Delete all useless relation in bd;">
-      <change afterPath="$PROJECT_DIR$/.idea/cm2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/BisectionMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/CoordinatesValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/IterationsForBisection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/IterationsForNewt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/IterationsForSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/NewtownMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/SimpleMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/slau/SimpleMethodForSis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Graph.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Graph.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/store/slices/HomeSlice.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/store/slices/HomeSlice.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/styles/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/styles/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/controllers/AttemptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/controllers/AttemptController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/HitResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/UserCredentials.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/AreaCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/Bounds.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/CoordinatesValidation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/OutOfCoordinatesBoundsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab 2/123.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lab 2/123.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/CoordinatesValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/CoordinatesValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,45 +54,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Maven.web4 [clean].executor": "Run",
-    "Maven.web4 [install].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Web4Application.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alwx/Рабочий стол/cm_math/cm2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.5159386",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.general",
-    "spring.configuration.checksum": "6aa06354490a4b1b5139b329bdb8a12e",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Maven.web4 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.web4 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Web4Application.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alwx/Рабочий стол/cm_math/cm2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5159386&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6aa06354490a4b1b5139b329bdb8a12e&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -173,6 +152,7 @@
       <workItem from="1709458404066" duration="1186000" />
       <workItem from="1709487800853" duration="608000" />
       <workItem from="1709488418460" duration="20892000" />
+      <workItem from="1709550651621" duration="10534000" />
     </task>
     <task id="LOCAL-00001" summary="new functional auth">
       <created>1700822021496</created>

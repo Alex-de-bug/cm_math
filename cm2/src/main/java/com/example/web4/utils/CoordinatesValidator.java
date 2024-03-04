@@ -10,7 +10,7 @@ public class CoordinatesValidator {
                 return false;
             }
 
-            if (metodStr < 0 || metodStr >= 3) {
+            if (metodStr < 0 || metodStr >= 5) {
                 System.out.println("metodStr");
                 return false;
             }

@@ -18,7 +18,7 @@ const Graph = ({fu}) => {
             case "2":
                 return Math.sin(x) + 0.1;
             case "3":
-                return x;
+                return 3 * (x * x) + 12 * x +3;
             case "4":
                 return 5 * (x * x) + 4 * x - 7;
             default:
@@ -28,9 +28,9 @@ const Graph = ({fu}) => {
     const g = (x) => {
         switch (fu) {
             case "3":
-                return (x * x);
-            case "4":
                 return 3 * (x * x) + 12 * x +3;
+            case "4":
+                return Math.abs(Math.cos(x)+0.3);
             default:
                 return Math.random() * 100;
         }
@@ -98,7 +98,7 @@ const Graph = ({fu}) => {
             // Определяем шаг на основе диапазона значений
             if (bounds.xmin > -6 && bounds.xmax < 6) {
                 stepX = 0.2;
-                stepY = 2; // Пример, можно настроить отдельно для оси Y
+                stepY = 0.2; // Пример, можно настроить отдельно для оси Y
             } else {
                 stepX = (bounds.xmax - bounds.xmin) / 20; // Более крупный шаг для больших диапазонов
                 stepY = (bounds.ymax - bounds.ymin) / 20; // Аналогично для оси Y
@@ -117,8 +117,8 @@ const Graph = ({fu}) => {
             }
 
             // Деления и значения по оси Y
-            for (let yValue = -50; yValue <= 50; yValue += stepY) {
-                if (Math.abs(yValue)>=1) { // Подписываем только целые числа
+            for (let yValue = -30; yValue <= 30; yValue += stepY) {
+                if (Math.abs(yValue)>=0.1) { // Подписываем только целые числа
                     const y = offsetY - (yValue * scaleY);
                     ctx.moveTo(offsetX - tickSize, y);
                     ctx.lineTo(offsetX + tickSize, y);
@@ -144,20 +144,79 @@ const Graph = ({fu}) => {
             }
         }
         ctx.stroke();
-        if((fu === "3")||(fu === "4")){
+        if(fu === "3"){
+            // ctx.beginPath();
+            // ctx.strokeStyle = 'red';
+            // for (let i = -30; i <= 30; i += (bounds.xmax - bounds.xmin) / width) {
+            //     const x = offsetX + (i * scaleX);
+            //     const y = offsetY - (g(i) * scaleY);
+            //     if (i === bounds.xmin) {
+            //         ctx.moveTo(x, y);
+            //     } else {
+            //         ctx.lineTo(x, y);
+            //     }
+            // }
+            // ctx.stroke();
             ctx.beginPath();
             ctx.strokeStyle = 'red';
-            for (let i = -30; i <= 30; i += (bounds.xmax - bounds.xmin) / width) {
-                const x = offsetX + (i * scaleX);
-                const y = offsetY - (g(i) * scaleY);
-                if (i === bounds.xmin) {
-                    ctx.moveTo(x, y);
-                } else {
-                    ctx.lineTo(x, y);
+            for (let x = -20; x < -1; x += 0.01) {
+                if (x !== -1) {
+                    const y = -x*x / (1 + x);
+                    const canvasX = offsetX + (x * scaleX);
+                    const canvasY = offsetY - (y * scaleY);
+
+                    if (x === -20) {
+                        ctx.moveTo(canvasX, canvasY);
+                    } else {
+                        ctx.lineTo(canvasX, canvasY);
+                    }
                 }
             }
-            ctx.stroke();
+            ctx.stroke(); // Рисуем кривую
+            ctx.beginPath();
+            ctx.strokeStyle = 'red';
+            for (let x = -1; x < 20; x += 0.01) {
+                if (x !== -1) {
+                    const y = -x*x / (1 + x);
+                    const canvasX = offsetX + (x * scaleX);
+                    const canvasY = offsetY - (y * scaleY);
+
+                    if (x === -20) {
+                        ctx.moveTo(canvasX, canvasY);
+                    } else {
+                        ctx.lineTo(canvasX, canvasY);
+                    }
+                }
+            }
+            ctx.stroke(); // Рисуем кривую
         }
+        if(fu === "4"){
+            ctx.beginPath();
+            ctx.strokeStyle = 'red';
+            for (let x = -100; x < 100; x += 0.01) {
+                    const y = -5+Math.sqrt(28-2*x*x);
+                    const canvasX = offsetX + (x * scaleX);
+                    const canvasY = offsetY - (y * scaleY);
+                    ctx.lineTo(canvasX, canvasY);
+            }
+            ctx.stroke(); // Рисуем кривую
+            ctx.strokeStyle = 'red';
+            for (let x = 100; x > -100; x -= 0.01) {
+                    const y = -5-Math.sqrt(28-2*x*x);
+                    const canvasX = offsetX + (x * scaleX);
+                    const canvasY = offsetY - (y * scaleY);
+                    ctx.lineTo(canvasX, canvasY);
+            }
+            ctx.stroke(); // Рисуем кривую
+            for (let x = -100; x < 100; x += 0.01) {
+                const y = -5+Math.sqrt(28-2*x*x);
+                const canvasX = offsetX + (x * scaleX);
+                const canvasY = offsetY - (y * scaleY);
+                ctx.lineTo(canvasX, canvasY);
+            }
+            ctx.stroke(); // Рисуем кривую
+        }
+
     };
 
 

@@ -44,13 +44,12 @@ public class AttemptController {
         if(!CoordinatesValidator.validateAndCreate(func, metod, a, b, epsil, file)){
             return new ResponseEntity<>("bad req", HttpStatus.BAD_REQUEST);
         }
-        if(!pointRequest.checkRootsCount()){
+        if(!pointRequest.checkRootsCount()&&func!=3&&func!=4){
             return new ResponseEntity<>("bad bounds", HttpStatus.BAD_REQUEST);
         }
 
         pointRequest.calculate();
 
-        Resource resource = new ClassPathResource("tmp.json");
         try {
             String data = new String(Files.readAllBytes(Path.of("tmp.json")));
             return new ResponseEntity<>(data, HttpStatus.CREATED);

@@ -65,7 +65,9 @@ function Home() {
         }
         console.log(formData);
     };
-    const myArray = ["x^3 - 4.5x^2 - 9.21x - 0.383", "x^3 - x + 4", "sin(x) + 0.1", "\\frac{1}{x^2+y^2+z^2}", "\\frac{1}{x^4+y^2+z^2}"];
+    const myArray = ["x^3 - 4.5x^2 - 9.21x - 0.383", "x^3 - x + 4", "sin(x) + 0.1",
+        "\\begin{cases}\n x_1^3-x_2-x_1 = 0\\\\\n 3x_1^2-x_2+12x_1+3 = 0\n \\end{cases}",
+        "\\begin{cases}\n 5x_1^2-x_2+4x_1-7 = 0\\\\\n |cos(x_1)+0.3|-x_2 = 0\n \\end{cases}"];
 
     const handleChangeType = (event) => {
         formData.metod = event.target.value;
