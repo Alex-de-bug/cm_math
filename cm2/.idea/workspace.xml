@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ca071c-6bba-4269-8808-54cfc9ffc480" name="Changes" comment="1. First step to front auth;&#10;2. Smart front web with redux;&#10;3. For realisation redux, i use redux toolkit, bcs this tool makes the code easier;&#10;4. Delete all useless relation in bd;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/slau/SimpleMethodForSis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/slau/IterationsForSis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Graph.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/components/Graph.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/front-for-web4/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/front-for-web4/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/controllers/AttemptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/controllers/AttemptController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/dto/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/CoordinatesValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/CoordinatesValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/slau/SimpleMethodForSis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/web4/utils/slau/SimpleMethodForSis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp.json" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +84,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.5159386&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
@@ -99,6 +104,18 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/example/web4" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.Web4Application">
     <configuration name="Web4Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cm2" />
@@ -108,10 +125,11 @@
       </method>
     </configuration>
     <configuration name="Web4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <envs>
         <env name="PASS" value="0426186" />
       </envs>
-      <module name="web4" />
+      <module name="cm2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.web4.Web4Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,6 +171,7 @@
       <workItem from="1709487800853" duration="608000" />
       <workItem from="1709488418460" duration="20892000" />
       <workItem from="1709550651621" duration="10534000" />
+      <workItem from="1709575370658" duration="6409000" />
     </task>
     <task id="LOCAL-00001" summary="new functional auth">
       <created>1700822021496</created>
@@ -182,26 +201,6 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="master" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -219,6 +218,26 @@
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>

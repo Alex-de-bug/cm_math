@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f950eb-7371-46f5-b7f9-8448526fe1ed" name="Changes" comment="adaptive">
-      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.fdb_latexmk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab 2/comp math/first proj/main.tex" afterDir="false" />
-    </list>
+    <list default="true" id="71f950eb-7371-46f5-b7f9-8448526fe1ed" name="Changes" comment="adaptive" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +82,7 @@
       <workItem from="1708988955743" duration="2040000" />
       <workItem from="1709380081026" duration="668000" />
       <workItem from="1709384040911" duration="12049000" />
-      <workItem from="1709458006135" duration="1605000" />
+      <workItem from="1709458006135" duration="8290000" />
     </task>
     <task id="LOCAL-00001" summary="first front">
       <created>1701183907484</created>

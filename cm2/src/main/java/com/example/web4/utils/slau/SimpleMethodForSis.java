@@ -14,7 +14,7 @@ public class SimpleMethodForSis {
         double a = coordinates.getA();
         double b = coordinates.getB();
         double epsilon = coordinates.getEps();
-//        List<IterationsForBisection> iterations = new ArrayList<>();
+        IterationsForSis iterations = new IterationsForSis();
         double pdv11 = coordinates.getFiSisPdv(a, b, 1);
         double pdv12 = coordinates.getFiSisPdv(a, b, 2);
         double pdv21 = coordinates.getFiSisPdv(a, b, 3);
@@ -27,25 +27,31 @@ public class SimpleMethodForSis {
 
         double x = a;
         double y = b;
-        int iterations = 0;
+        int iteration = 0;
         while (true) {
-            iterations++;
+            iteration++;
             double newX = coordinates.getFiSis(x, y, 1);
             double newY = coordinates.getFiSis(x, y, 2);
 
             // Check for convergence criteria
-            if ((Math.max(Math.abs(newX - x), Math.abs(newY - y)) < epsilon)||(iterations>100))
+            if ((Math.max(Math.abs(newX - x), Math.abs(newY - y)) < epsilon)||(iteration>100)){
+                iterations.absX = Math.abs(newX - x);
+                iterations.absY = Math.abs(newY - y);
+                iterations.iteration = iteration;
+                iterations.xAnswer = newX;
+                iterations.yAnswer = newY;
                 break;
+            }
             x = newX;
             y = newY;
             System.out.println(x+ " " +y);
         }
-//        Gson gson = new Gson();
-//        try (FileWriter writer = new FileWriter("tmp.json")) {
-//            writer.write(gson.toJson(iterations));
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        Gson gson = new Gson();
+        try (FileWriter writer = new FileWriter("tmp.json")) {
+            writer.write(gson.toJson(iterations));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         System.out.println("The root is x:"+x+" y: "+y);
     }
 }

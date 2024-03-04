@@ -47,14 +47,14 @@ public class Coordinates {
     public double getFiSis(double x, double y, int number){
         if(func == 3){
             return switch (number) {
-                case 1 -> -0.25*x*x-0.25+y/12;
-                case 2 -> -x*x-x*y;
+                case 1 -> 2-Math.cos(1-y);
+                case 2 -> 1-0.5*Math.sin(x);
                 default -> Math.random() * 100;
             };
         }else{
             return switch (number) {
-                case 1 -> -1.25 * (x * x) +1.75+0.25*y;
-                case 2 -> Math.abs(Math.cos(x)+0.3);
+                case 1 -> 3+Math.cos(y);
+                case 2 -> 0.5-Math.cos(x-1);
                 default -> Math.random() * 100;
             };
         }
@@ -63,17 +63,17 @@ public class Coordinates {
     public double getFiSisPdv(double x, double y, int number){
         if(func == 3){
             return switch (number) {
-                case 1 -> -0.5*x;
-                case 2 -> 1/12;
-                case 3 -> -2*x-y;
-                case 4 -> -x;
+                case 1 -> 0;
+                case 2 -> -Math.sin(1-y);
+                case 3 -> -0.5*Math.cos(x);
+                case 4 -> 0;
                 default -> Math.random() * 100;
             };
         }else{
             return switch (number) {
-                case 1 -> -2.5*x;
-                case 2 -> 0.25;
-                case 3 -> -((5*Math.sin(2*x)+3*Math.sin(x))/(10*Math.abs(Math.cos(x)+0.3)));
+                case 1 -> 0;
+                case 2 -> -Math.sin(y);
+                case 3 -> Math.sin(x-1);
                 case 4 -> 0;
                 default -> Math.random() * 100;
             };
