@@ -27,17 +27,17 @@ public class Coordinates {
             default -> Math.random() * 100;
         };
     }
-    public double getValueSis(double x, int number){
+    public double getValueSis(double x, double y, int number){
         if(func == 3){
             return switch (number) {
-                case 1 -> x*x*x - x;
-                case 2 -> 3 * (x * x) + 12 * x +3;
+                case 1 -> Math.sin(x)+2*y-2;
+                case 2 -> x+Math.cos(y-1)-2;
                 default -> Math.random() * 100;
             };
         }else{
             return switch (number) {
-                case 1 -> 5 * (x * x) + 4 * x - 7;
-                case 2 -> Math.abs(Math.cos(x)+0.3);
+                case 1 -> Math.cos(x-1)+y - 0.5;
+                case 2 -> x-Math.cos(y) - 3;
                 default -> Math.random() * 100;
             };
         }
@@ -98,24 +98,25 @@ public class Coordinates {
         };
     }
 
-    public void calculate(){
+    public String calculate(){
+        String text = "";
         if(metod == 0){
             BisectionMethod bisectionMethod = new BisectionMethod();
-            bisectionMethod.bisection(this);
+            text = bisectionMethod.bisection(this);
         }
         if(metod == 1){
             NewtownMethod newtownMethod = new NewtownMethod();
-            newtownMethod.newtown(this);
+            text = newtownMethod.newtown(this);
         }
         if(metod == 2){
             SimpleMethod simpleMethod = new SimpleMethod();
-            simpleMethod.simple(this);
+             text = simpleMethod.simple(this);
         }
         if(metod == 3){
             SimpleMethodForSis simpleMethodForSis = new SimpleMethodForSis();
-            simpleMethodForSis.simpl(this);
+            text = simpleMethodForSis.simpl(this);
         }
-
+        return text;
     }
 
     public boolean checkRootsCount() {

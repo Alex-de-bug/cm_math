@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NewtownMethod {
-    public static boolean newtown(Coordinates coordinates) {
+    public static String newtown(Coordinates coordinates) {
         double a = coordinates.getA();
         double b = coordinates.getB();
         double epsilon = coordinates.getEps();
@@ -18,7 +18,7 @@ public class NewtownMethod {
         // Check the initial interval conditions for the derivatives
         if ((coordinates.getDev(1, a) * coordinates.getDev(1, b) < 0) || (coordinates.getDev(2, a) * coordinates.getDev(2, b) < 0)) {
             System.out.println("Incorrect initial interval [a, b]. f'(a) and f'(b) or f''(a) and f''(b) should have opposite signs.");
-            return false;
+            return "Incorrect initial interval [a, b]. f'(a) and f'(b) or f''(a) and f''(b) should have opposite signs.";
         }
 
         double x = b;
@@ -40,7 +40,7 @@ public class NewtownMethod {
             // Check for division by zero
             if (Math.abs(data.f1_xi) < epsilon) {
                 System.out.println("Division by zero in derivative.");
-                return false;
+                return "Division by zero in derivative.";
             }
 
             newX = x - (data.f_xi / data.f1_xi);
@@ -61,7 +61,7 @@ public class NewtownMethod {
 
             if (iteration > maxIterations) {
                 System.out.println("Max iterations reached without convergence.");
-                return false;
+                return "Max iterations reached without convergence.";
             }
 
         } while (true);
@@ -74,7 +74,7 @@ public class NewtownMethod {
             e.printStackTrace();
         }
 
-        return true;
+        return "The root is " + x+ "; f(x) = "+coordinates.getValue(x)+"; iter: "+iteration;
     }
 }
 

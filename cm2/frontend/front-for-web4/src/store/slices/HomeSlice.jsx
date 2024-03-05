@@ -118,6 +118,7 @@ export const HomeSlice = createSlice({
                 console.log(payload);
                 state.isFetching = false;
                 state.errorMessage = "";
+                state.array = payload;
                 return state;
             })
             .addCase(sendTry.rejected, (state, { payload }) => {
@@ -125,6 +126,7 @@ export const HomeSlice = createSlice({
                 state.isFetching = false;
                 state.isError = true;
                 state.errorMessage = payload;
+                state.array = "";
                 console.log(payload);
             })
             .addCase(sendTry.pending, (state) => {

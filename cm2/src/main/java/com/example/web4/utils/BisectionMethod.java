@@ -11,7 +11,7 @@ import java.util.List;
 public class BisectionMethod {
 
     // Bisection method implementation
-    public static void bisection(Coordinates coordinates) {
+    public static String bisection(Coordinates coordinates) {
         double a = coordinates.getA();
         double b = coordinates.getB();
         double epsilon = coordinates.getEps();
@@ -19,7 +19,7 @@ public class BisectionMethod {
 
         if (coordinates.getValue(a) * coordinates.getValue(b) >= 0) {
             System.out.println("Incorrect initial interval [a, b]. f(a) and f(b) should have opposite signs.");
-            return;
+            return "Incorrect initial interval [a, b]. f(a) and f(b) should have opposite signs.";
         }
 
         int iteration = 0;
@@ -59,5 +59,6 @@ public class BisectionMethod {
             e.printStackTrace();
         }
         System.out.printf("The root is %.6f\n", c);
+        return "The root is " + c+ "; f(x) = "+coordinates.getValue(c)+"; iter: "+iteration;
     }
 }

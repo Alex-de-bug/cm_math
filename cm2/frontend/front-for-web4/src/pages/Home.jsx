@@ -1,7 +1,7 @@
 import Table from "../components/Table.jsx";
 import { useDispatch, useSelector } from "react-redux";
 import { homeSelector, sendTry } from "../store/slices/HomeSlice.jsx";
-import { useState } from "react";
+import {useEffect, useState} from "react";
 import Graph from "../components/Graph.jsx";
 import 'katex/dist/katex.min.css';
 import {Snackbar, Alert, Grid} from '@mui/material';
@@ -20,10 +20,7 @@ import "../styles/Home.css";
 
 function Home() {
     const dispatch = useDispatch();
-    const { isFetching, errorMessage } = useSelector(homeSelector);
-    const [value1, setValue1] = useState(0); // Первое значение
-    const [value2, setValue2] = useState(0); // Второе значение
-    const [value3, setValue3] = useState(0.01); // Второе значение
+    const { isFetching, errorMessage, array } = useSelector(homeSelector);
     const [formData, setFormData] = useState({
         func: '0',
         metod: '0',
@@ -34,6 +31,14 @@ function Home() {
     });
     const [openError, setOpenError] = useState(false);
     const [method, setMethod] = useState('0');
+    const [err, setErr] = useState('');
+
+    useEffect(() => {
+        if(errorMessage!= ""){
+            setOpenError(true);
+            setErr(errorMessage);
+        }
+    }, [errorMessage]);
 
 
 
@@ -82,19 +87,45 @@ function Home() {
             [propertyName]: value
         });
     };
-
+    const [file, setFile] = useState(null);
     const handleFileInputChange = (event) => {
         const file = event.target.files[0];
+        setFile(file);
         const reader = new FileReader();
 
         reader.onload = (e) => {
             const fileContents = e.target.result;
-            const data = JSON.parse(fileContents); // Предполагая, что файл содержит JSON данные
-            setFormData(data);
+            try {
+                const data = JSON.parse(fileContents);
+                if (validateData(data)) {
+                    setFormData(data);
+                } else {
+                    setOpenError(true);
+                    setErr("Файл не соответствует требуемой структуре.");
+                }
+            } catch (error) {
+                setOpenError(true);
+                setErr("Ошибка при чтении файла:"+ error);
+            }
         };
-
         reader.readAsText(file);
     };
+    const handleRemoveFile = () => {
+        setFile(null); // Очищаем выбранный файл
+        document.getElementById('fileInput').value = ''; // Очищаем input
+    };
+
+    function validateData(data) {
+        const { func, metod, a, b, eps, file } = data;
+        const isFuncValid = typeof parseInt(func) === 'number' && parseInt(func) >= 0 && parseInt(func) <= 4;
+        const isMetodValid = typeof parseInt(metod) === 'number' && parseInt(metod) >= 0 && parseInt(metod) <= 3;
+        const isAValid = typeof a === 'number';
+        const isBValid = typeof b === 'number';
+        const isEpsValid = typeof eps === 'number';
+        const isFileValid = typeof file === 'boolean';
+
+        return isFuncValid && isMetodValid && isAValid && isBValid && isEpsValid && isFileValid;
+    }
 
     const handleFileChange = () => {
         const tmp1 = !formData.file
@@ -105,7 +136,9 @@ function Home() {
 
     return (
         <div>
-            <Graph fu={func}/>
+
+                <Graph fu={func}/>
+
             <Container maxWidth="sm" sx={{mt: 4}}>
                 <Paper sx={{p: 4}}>
                     <Grid item xs={12}>
@@ -148,25 +181,37 @@ function Home() {
                     <div>
                         <label>a: </label>
                         <input type="number" value={formData.a} onChange={(e) => handleInputChange(e, 'a')}
-                               step="0.01" max={50}/>
+                               step="0.01" />
                     </div>
                     <div>
                         <label>b: </label>
                         <input type="number" value={formData.b} onChange={(e) => handleInputChange(e, 'b')}
-                               step="0.01" max={50}/>
+                               step="0.01" />
                     </div>
                     <p>Выберите погрешность</p>
                     <div>
                         <label>eps: </label>
                         <input type="number" value={formData.eps} onChange={(e) => handleInputChange(e, 'eps')}
-                               step="0.01" max={50}/>
+                               step="0.01"/>
                     </div>
-                    <p>Нужно ли сорхранить результаты работы в файл</p>
+                    <br/>
                     <div>
+                        <label>Нужно ли сорхранить результаты работы в файл</label>
                         <input type="checkbox" onChange={handleFileChange}/>
                     </div>
 
-                    <input type="file" onChange={handleFileInputChange}/>
+                    <div>
+                        <input
+                            type="file"
+                            onChange={handleFileInputChange}
+                            id="fileInput"
+                        />
+                        {file && (
+                            <div>
+                                <button onClick={handleRemoveFile}>Удалить файл</button>
+                            </div>
+                        )}
+                    </div>
 
                     <form onSubmit={handleFormSubmit}>
                         <Grid item xs={6}>
@@ -175,21 +220,25 @@ function Home() {
                             </Button>
                         </Grid>
                     </form>
+
                 </Paper>
-                <Table/>
             </Container>
+            <br/>
+            <Container maxWidth="sm" sx={{mt: 4}}>
+                <Paper sx={{p: 4}}>
+                    {array && array.length > 0 && (
+                        <div>
+                            Ответ: {array}
+                        </div>
+                    )}
+                </Paper>
+            </Container>
+
             <Snackbar open={openError} autoHideDuration={3000} onClose={() => setOpenError(false)}>
                 <Alert severity="error" onClose={() => setOpenError(false)}>
-                    {errorMessage}
+                    {err}
                 </Alert>
             </Snackbar>
-            <div>
-                {errorMessage && (
-                    <div style={{color: 'red', marginTop: '10px'}}>
-                        Ошибка: {errorMessage}
-                    </div>
-                )}
-            </div>
         </div>
     );
 

@@ -285,7 +285,9 @@ const Graph = ({fu}) => {
 
     return (
         <>
-            <canvas ref={canvasRef} width={width} height={height}/>
+            <div className="center-container">
+                <canvas ref={canvasRef} width={width} height={height}/>
+            </div>
             <div>
                 <label>
                     xmin:

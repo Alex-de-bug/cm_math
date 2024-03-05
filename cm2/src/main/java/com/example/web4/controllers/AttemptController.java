@@ -42,17 +42,19 @@ public class AttemptController {
         boolean file = pointRequest.getFile();
 
         if(!CoordinatesValidator.validateAndCreate(func, metod, a, b, epsil, file)){
-            return new ResponseEntity<>("bad req", HttpStatus.BAD_REQUEST);
+
+            return new ResponseEntity<>("Ошибочно введены данные", HttpStatus.BAD_REQUEST);
         }
         if(!pointRequest.checkRootsCount()&&func!=3&&func!=4){
-            return new ResponseEntity<>("bad bounds", HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>("На интервале несколько корней или\n" +
+                    "они отсутствуют", HttpStatus.BAD_REQUEST);
         }
 
-        pointRequest.calculate();
-
+        String result = pointRequest.calculate();
+        String replacedString = result.replace("E", "*10^");
         try {
             String data = new String(Files.readAllBytes(Path.of("tmp.json")));
-            return new ResponseEntity<>(data, HttpStatus.CREATED);
+            return new ResponseEntity<>(replacedString, HttpStatus.CREATED);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

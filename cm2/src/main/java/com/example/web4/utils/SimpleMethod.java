@@ -16,7 +16,7 @@ public class SimpleMethod {
     public double fiDev(double point, double lambda) {
         return (fi(point + 0.0001, lambda) - fi(point - 0.0001, lambda)) / (2 * 0.0001);
     }
-    public boolean simple(Coordinates coordinates) {
+    public String simple(Coordinates coordinates) {
         coordinates1 = coordinates;
         double a = coordinates.getA();
         double b = coordinates.getB();
@@ -31,7 +31,7 @@ public class SimpleMethod {
 
         if(fiDev(a, lambda)>1 || fiDev(b, lambda)>1){
             System.out.println("нет сходимости ваще");
-            return false;
+            return "Не соблюдается достаточное условие сходимости";
         }
 
         double x = a;
@@ -61,6 +61,6 @@ public class SimpleMethod {
             e.printStackTrace();
         }
 
-        return true;
+        return "The root is " + x+ "; f(x) = "+coordinates.getValue(x)+"; iter: "+iteration;
     }
 }
