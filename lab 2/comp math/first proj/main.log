@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.11)  3 MAR 2024 12:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.11)  5 MAR 2024 17:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -986,20 +986,127 @@ Underfull \hbox (badness 10000) in paragraph at lines 529--532
 
  []
 
-[8] (./main.aux) ) 
+<bisection.png, id=43, 1031.855pt x 622.325pt>
+File: bisection.png Graphic file (type png)
+<use bisection.png>
+Package pdftex.def Info: bisection.png  used on input line 536.
+(pdftex.def)             Requested size: 390.17094pt x 235.31795pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--540
+
+ []
+
+[8 <./bisection.png>]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 540.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+<newtown.png, id=49, 1059.96pt x 406.51875pt>
+File: newtown.png Graphic file (type png)
+<use newtown.png>
+Package pdftex.def Info: newtown.png  used on input line 591.
+(pdftex.def)             Requested size: 390.17094pt x 149.64041pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--595
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--595
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--595
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--595
+
+ []
+
+[9] [10 <./newtown.png>]
+<simple.png, id=58, 1124.2pt x 404.51125pt>
+File: simple.png Graphic file (type png)
+<use simple.png>
+Package pdftex.def Info: simple.png  used on input line 662.
+(pdftex.def)             Requested size: 390.17094pt x 140.38979pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 659--666
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 659--666
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 659--666
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 659--666
+
+ []
+
+[11 <./simple.png>]
+<simpleSis.png, id=63, 845.1575pt x 545.03625pt>
+File: simpleSis.png Graphic file (type png)
+<use simpleSis.png>
+Package pdftex.def Info: simpleSis.png  used on input line 725.
+(pdftex.def)             Requested size: 390.17094pt x 251.62622pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--729
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--729
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--729
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--729
+
+ []
+
+[12] [13 <./simpleSis.png>] [14] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 31076 strings out of 476047
- 781083 string characters out of 5790247
- 1877248 words of memory out of 5000000
- 51071 multiletter control sequences out of 15000+600000
- 522953 words of font info for 57 fonts, out of 8000000 for 9000
+ 31385 strings out of 476047
+ 784174 string characters out of 5790247
+ 2006248 words of memory out of 5000000
+ 51372 multiletter control sequences out of 15000+600000
+ 523263 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,20n,103p,782b,2261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on main.pdf (8 pages, 241944 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (14 pages, 730620 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 143 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

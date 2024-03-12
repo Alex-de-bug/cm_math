@@ -412,7 +412,7 @@
 \[\pdv{f}{x} = \frac{y}{cos^2x} - 2x\]
 \[\pdv{f}{y} = tg(x)\]
 \[\pdv{g}{x} = 1.6x\]
-\[\pdv{f}{y} = 4y\]
+\[\pdv{g}{y} = 4y\]
 Получим матрицу Якоби:
 \[
     \begin{vmatrix}
@@ -531,28 +531,259 @@
 \textbf{Методы: }
 
 1. Метод половинного деления
+\\ \\
+Диаграмма:\\
+\includegraphics[width=.7\textwidth]{bisection.png}
+\\ \\
+Реализация кода:
+\\ \\
+\begin{lstlisting}[frame=single, basicstyle=\ttfamily, breaklines=true, breakatwhitespace=true, postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space}]
+    public static String bisection(Coordinates coordinates) {
+        double a = coordinates.getA();
+        double b = coordinates.getB();
+        double epsilon = coordinates.getEps();
+        List<IterationsForBisection> iterations = new ArrayList<>();
+
+        if (coordinates.getValue(a) * coordinates.getValue(b) >= 0) {
+            System.out.println("Incorrect initial interval [a, b]. f(a) and f(b) should have similar signs.");
+            return "Incorrect initial interval [a, b]. f(a) and f(b) should have similar signs.";
+        }
+
+        int iteration = 0;
+
+        double c = a;
+        while ((b-a) >= epsilon) {
+            IterationsForBisection data = new IterationsForBisection();
+            data.iteration = iteration++;
+            data.a = a;
+            data.b = b;
+            // Find middle point
+            c = (a + b) / 2;
+            data.x = c;
+            data.fA = coordinates.getValue(a);
+            data.fB = coordinates.getValue(b);
+            data.fX = coordinates.getValue(c);
+            data.absAB = Math.abs(a-b);
+            iterations.add(data);
+            if (coordinates.getValue(c) == 0.0)
+                break;
+            else if (coordinates.getValue(c) * coordinates.getValue(a) < 0)
+                b = c;
+            else
+                a = c;
+            if (Math.abs(coordinates.getValue(c)) <= epsilon && Math.abs(b - a) < epsilon)
+                break;
+        }
+        Gson gson = new Gson();
+        try (FileWriter writer = new FileWriter("tmp.json")) {
+            writer.write(gson.toJson(iterations));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.printf("The root is %.6f\n", c);
+        return "The root is " + c+ "; f(x) = "+coordinates.getValue(c)+"; iter: "+iteration;
+    }
+\end{lstlisting}
 
 2. Метод Ньютона
+\\ \\
+Диаграмма:\\
+\includegraphics[width=.7\textwidth]{newtown.png}
+\\ \\
+Реализация кода:
+\\ \\
+\begin{lstlisting}[frame=single, basicstyle=\ttfamily, breaklines=true, breakatwhitespace=true, postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space}]
+    public static String newtown(Coordinates coordinates) {
+        double a = coordinates.getA();
+        double b = coordinates.getB();
+        double epsilon = coordinates.getEps();
+        List<IterationsForNewt> iterations = new ArrayList<>();
 
+        // Check the initial interval conditions for the derivatives
+        if ((coordinates.getDev(1, a) * coordinates.getDev(1, b) < 0) || (coordinates.getDev(2, a) * coordinates.getDev(2, b) < 0)) {
+            System.out.println("Incorrect initial interval [a, b]. f'(a) and f'(b) or f''(a) and f''(b) should have opposite signs.");
+            return "Incorrect initial interval [a, b]. f'(a) and f'(b) or f''(a) and f''(b) should have opposite signs.";
+        }
+
+        double x = b;
+        if (coordinates.getValue(a) * coordinates.getDev(2, a) > 0) {
+            x = a;
+        }
+
+        double newX;
+        int iteration = 0;
+        int maxIterations = 1000;
+
+        do {
+            IterationsForNewt data = new IterationsForNewt();
+            data.iteration = iteration++;
+            data.xi = x;
+            data.f_xi = coordinates.getValue(x);
+            data.f1_xi = coordinates.getDev(1, x);
+
+            if (Math.abs(data.f1_xi) < epsilon) {
+                System.out.println("Division by zero in derivative.");
+                return "Division by zero in derivative.";
+            }
+
+            newX = x - (data.f_xi / data.f1_xi);
+            data.x_2i = newX;
+            data.absX = Math.abs(newX - x);
+
+            iterations.add(data);
+
+            if (Math.abs(coordinates.getValue(newX)) < epsilon && Math.abs(newX - x) < epsilon) {
+                break;
+            }
+
+            x = newX;
+
+            if (iteration > maxIterations) {
+                System.out.println("Max iterations reached without convergence.");
+                return "Max iterations reached without convergence.";
+            }
+
+        } while (true);
+
+        System.out.printf("The root is %.6f\n", x);
+        Gson gson = new Gson();
+        try (FileWriter writer = new FileWriter("tmp.json")) {
+            writer.write(gson.toJson(iterations));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return "The root is " + x+ "; f(x) = "+coordinates.getValue(x)+"; iter: "+iteration;
+    }
+\end{lstlisting}
 3. Метод простой итерации
+\\ \\
+Диаграмма:\\
+\includegraphics[width=.7\textwidth]{simple.png}
+\\ \\
+Реализация кода:
+\\ \\
+\begin{lstlisting}[frame=single, basicstyle=\ttfamily, breaklines=true, breakatwhitespace=true, postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space}]
+    Coordinates coordinates1;
+    private double fi(double x, double lambda){
+        return x+lambda*coordinates1.getValue(x);
+    }
+    public double fiDev(double point, double lambda) {
+        return (fi(point + 0.0001, lambda) - fi(point - 0.0001, lambda)) / (2 * 0.0001);
+    }
+    public String simple(Coordinates coordinates) {
+        coordinates1 = coordinates;
+        double a = coordinates.getA();
+        double b = coordinates.getB();
+        double epsilon = coordinates.getEps();
+        List<IterationsForSimple> iterations = new ArrayList<>();
+        double lambda;
+        if(coordinates.getDev(1, a)<0 && coordinates.getDev(1, b)<0){
+            lambda = 1/(Math.max(Math.abs(coordinates.getDev(1, a)), Math.abs(coordinates.getDev(1, b))));
+        }else{
+            lambda = -1/(Math.max(Math.abs(coordinates.getDev(1, a)), Math.abs(coordinates.getDev(1, b))));
+        }
 
+        if(fiDev(a, lambda)>1 || fiDev(b, lambda)>1){
+            System.out.println("-");
+            return "-";
+        }
 
+        double x = a;
+        int iteration = 0;
+        while (true){
+            IterationsForSimple data = new IterationsForSimple();
+            data.iteration = iteration++;
+            data.x = x;
+            double xNew = fi(x, lambda);
+            data.xNew = xNew;
+            data.fi = fi(xNew, lambda);
+            data.f = coordinates.getValue(xNew);
+            data.absX = Math.abs(xNew - x);
+            if(Math.abs(xNew - x)<epsilon){
+                break;
+            }
+            x = xNew;
+            iterations.add(data);
+        }
 
+        System.out.printf("The root is %.6f\n", x);
+
+        Gson gson = new Gson();
+        try (FileWriter writer = new FileWriter("tmp.json")) {
+            writer.write(gson.toJson(iterations));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return "The root is " + x+ "; f(x) = "+coordinates.getValue(x)+"; iter: "+iteration;
+    }
+\end{lstlisting}
+4. Метод простой итерации для систем
+\\ \\
+Диаграмма:\\
+\includegraphics[width=.7\textwidth]{simpleSis.png}
+\\ \\
+Реализация кода:
+\\ \\
+\begin{lstlisting}[frame=single, basicstyle=\ttfamily, breaklines=true, breakatwhitespace=true, postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space}]
+    public static String simpl(Coordinates coordinates) {
+        double a = coordinates.getA();
+        double b = coordinates.getB();
+        double epsilon = coordinates.getEps();
+        IterationsForSis iterations = new IterationsForSis();
+        double pdv11 = coordinates.getFiSisPdv(a, b, 1);
+        double pdv12 = coordinates.getFiSisPdv(a, b, 2);
+        double pdv21 = coordinates.getFiSisPdv(a, b, 3);
+        double pdv22 = coordinates.getFiSisPdv(a, b, 4);
+
+        if ((Math.abs(pdv11)+Math.abs(pdv12)>=1) || (Math.abs(pdv21)+Math.abs(pdv22)>=1)) {
+            System.out.println("Incorrect initial [a, b].");
+            return "Incorrect initial [a, b].";
+        }
+
+        double x = a;
+        double y = b;
+        int iteration = 0;
+        String last;
+        while (true) {
+            iteration++;
+            double newX = coordinates.getFiSis(x, y, 1);
+            double newY = coordinates.getFiSis(x, y, 2);
+
+            // Check for convergence criteria
+            if ((Math.max(Math.abs(newX - x), Math.abs(newY - y)) < epsilon)||(iteration>100)){
+                iterations.absX = Math.abs(newX - x);
+                iterations.absY = Math.abs(newY - y);
+                iterations.iteration = iteration;
+                iterations.xAnswer = newX;
+                iterations.yAnswer = newY;
+                last = "|x_1^{k} - x_1^{k-1}| = "+Math.abs(newX - x)+ "; |x_2^{k} - x_2^{k-1}| = "+Math.abs(newY - y);
+                break;
+            }
+            x = newX;
+            y = newY;
+        }
+        Gson gson = new Gson();
+        try (FileWriter writer = new FileWriter("tmp.json")) {
+            writer.write(gson.toJson(iterations));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println("The root is x:"+x+" y: "+y);
+    }
+\end{lstlisting}
+\section{Ссылка на GitHub с основной реализацией}
+https://github.com/Alex-de-bug/cm\_math/
+\section{Вывод}
+    В данной работе мы изучили некоторые методы для решения линейных уравнений и нелинейных. Первую часть мы сделали руками, чтобы понять детально методы. Далее мы реализовали некоторые из методов кодом.
 \end{document}
 
 \[
     3x^3+1,7x^2-15,42x+6,89\]
 
 \begin{lstlisting}[frame=single, basicstyle=\ttfamily, breaklines=true, breakatwhitespace=true, postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space}]
-    public void backwardSubstitution() {
-        for (int i = size - 1; i >= 0; i--) {
-            double sum = 0;
-            for (int j = i + 1; j < size; j++) {
-                sum += matrix_a[i][j] * solutions[j];
-            }
-            solutions[i] = (matrix_b[i] - sum) / matrix_a[i][i];
-        }
-    }
+    
 \end{lstlisting}
 \section{Ссылка на GitHub с основной реализацией}
 https://github.com/Alex-de-bug/cm\_math/tree/main/lab1
