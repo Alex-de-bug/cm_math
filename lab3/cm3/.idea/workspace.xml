@@ -65,7 +65,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/alexalex/Desktop/cm_math/lab3/cm3",
+    "last_opened_file_path": "/home/alwx/Рабочий стол/cm_math/lab3/cm3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,27 +103,12 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Web4Application">
-    <configuration name="Web4Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cm2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.web4.Web4Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Web4Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cm3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.web4.Web4Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Web4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <envs>
         <env name="PASS" value="0426186" />
       </envs>
-      <module name="cm3" />
+      <module name="web4" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.web4.Web4Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,6 +154,7 @@
       <workItem from="1709626023811" duration="9286000" />
       <workItem from="1710419424551" duration="760000" />
       <workItem from="1710420901786" duration="3843000" />
+      <workItem from="1710528313767" duration="9697000" />
     </task>
     <task id="LOCAL-00001" summary="new functional auth">
       <created>1700822021496</created>
@@ -198,6 +184,26 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -215,26 +221,6 @@
                 </map>
               </option>
             </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="master" />
-                </option>
-              </RecentGroup>
-            </list>
           </value>
         </entry>
       </map>

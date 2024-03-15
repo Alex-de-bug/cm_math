@@ -2,34 +2,54 @@ import { useDispatch, useSelector } from "react-redux";
 import { homeSelector, sendTry } from "../store/slices/HomeSlice.jsx";
 import {useEffect, useState} from "react";
 import 'katex/dist/katex.min.css';
-import {Snackbar, Alert, Grid} from '@mui/material';
+import {
+    Snackbar,
+    Alert,
+    Grid,
+    InputLabel,
+    Select,
+    MenuItem,
+    OutlinedInput,
+} from '@mui/material';
 import {
     Button,
-    Checkbox,
     Container,
     FormControl,
-    FormControlLabel,
-    FormGroup,
     FormLabel,
     Paper
 } from "@mui/material";
 import { BlockMath } from 'react-katex';
 import "../styles/Home.css";
 
+const ITEM_HEIGHT = 48;
+const ITEM_PADDING_TOP = 8;
+const MenuProps = {
+    PaperProps: {
+        style: {
+            maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
+            width: 250,
+        },
+    },
+};
+
 function Home() {
     const dispatch = useDispatch();
     const { isFetching, errorMessage, array } = useSelector(homeSelector);
     const [formData, setFormData] = useState({
-        func: '0',
-        metod: '0',
+        typeFunc: 0,
         a: 0,
         b: 0,
-        eps: 0,
-        file: false
+        eps: 0.01,
+        method: 1
     });
     const [openError, setOpenError] = useState(false);
-    const [method, setMethod] = useState('0');
     const [err, setErr] = useState('');
+    const myArray = ["\\int_a^b 3x^3-2x^2+7x+26\\ dx",
+        "\\int_a^b 2x^3-3x^2-5x+27\\ dx",
+        "\\int_a^b x^3-3x^2+6x+28\\ dx",
+        "cos(x) + 0.1",
+        "tg(x) + 0.67"];
+    const myArrayWithKeys = myArray.map((funct, index) => ({ funct, index }));
 
     useEffect(() => {
         if(errorMessage!= ""){
@@ -37,9 +57,6 @@ function Home() {
             setErr(errorMessage);
         }
     }, [errorMessage]);
-
-
-
     const handleFormSubmit = async (e) => {
         e.preventDefault();
         try {
@@ -48,36 +65,26 @@ function Home() {
             console.log('Error submitting form: ' + error.message);
         }
     };
-
     const onSubmit = (data) => {
         console.log(data);
         dispatch(sendTry(data));
     };
 
-    const [func, setFunc] = useState('0');
 
-    // Обработчик изменения значения выпадающего списка
     const handleSelectChangeFunc = (event) => {
-        formData.func = event.target.value;
-        setFunc(event.target.value);
-        if((event.target.value === '3')||(event.target.value === '4')){
-            formData.metod = "3";
-            setMethod('3');
-        }else{
-            formData.metod = "0";
-        }
-        console.log(formData);
+        const { value } = event.target;
+        setFormData(prevFormData => ({
+            ...prevFormData,
+            typeFunc: Number(value),
+        }));
     };
-    const myArray = ["x^3 - 4.5x^2 - 9.21x - 0.383", "x^3 - x + 4", "sin(x) + 0.1",
-        "\\begin{cases}\n sin(x)+2y = 2\\\\\n x+cos(y-1)=2\n \\end{cases}",
-        "\\begin{cases}\n cos(x − 1) + y = 0.5\\\\\n x-cos(y)=3\n \\end{cases}"];
-
     const handleChangeType = (event) => {
-        formData.metod = event.target.value;
-        setMethod(event.target.value);
-        console.log(formData);
+        const { value } = event.target;
+        setFormData(prevFormData => ({
+            ...prevFormData,
+            method: Number(value),
+        }));
     };
-
     const handleInputChange = (event, propertyName) => {
         const value = parseFloat(event.target.value);
         setFormData({
@@ -85,103 +92,59 @@ function Home() {
             [propertyName]: value
         });
     };
-    const [file, setFile] = useState(null);
-    const handleFileInputChange = (event) => {
-        const file = event.target.files[0];
-        setFile(file);
-        const reader = new FileReader();
-
-        reader.onload = (e) => {
-            const fileContents = e.target.result;
-            try {
-                const data = JSON.parse(fileContents);
-                if (validateData(data)) {
-                    setFormData(data);
-                } else {
-                    setOpenError(true);
-                    setErr("Файл не соответствует требуемой структуре.");
-                }
-            } catch (error) {
-                setOpenError(true);
-                setErr("Ошибка при чтении файла:"+ error);
-            }
-        };
-        reader.readAsText(file);
-    };
-    const handleRemoveFile = () => {
-        setFile(null); // Очищаем выбранный файл
-        document.getElementById('fileInput').value = ''; // Очищаем input
-    };
-
-    function validateData(data) {
-        const { func, metod, a, b, eps, file } = data;
-        const isFuncValid = typeof parseInt(func) === 'number' && parseInt(func) >= 0 && parseInt(func) <= 4;
-        const isMetodValid = typeof parseInt(metod) === 'number' && parseInt(metod) >= 0 && parseInt(metod) <= 3;
-        const isAValid = typeof a === 'number';
-        const isBValid = typeof b === 'number';
-        const isEpsValid = typeof eps === 'number';
-        const isFileValid = typeof file === 'boolean';
-
-        return isFuncValid && isMetodValid && isAValid && isBValid && isEpsValid && isFileValid;
-    }
-
-    const handleFileChange = () => {
-        const tmp1 = !formData.file
-        formData.file = tmp1;
-    };
-
-
 
     return (
         <div>
             <Container maxWidth="sm" sx={{mt: 4}}>
                 <Paper sx={{p: 4}}>
-                    <Grid item xs={12}>
-                        <FormControl component="fieldset">
-                            <FormLabel component="legend">Функция</FormLabel>
-                            <BlockMath math={myArray[parseInt(func)]}/>
-                            <FormGroup row>
-                                {['0', '1', '2', '3', '4'].map((value) => (
-                                    <FormControlLabel
-                                        key={`r_${value}`}
-                                        control={
-                                            <Checkbox
-                                                name="func"
-                                                value={value}
-                                                onChange={handleSelectChangeFunc}
-                                                checked={func === value}
-                                            />
-                                        }
-                                        label={value}
-                                    />
-                                ))}
-                            </FormGroup>
-                        </FormControl>
-                    </Grid>
-                    <div>
-                        {((func === '0') || (func === '1') || (func === '2')) && (
-                            <select name={"typeFunction"} value={formData.metod} onChange={handleChangeType}>
-                                <option value={"0"}>Метод половинного деления</option>
-                                <option value={"1"}>Метод Ньютона</option>
-                                <option value={"2"}>Метод простой итерации</option>
-                            </select>
-                        )}
-                        {((func === '3') || (func === '4')) && (
-                            <select name={"typeFunction"} value={method} onChange={handleChangeType}>
-                                <option value={"3"}>Метод простой итерации</option>
-                            </select>
-                        )}
-                    </div>
+                    <FormControl>
+                        <InputLabel id="demo-multiple-name-label">Function</InputLabel>
+                        <Select
+                            labelId="demo-multiple-name-label"
+                            id="demo-multiple-name"
+                            value={formData.typeFunc}
+                            onChange={handleSelectChangeFunc}
+                            input={<OutlinedInput label="Name"/>}
+                            MenuProps={MenuProps}
+                        >
+                            {myArrayWithKeys.map((item) => (
+                                <MenuItem
+                                    key={item.funct}
+                                    value={item.index}
+                                >
+                                    <BlockMath math={item.funct}/>
+                                </MenuItem>
+                            ))}
+                        </Select>
+                    </FormControl>
+                    <br/><br/>
+                    <FormControl>
+                        <InputLabel id="demo-simple-select-label">Method</InputLabel>
+                        <Select
+                            labelId="demo-simple-select-label"
+                            id="demo-simple-select"
+                            value={formData.method}
+                            label="Method"
+                            onChange={handleChangeType}
+                        >
+                            <MenuItem value={1}>Метод прямоугольников левые</MenuItem>
+                            <MenuItem value={2}>Метод прямоугольников правые</MenuItem>
+                            <MenuItem value={3}>Метод прямоугольников средние</MenuItem>
+                            <MenuItem value={4}>Метод трапеций</MenuItem>
+                            <MenuItem value={5}>Метод Симпсона</MenuItem>
+                        </Select>
+                    </FormControl>
+
                     <FormLabel component="legend">Выберите начальное приближение</FormLabel>
                     <div>
                         <label>a: </label>
                         <input type="number" value={formData.a} onChange={(e) => handleInputChange(e, 'a')}
-                               step="0.01" />
+                               step="0.01"/>
                     </div>
                     <div>
                         <label>b: </label>
                         <input type="number" value={formData.b} onChange={(e) => handleInputChange(e, 'b')}
-                               step="0.01" />
+                               step="0.01"/>
                     </div>
                     <FormLabel component="legend">Выберите погрешность</FormLabel>
                     <div>
@@ -190,22 +153,6 @@ function Home() {
                                step="0.01"/>
                     </div>
                     <br/>
-                    <div>
-                        <FormLabel component="legend">Нужно ли сорхранить результаты работы в файл</FormLabel>
-                        <input type="checkbox" onChange={handleFileChange}/>
-                    </div>
-
-                    <div>
-                        <FormLabel component="legend">Ввод данных через файл</FormLabel>
-                        <input
-                            type="file"
-                            onChange={handleFileInputChange}
-                            id="fileInput"
-                        />
-                        {file && (
-                                <button onClick={handleRemoveFile}>X</button>
-                        )}
-                    </div>
 
                     <form onSubmit={handleFormSubmit}>
                         <Grid item xs={6}>
@@ -218,16 +165,18 @@ function Home() {
                 </Paper>
             </Container>
             <br/>
-            <Container maxWidth="sm" sx={{mt: 4}}>
-                <Paper sx={{p: 4}}>
-                    {array && array.length > 0 && (
-                        <div>
-                            Ответ: {array}
-                        </div>
-                    )}
-                </Paper>
-            </Container>
+            {array && array.length > 0 && (
+                <Container sx={{mt: 3}}>
+                    <Paper sx={{p: 3}}>
 
+                            <div>
+                                Ответ:
+                            </div>
+                        <BlockMath math={array}/>
+
+                    </Paper>
+                </Container>
+            )}
             <Snackbar open={openError} autoHideDuration={3000} onClose={() => setOpenError(false)}>
                 <Alert severity="error" onClose={() => setOpenError(false)}>
                     {err}

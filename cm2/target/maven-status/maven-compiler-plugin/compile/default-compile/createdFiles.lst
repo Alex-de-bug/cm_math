@@ -1,0 +1,11 @@
+com/example/web4/dto/UserCredentials.class
+com/example/web4/dto/HitResult.class
+com/example/web4/validators/UserValidation.class
+com/example/web4/Web4Application.class
+com/example/web4/utils/OutOfCoordinatesBoundsException.class
+com/example/web4/validators/AuthError.class
+com/example/web4/utils/AreaCheck.class
+com/example/web4/dto/Coordinates.class
+com/example/web4/utils/CoordinatesValidation.class
+com/example/web4/utils/Bounds.class
+com/example/web4/controllers/AttemptController.class

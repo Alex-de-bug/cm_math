@@ -1,0 +1,11 @@
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/dto/UserCredentials.java
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/controllers/AttemptController.java
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/utils/AreaCheck.java
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/utils/Bounds.java
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/dto/HitResult.java
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/dto/Coordinates.java
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/Web4Application.java
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/validators/UserValidation.java
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/utils/CoordinatesValidation.java
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/validators/AuthError.java
+/home/alwx/Рабочий стол/cm_math/cm2/src/main/java/com/example/web4/utils/OutOfCoordinatesBoundsException.java
