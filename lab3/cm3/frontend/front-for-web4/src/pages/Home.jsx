@@ -34,7 +34,7 @@ const MenuProps = {
 
 function Home() {
     const dispatch = useDispatch();
-    const { isFetching, errorMessage, array } = useSelector(homeSelector);
+    const { isFetching, isError, errorMessage, array } = useSelector(homeSelector);
     const [formData, setFormData] = useState({
         typeFunc: 0,
         a: 0,
@@ -52,11 +52,12 @@ function Home() {
     const myArrayWithKeys = myArray.map((funct, index) => ({ funct, index }));
 
     useEffect(() => {
-        if(errorMessage!= ""){
+        if(errorMessage!== ""&&isError){
             setOpenError(true);
             setErr(errorMessage);
         }
-    }, [errorMessage]);
+        homeSelector.isError =false;
+    }, [errorMessage, isError]);
     const handleFormSubmit = async (e) => {
         e.preventDefault();
         try {

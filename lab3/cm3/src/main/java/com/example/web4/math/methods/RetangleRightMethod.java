@@ -1,16 +1,23 @@
-package com.example.web4.math;
+package com.example.web4.math.methods;
 
 import com.example.web4.dto.RequestFuncUser;
+import com.example.web4.math.AnswerInfo;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public class RetangleLeftMethod extends MathMethod{
+public class RetangleRightMethod extends MathMethod {
+    private static final Logger logger = LoggerFactory.getLogger(RetangleRightMethod.class);
+
+    public RetangleRightMethod(RequestFuncUser data) {
+        super(data);
+    }
+
     @Override
-    public void calculate(RequestFuncUser data) {
-        double a = data.getA();
-        double b = data.getB();
-        double e = data.getEps();
-        double number = data.getTypeFunc();
+    public void calculate() {
+        logger.info("Метод правых");
 
         if (a > b) {
+            logger.warn("Замена границ");
             double tmp = a;
             a = b;
             b = tmp;
@@ -22,6 +29,7 @@ public class RetangleLeftMethod extends MathMethod{
             n *= 2;
             step = (b - aNew) / n;
             sum = 0;
+            aNew += step;
             for (int i = 0; i < n; i++) {
                 sum += functions.f(aNew, (int) number);
                 aNew += step;
@@ -32,14 +40,9 @@ public class RetangleLeftMethod extends MathMethod{
         }
 
         if (Double.isNaN(sum) || Double.isNaN(I) || Double.isNaN(r) || Double.isNaN(Math.abs(100 * r / ((I + sum) / 2)))) {
-            System.out.println("В выбранном интервале присутсвует разрыв первого рода!\n");
+            logger.warn("В выбранном интервале присутсвует разрыв первого рода!\n");
         } else {
-            answerInfo = new AnswerInfo();
-            answerInfo.setE(e);
-            answerInfo.setAnswer(sum);
-            answerInfo.setR(r);
-            answerInfo.setI(I);
-            answerInfo.setN(n);
+            answerInfo = new AnswerInfo(e, sum, I, r, n);
         }
     }
 }

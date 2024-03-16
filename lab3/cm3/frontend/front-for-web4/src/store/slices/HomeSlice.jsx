@@ -72,7 +72,13 @@ export const HomeSlice = createSlice({
                 state.isFetching = false;
                 state.isError = true;
                 state.isSuccess = false;
-                state.errorMessage = payload;
+                const now = new Date();
+                const pad = (num) => num.toString().padStart(2, '0');
+                const hours = pad(now.getHours());
+                const minutes = pad(now.getMinutes());
+                const seconds = pad(now.getSeconds());
+                const formattedTime = `${hours}:${minutes}:${seconds}`;
+                state.errorMessage = payload + "; Время запроса: " + formattedTime;
                 state.array = "";
             })
             .addCase(sendTry.pending, (state) => {

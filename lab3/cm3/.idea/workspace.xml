@@ -65,7 +65,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alwx/Рабочий стол/cm_math/lab3/cm3",
+    "last_opened_file_path": "/home/alwx/Рабочий стол/cm_math/lab3/cm3/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -154,7 +154,8 @@
       <workItem from="1709626023811" duration="9286000" />
       <workItem from="1710419424551" duration="760000" />
       <workItem from="1710420901786" duration="3843000" />
-      <workItem from="1710528313767" duration="9697000" />
+      <workItem from="1710528313767" duration="10321000" />
+      <workItem from="1710584704459" duration="10483000" />
     </task>
     <task id="LOCAL-00001" summary="new functional auth">
       <created>1700822021496</created>

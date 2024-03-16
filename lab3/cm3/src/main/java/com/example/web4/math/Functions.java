@@ -23,6 +23,7 @@ public class Functions {
         }
 
     }
+
     private double f_dx(double x, int number) {
         switch (number) {
             case (0) -> {
@@ -43,6 +44,7 @@ public class Functions {
             }
         }
     }
+
     public double getI(double a, double b, int number) {
         return f_dx(b, number) - f_dx(a, number);
     }
