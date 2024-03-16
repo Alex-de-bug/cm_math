@@ -45,8 +45,8 @@ function Home() {
     const [openError, setOpenError] = useState(false);
     const [err, setErr] = useState('');
     const myArray = ["\\int_a^b 3x^3-2x^2+7x+26\\ dx",
-        "\\int_a^b 2x^3-3x^2-5x+27\\ dx",
-        "\\int_a^b x^3-3x^2+6x+28\\ dx",
+        "\\int_a^b 3x^{5}+x^{2}+0.1\\ dx",
+        "\\int_a^b \\sin(x)+\\cos(x)\\ dx",
         "cos(x) + 0.1",
         "tg(x) + 0.67"];
     const myArrayWithKeys = myArray.map((funct, index) => ({ funct, index }));

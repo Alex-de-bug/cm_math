@@ -3,12 +3,12 @@ import axios from "axios";
 
 export const sendTry = createAsyncThunk(
     "home/sendTry",
-    async ({ func, method, a, b, eps }, thunkAPI) => {
+    async ({ typeFunc, method, a, b, eps }, thunkAPI) => {
         await new Promise(resolve => setTimeout(resolve, 100));
         try {
             let link = "http://localhost:8080/api/integration/calculate";
             const params = {
-                typeFunc: func,
+                typeFunc: typeFunc,
                 a: a,
                 b: b,
                 eps: eps,
