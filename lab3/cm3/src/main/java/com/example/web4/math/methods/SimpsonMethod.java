@@ -5,7 +5,6 @@ import com.example.web4.math.AnswerInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static java.lang.Double.NaN;
 
 public class SimpsonMethod extends MathMethod {
     private static final Logger logger = LoggerFactory.getLogger(SimpsonMethod.class);
@@ -26,13 +25,12 @@ public class SimpsonMethod extends MathMethod {
         }
 
         double aNew = a, step, sum = 0, r = e + 1, I = functions.getI(a, b, (int) number);
-        long n = 2;
+        long n = 4;
         double y0 = functions.f(a, (int) number);
         double yn = functions.f(b, (int) number);
-        double currAns = NaN;
+        double currAns = 0, prevAns = 0;
 
         while (r > e) {
-            n *= 2;
             step = (b - a) / n;
             sum = 0;
             aNew = a + step;
@@ -44,14 +42,18 @@ public class SimpsonMethod extends MathMethod {
                 }
                 aNew += step;
             }
+            prevAns = currAns;
             currAns = step / 3 * (y0 + sum + yn);
-            r = Math.abs(I - currAns);
+            if (n > 4) {
+                r = Math.abs(currAns - prevAns) / 15.0;
+            }
+            n *= 2;
+            if(n > 1000000000){
+                logger.error("Первышено количесвто итераций");
+                break;
+            }
         }
 
-        if (Double.isNaN(currAns) || Double.isNaN(I) || Double.isNaN(r) || Double.isNaN(Math.abs(100 * r / ((I + sum) / 2)))) {
-            logger.warn("В выбранном интервале присутсвует разрыв первого рода!\n");
-        } else {
-            answerInfo = new AnswerInfo(e, currAns, I, r, n);
-        }
+        answerInfo = new AnswerInfo(e, currAns, prevAns, r, n / 2);
     }
 }

@@ -15,34 +15,35 @@ public class RetangleRightMethod extends MathMethod {
     @Override
     public void calculate() {
         logger.info("Метод правых");
-
         if (a > b) {
             logger.warn("Замена границ");
             double tmp = a;
             a = b;
             b = tmp;
         }
-        double aNew = a, step, sum = 0, r = e + 1, I = functions.getI(a, b, (int) number);
-        long n = 2;
 
-        while (r > e) {
-            n *= 2;
-            step = (b - aNew) / n;
+        double step, sum, r = e + 1, I = functions.getI(a, b, (int) number);
+        long n = 4;
+        double currAns = 0, prevAns = 0;
+
+        while (r > e){
+            step = (b - a) / n;
             sum = 0;
-            aNew += step;
-            for (int i = 0; i < n; i++) {
+            for (int i = 1; i <= n; i++) {
+                double aNew = a + step * i;
                 sum += functions.f(aNew, (int) number);
-                aNew += step;
             }
-            sum = sum * step;
-            r = Math.abs(I - sum);
-            aNew = a;
+            prevAns = currAns;
+            currAns = sum * step;
+            if (n > 4) {
+                r = Math.abs(currAns - prevAns) / 3.0;
+            }
+            n *= 2;
+            if(n > 1000000000){
+                logger.error("Первышено количесвто итераций");
+                break;
+            }
         }
-
-        if (Double.isNaN(sum) || Double.isNaN(I) || Double.isNaN(r) || Double.isNaN(Math.abs(100 * r / ((I + sum) / 2)))) {
-            logger.warn("В выбранном интервале присутсвует разрыв первого рода!\n");
-        } else {
-            answerInfo = new AnswerInfo(e, sum, I, r, n);
-        }
+        answerInfo = new AnswerInfo(e, currAns, prevAns, r, n / 2);
     }
 }

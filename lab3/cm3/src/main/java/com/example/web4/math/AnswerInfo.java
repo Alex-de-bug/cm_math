@@ -38,15 +38,14 @@ public class AnswerInfo {
         String eStr = formatScientificNotation(e.toString());
         String answerStr = formatScientificNotation(answer.toString());
         String IStr = formatScientificNotation(Double.toString(I));
-        String rStr = formatScientificNotation(Double.toString(r));
+        String rStr = formatScientificNotation(Double.toString(Math.abs(I-answer)/3.0));
         String relativeErrorStr = formatScientificNotation(Double.toString(Math.abs(100 * r / ((I + answer) / 2))));
         String nStr = formatScientificNotation(Long.toString(n));
-
         String ans = "Достигнута\\ точность\\ = \\ " + eStr +
-                ";\\\\ \\ Вычисленный\\ ответ \\ = \\ " + answerStr +
-                ";\\\\ \\ Вычисление\\ прямое\\ =\\ " + IStr +
-                ";\\\\ \\ Абсолютная\\ погрешность\\ =\\ " + rStr +
-                ";\\\\ \\ Относительная\\ погрешность\\ =\\ " + relativeErrorStr + "\\%" +
+                ";\\\\ \\ Вычисление\\ n\\ итерации\\ = \\ " + answerStr +
+                ";\\\\ \\ Вычисление\\ \\frac{n}{2}\\ итерации\\ =\\ " + IStr +
+                ";\\\\ \\ Погрешность\\ по\\ Рунге\\ =\\ " + rStr +
+                ";\\\\ \\ Относительная\\ погрешность\\ между\\ n\\ и\\ \\frac{n}{2}\\ итер\\ =\\ " + relativeErrorStr + "\\%" +
                 ";\\\\ \\ Число\\ разбиений\\ интервала\\ = \\ " + nStr + ";";
 
         return ans;
