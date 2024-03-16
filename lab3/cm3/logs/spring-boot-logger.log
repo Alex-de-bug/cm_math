@@ -2973,3 +2973,417 @@ ERROR in ch.qos.logback.core.pattern.parser.Compiler@256f8274 - Failed to create
 2024-03-16 20:53:07,575 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-1] Метод средних
 2024-03-16 20:53:07,575 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 1.0; ans: 98.84759233534743; abs: 0.018151221362335452; count: 8
 2024-03-16 20:53:07,575 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:46:12,110 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 24576 (/home/alwx/Рабочий стол/cm_math/lab3/cm3/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab3/cm3)
+2024-03-16 22:46:12,111 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-16 22:46:12,375 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-16 22:46:12,378 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-16 22:46:12,378 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-16 22:46:12,378 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-16 22:46:12,406 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-16 22:46:12,406 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 279 ms
+2024-03-16 22:46:12,511 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-16 22:46:12,516 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-16 22:46:12,519 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.607 seconds (process running for 0.846)
+2024-03-16 22:46:29,081 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-16 22:46:29,081 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-16 22:46:29,082 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-16 22:46:29,124 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 0.0; Метод: 3.0; Граница левая: 0.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:46:29,125 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-2] Метод средних
+2024-03-16 22:46:29,127 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: 4614216.658013134; abs: 0.008653544820845127; count: 16384
+2024-03-16 22:46:29,127 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-16 22:46:35,963 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 0.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:46:35,964 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-3] Метод средних
+2024-03-16 22:46:35,966 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 0.01; ans: 4614237.741002104; abs: 0.008997896065314611; count: 16384
+2024-03-16 22:46:35,966 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-16 22:46:39,541 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 0.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 1.0; 
+2024-03-16 22:46:39,541 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-4] Метод средних
+2024-03-16 22:46:39,542 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 1.0; ans: 4614237.174134821; abs: 0.5758651793003082; count: 2048
+2024-03-16 22:46:39,542 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-16 22:46:46,367 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 0.0; Метод: 3.0; Граница левая: 1.0; Граница правая: 50.0; Точность: 1.0; 
+2024-03-16 22:46:46,367 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-5] Метод средних
+2024-03-16 22:46:46,368 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 1.0; ans: 4614186.551557635; abs: 0.5317757052058975; count: 2048
+2024-03-16 22:46:46,368 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-16 22:47:13,176 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 0.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:47:13,177 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-6] Метод средних
+2024-03-16 22:47:13,177 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.01; ans: 4614237.741002104; abs: 0.008997896065314611; count: 16384
+2024-03-16 22:47:13,177 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-16 22:47:18,488 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 0.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:47:18,488 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-7] Метод Трапеций
+2024-03-16 22:47:18,491 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.01; ans: 4614237.754498922; abs: 0.0044989629338184995; count: 32768
+2024-03-16 22:47:18,491 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-16 22:47:22,356 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 0.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:47:22,356 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-8] Метод Симпсона
+2024-03-16 22:47:22,356 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.01; ans: 4614237.75; abs: 0.0; count: 8
+2024-03-16 22:47:22,357 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-16 22:47:28,168 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 0.0; Метод: 5.0; Граница левая: 0.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:47:28,168 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-9] Метод Симпсона
+2024-03-16 22:47:28,169 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 0.01; ans: 4614216.666666667; abs: 0.0; count: 8
+2024-03-16 22:47:28,169 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-16 22:47:38,457 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Функция: 0.0; Метод: 5.0; Граница левая: 1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:47:38,457 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-10] Метод Симпсона
+2024-03-16 22:47:38,457 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-10] т: 0.01; ans: 4614187.083333333; abs: 0.0; count: 8
+2024-03-16 22:47:38,457 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Успешно
+2024-03-16 22:47:47,418 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 2.0; Метод: 5.0; Граница левая: 1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:47:47,418 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Метод Симпсона
+2024-03-16 22:47:47,418 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 59.18472386778926; abs: 2.0847678880831684E-4; count: 8
+2024-03-16 22:47:47,418 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:48:20,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 2.0; Метод: 4.0; Граница левая: 1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:48:20,302 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-16 22:48:20,302 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: -1.5238401246089015; abs: 0.004680884205799633; count: 256
+2024-03-16 22:48:20,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-16 22:48:28,413 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 2.0; Метод: 5.0; Граница левая: 1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:48:28,413 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-3] Метод Симпсона
+2024-03-16 22:48:28,414 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 0.01; ans: 59.18472386778926; abs: 2.0847678880831684E-4; count: 8
+2024-03-16 22:48:28,414 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-16 22:48:32,349 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 2.0; Метод: 5.0; Граница левая: 1.0; Граница правая: 50.0; Точность: 0.1; 
+2024-03-16 22:48:32,349 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-4] Метод Симпсона
+2024-03-16 22:48:32,349 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.1; ans: 59.18472386778926; abs: 2.0847678880831684E-4; count: 8
+2024-03-16 22:48:32,349 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-16 22:49:03,653 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 2.0; Метод: 4.0; Граница левая: 1.0; Граница правая: 50.0; Точность: 0.1; 
+2024-03-16 22:49:03,653 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-5] Метод Трапеций
+2024-03-16 22:49:03,654 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 0.1; ans: -1.4531044176943229; abs: 0.07853992139410863; count: 64
+2024-03-16 22:49:03,654 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-16 22:49:35,152 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.1; 
+2024-03-16 22:49:35,152 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-6] Метод Симпсона
+2024-03-16 22:49:35,152 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.1; ans: 10.722760844589818; abs: 4.251242995560271E-6; count: 8
+2024-03-16 22:49:35,153 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-16 22:49:42,259 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 2.0; Метод: 5.0; Граница левая: 1.0; Граница правая: 50.0; Точность: 0.1; 
+2024-03-16 22:49:42,259 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-7] Метод Симпсона
+2024-03-16 22:49:42,259 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.1; ans: 59.18472386778926; abs: 2.0847678880831684E-4; count: 8
+2024-03-16 22:49:42,259 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-16 22:49:46,232 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.1; 
+2024-03-16 22:49:46,232 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-8] Метод Симпсона
+2024-03-16 22:49:46,232 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.1; ans: 10.722760844589818; abs: 4.251242995560271E-6; count: 8
+2024-03-16 22:49:46,233 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-16 22:50:32,670 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.1; 
+2024-03-16 22:50:32,670 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-9] Метод Трапеций
+2024-03-16 22:50:32,670 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 0.1; ans: 10.715222867503206; abs: 0.007537977086607602; count: 8
+2024-03-16 22:50:32,670 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-16 22:50:36,226 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:50:36,226 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-10] Метод Трапеций
+2024-03-16 22:50:36,226 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-10] т: 0.01; ans: 10.715222867503206; abs: 0.007537977086607602; count: 8
+2024-03-16 22:50:36,226 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Успешно
+2024-03-16 22:50:39,048 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:50:39,048 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Метод Симпсона
+2024-03-16 22:50:39,048 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 10.722760844589818; abs: 4.251242995560271E-6; count: 8
+2024-03-16 22:50:39,048 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:50:42,742 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.001; 
+2024-03-16 22:50:42,742 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-2] Метод Симпсона
+2024-03-16 22:50:42,742 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.001; ans: 10.722760844589818; abs: 4.251242995560271E-6; count: 8
+2024-03-16 22:50:42,742 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-16 22:50:45,430 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 1.0E-4; 
+2024-03-16 22:50:45,430 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-3] Метод Симпсона
+2024-03-16 22:50:45,430 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 1.0E-4; ans: 10.722760844589818; abs: 4.251242995560271E-6; count: 8
+2024-03-16 22:50:45,431 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-16 22:50:48,612 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 1.0E-5; 
+2024-03-16 22:50:48,612 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-4] Метод Симпсона
+2024-03-16 22:50:48,612 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 1.0E-5; ans: 10.722760844589818; abs: 4.251242995560271E-6; count: 8
+2024-03-16 22:50:48,612 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-16 22:50:50,179 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 1.0E-6; 
+2024-03-16 22:50:50,179 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-5] Метод Симпсона
+2024-03-16 22:50:50,179 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 1.0E-6; ans: 0.15443249304292386; abs: 8.48838543066055E-8; count: 512
+2024-03-16 22:50:50,179 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-16 22:51:31,170 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-6; 
+2024-03-16 22:51:31,170 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-6] Метод Симпсона
+2024-03-16 22:51:31,170 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 1.0E-6; ans: 0.1391877902845553; abs: 9.727745702736712E-7; count: 32
+2024-03-16 22:51:31,170 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-16 22:51:34,272 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.02; 
+2024-03-16 22:51:34,272 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-7] Метод Симпсона
+2024-03-16 22:51:34,272 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.02; ans: 0.1394489053459007; abs: 3.348447927415658E-4; count: 8
+2024-03-16 22:51:34,272 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-16 22:51:37,983 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.02; 
+2024-03-16 22:51:37,983 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-8] Метод Трапеций
+2024-03-16 22:51:37,983 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.02; ans: 0.13260045090549982; abs: 0.006848454440400997; count: 8
+2024-03-16 22:51:37,984 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-16 22:51:41,415 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.02; 
+2024-03-16 22:51:41,415 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-9] Метод Симпсона
+2024-03-16 22:51:41,415 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 0.02; ans: 0.1394489053459007; abs: 3.348447927415658E-4; count: 8
+2024-03-16 22:51:41,415 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-16 22:51:45,818 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Функция: 2.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.02; 
+2024-03-16 22:51:45,818 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-10] Метод левых
+2024-03-16 22:51:45,818 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-10] т: 0.02; ans: 0.17385007471373165; abs: 0.01128144628791807; count: 32
+2024-03-16 22:51:45,819 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Успешно
+2024-03-16 22:51:48,498 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 2.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.02; 
+2024-03-16 22:51:48,498 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-1] Метод правых
+2024-03-16 22:51:48,498 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.02; ans: 0.10370756028995252; abs: 0.012099391853341676; count: 32
+2024-03-16 22:51:48,498 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:51:52,497 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 2.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.02; 
+2024-03-16 22:51:52,497 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-2] Метод левых
+2024-03-16 22:51:52,497 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.02; ans: 0.17385007471373165; abs: 0.01128144628791807; count: 32
+2024-03-16 22:51:52,497 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-16 22:51:55,849 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.02; 
+2024-03-16 22:51:55,849 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-3] Метод средних
+2024-03-16 22:51:55,849 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 0.02; ans: 0.14250334740191412; abs: 0.003547488941596233; count: 8
+2024-03-16 22:51:55,849 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-16 22:51:59,489 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:51:59,490 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-4] Метод средних
+2024-03-16 22:51:59,490 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.01; ans: 0.14250334740191412; abs: 0.003547488941596233; count: 8
+2024-03-16 22:51:59,490 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-16 22:52:02,505 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 2.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:52:02,505 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-5] Метод левых
+2024-03-16 22:52:02,505 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 0.01; ans: 0.15662050073995645; abs: 0.005743191324591733; count: 64
+2024-03-16 22:52:02,505 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-16 22:52:05,257 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 2.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:52:05,257 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-6] Метод правых
+2024-03-16 22:52:05,257 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.01; ans: 0.1215492435280672; abs: 0.005947227746038226; count: 64
+2024-03-16 22:52:05,257 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-16 22:52:09,069 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:52:09,069 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-7] Метод средних
+2024-03-16 22:52:09,069 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.01; ans: 0.14250334740191412; abs: 0.003547488941596233; count: 8
+2024-03-16 22:52:09,069 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-16 22:52:12,438 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:52:12,438 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-8] Метод Трапеций
+2024-03-16 22:52:12,438 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.01; ans: 0.13260045090549982; abs: 0.006848454440400997; count: 8
+2024-03-16 22:52:12,438 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-16 22:52:15,310 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:52:15,310 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-9] Метод Симпсона
+2024-03-16 22:52:15,310 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 0.01; ans: 0.1394489053459007; abs: 3.348447927415658E-4; count: 8
+2024-03-16 22:52:15,310 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-16 22:52:19,730 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Функция: 2.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:52:19,730 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-10] Метод левых
+2024-03-16 22:52:19,730 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-10] т: 0.01; ans: 0.15662050073995645; abs: 0.005743191324591733; count: 64
+2024-03-16 22:52:19,730 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Успешно
+2024-03-16 22:52:23,691 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 2.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:52:23,691 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-1] Метод правых
+2024-03-16 22:52:23,691 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 0.1215492435280672; abs: 0.005947227746038226; count: 64
+2024-03-16 22:52:23,691 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:52:30,781 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 2.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:52:30,781 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-2] Метод правых
+2024-03-16 22:52:30,781 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.001; ans: 0.13699328410341774; abs: 7.322440770098267E-4; count: 512
+2024-03-16 22:52:30,781 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-16 22:52:33,227 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 2.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:52:33,227 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-3] Метод левых
+2024-03-16 22:52:33,227 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 0.001; ans: 0.1413771912549034; abs: 7.290583068189546E-4; count: 512
+2024-03-16 22:52:33,227 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-16 22:52:35,549 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 2.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:52:35,549 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-4] Метод правых
+2024-03-16 22:52:35,549 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.001; ans: 0.13699328410341774; abs: 7.322440770098267E-4; count: 512
+2024-03-16 22:52:35,550 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-16 22:52:38,950 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:52:38,950 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-5] Метод средних
+2024-03-16 22:52:38,950 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 0.001; ans: 0.14000573584997844; abs: 8.325371839785581E-4; count: 16
+2024-03-16 22:52:38,950 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-16 22:52:41,560 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:52:41,560 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-6] Метод Трапеций
+2024-03-16 22:52:41,560 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.001; ans: 0.1387788175018421; abs: 4.0897278271181947E-4; count: 32
+2024-03-16 22:52:41,560 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-16 22:52:46,130 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:52:46,130 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-7] Метод Симпсона
+2024-03-16 22:52:46,131 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.001; ans: 0.1394489053459007; abs: 3.348447927415658E-4; count: 8
+2024-03-16 22:52:46,131 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-16 22:52:50,574 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 1.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:52:50,574 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-8] Метод Симпсона
+2024-03-16 22:52:50,574 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.001; ans: 7854.600115871432; abs: 1.1587142932209341E-4; count: 128
+2024-03-16 22:52:50,574 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-16 22:52:53,257 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 1.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:52:53,257 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-9] Метод Трапеций
+2024-03-16 22:52:53,258 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 0.001; ans: 7854.600418961038; abs: 4.189610450945717E-4; count: 8192
+2024-03-16 22:52:53,258 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-16 22:52:56,499 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Функция: 1.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:52:56,499 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-10] Метод средних
+2024-03-16 22:52:56,499 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-10] т: 0.001; ans: 7854.599162077926; abs: 8.379219783212951E-4; count: 4096
+2024-03-16 22:52:56,499 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Успешно
+2024-03-16 22:53:01,848 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 1.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:53:01,848 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-1] Метод правых
+2024-03-16 22:53:02,456 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.001; ans: 7854.601681208525; abs: 5.604031694019795E-4; count: 16777216
+2024-03-16 22:53:02,456 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:53:05,458 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 1.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:53:05,458 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-2] Метод левых
+2024-03-16 22:53:06,067 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.001; ans: 7854.598318791304; abs: 5.604025709544658E-4; count: 16777216
+2024-03-16 22:53:06,068 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-16 22:53:11,937 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 1.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:53:11,937 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-3] Метод правых
+2024-03-16 22:53:12,543 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 0.001; ans: 7854.601681208525; abs: 5.604031694019795E-4; count: 16777216
+2024-03-16 22:53:12,544 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-16 22:53:15,783 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 1.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:53:15,784 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-4] Метод Трапеций
+2024-03-16 22:53:15,784 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.001; ans: 7854.600418961038; abs: 4.189610450945717E-4; count: 8192
+2024-03-16 22:53:15,784 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-16 22:54:04,404 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 0.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:54:04,405 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-5] Метод Трапеций
+2024-03-16 22:54:04,405 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 0.001; ans: 624.0005493164062; abs: 5.4931640625E-4; count: 1024
+2024-03-16 22:54:04,405 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-16 22:54:42,346 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 0.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:54:42,346 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-6] Метод левых
+2024-03-16 22:54:42,364 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.001; ans: 623.9978714010236; abs: 7.095315958167703E-4; count: 524288
+2024-03-16 22:54:42,364 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-16 22:54:44,722 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 0.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:54:44,722 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-7] Метод правых
+2024-03-16 22:54:44,740 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.001; ans: 624.0021286031721; abs: 7.095357869957297E-4; count: 524288
+2024-03-16 22:54:44,740 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-16 22:54:46,893 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 0.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:54:46,893 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-8] Метод средних
+2024-03-16 22:54:46,893 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.001; ans: 623.9997253417969; abs: 2.74658203125E-4; count: 1024
+2024-03-16 22:54:46,893 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-16 22:54:50,847 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 0.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:54:50,847 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-9] Метод Трапеций
+2024-03-16 22:54:50,847 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 0.001; ans: 624.0005493164062; abs: 5.4931640625E-4; count: 1024
+2024-03-16 22:54:50,847 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-16 22:55:02,903 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Функция: 0.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:55:02,903 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-10] Метод Симпсона
+2024-03-16 22:55:02,903 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-10] т: 0.001; ans: 624.0; abs: 0.0; count: 8
+2024-03-16 22:55:02,904 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Успешно
+2024-03-16 22:55:07,142 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 1.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.001; 
+2024-03-16 22:55:07,143 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Метод Симпсона
+2024-03-16 22:55:07,143 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.001; ans: 7854.600115871432; abs: 1.1587142932209341E-4; count: 128
+2024-03-16 22:55:07,143 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:55:49,865 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 24794 (/home/alwx/Рабочий стол/cm_math/lab3/cm3/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab3/cm3)
+2024-03-16 22:55:49,866 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-16 22:55:50,134 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-16 22:55:50,137 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-16 22:55:50,138 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-16 22:55:50,138 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-16 22:55:50,165 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-16 22:55:50,166 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 283 ms
+2024-03-16 22:55:50,269 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-16 22:55:50,274 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-16 22:55:50,277 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.574 seconds (process running for 0.77)
+2024-03-16 22:56:00,985 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-16 22:56:00,985 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-16 22:56:00,986 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-16 22:56:01,025 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:56:01,026 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Метод Симпсона
+2024-03-16 22:56:01,026 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 0.1392023819031094; abs: 0.009280158793540627; count: 16
+2024-03-16 22:56:01,026 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:56:10,668 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:56:10,668 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-2] Метод Симпсона
+2024-03-16 22:56:10,668 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: 0.1548063873344536; abs: 4.958520535948196E-4; count: 64
+2024-03-16 22:56:10,668 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-16 22:56:20,723 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.1; 
+2024-03-16 22:56:20,723 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-3] Метод Симпсона
+2024-03-16 22:56:20,723 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 0.1; ans: 0.1548063873344536; abs: 4.958520535948196E-4; count: 64
+2024-03-16 22:56:20,723 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-16 22:56:26,754 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:56:26,754 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-4] Метод Трапеций
+2024-03-16 22:56:26,754 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.01; ans: 10.715222867503206; abs: 0.007537977086607602; count: 8
+2024-03-16 22:56:26,754 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-16 22:56:32,959 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:56:32,959 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-5] Метод Трапеций
+2024-03-16 22:56:32,959 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 0.01; ans: 10.715222867503206; abs: 0.007537977086607602; count: 8
+2024-03-16 22:56:32,959 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-16 22:56:37,266 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:56:37,266 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-6] Метод средних
+2024-03-16 22:56:37,266 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.01; ans: 0.15859546209904216; abs: 0.004492956246566464; count: 64
+2024-03-16 22:56:37,266 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-16 22:56:40,689 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 50.0; Точность: 0.01; 
+2024-03-16 22:56:40,689 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-7] Метод Симпсона
+2024-03-16 22:56:40,689 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.01; ans: 0.1548063873344536; abs: 4.958520535948196E-4; count: 64
+2024-03-16 22:56:40,689 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-16 22:57:06,608 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:06,608 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-8] Метод Симпсона
+2024-03-16 22:57:06,608 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.01; ans: 0.1392023819031094; abs: 0.009280158793540627; count: 16
+2024-03-16 22:57:06,608 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-16 22:57:24,534 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 24927 (/home/alwx/Рабочий стол/cm_math/lab3/cm3/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab3/cm3)
+2024-03-16 22:57:24,535 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-16 22:57:24,805 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-16 22:57:24,808 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-16 22:57:24,809 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-16 22:57:24,809 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-16 22:57:24,836 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-16 22:57:24,837 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 287 ms
+2024-03-16 22:57:24,941 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-16 22:57:24,946 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-16 22:57:24,949 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.581 seconds (process running for 0.757)
+2024-03-16 22:57:28,877 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-16 22:57:28,877 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-16 22:57:28,877 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-03-16 22:57:28,915 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:28,916 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Метод Симпсона
+2024-03-16 22:57:28,916 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 0.1394489053459007; abs: 3.348447927415658E-4; count: 8
+2024-03-16 22:57:28,916 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:57:32,217 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:32,218 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-16 22:57:32,218 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: 0.13260045090549982; abs: 0.006848454440400997; count: 8
+2024-03-16 22:57:32,218 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-16 22:57:35,005 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:35,005 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-3] Метод Симпсона
+2024-03-16 22:57:35,005 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 0.01; ans: 0.1394489053459007; abs: 3.348447927415658E-4; count: 8
+2024-03-16 22:57:35,006 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-16 22:57:37,426 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:37,426 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-4] Метод средних
+2024-03-16 22:57:37,426 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.01; ans: 0.14250334740191412; abs: 0.003547488941596233; count: 8
+2024-03-16 22:57:37,426 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-16 22:57:39,686 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 2.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:39,686 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-5] Метод правых
+2024-03-16 22:57:39,686 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 0.01; ans: 0.1215492435280672; abs: 0.005947227746038226; count: 64
+2024-03-16 22:57:39,686 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-16 22:57:42,151 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 2.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:42,151 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-6] Метод левых
+2024-03-16 22:57:42,151 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.01; ans: 0.15662050073995645; abs: 0.005743191324591733; count: 64
+2024-03-16 22:57:42,151 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-16 22:57:45,553 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 2.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:45,553 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-7] Метод правых
+2024-03-16 22:57:45,553 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.01; ans: 0.1215492435280672; abs: 0.005947227746038226; count: 64
+2024-03-16 22:57:45,553 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-16 22:57:49,584 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:49,584 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-8] Метод средних
+2024-03-16 22:57:49,584 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.01; ans: 0.14250334740191412; abs: 0.003547488941596233; count: 8
+2024-03-16 22:57:49,584 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-16 22:57:51,973 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:51,973 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-9] Метод Трапеций
+2024-03-16 22:57:51,973 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 0.01; ans: 0.13260045090549982; abs: 0.006848454440400997; count: 8
+2024-03-16 22:57:51,973 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-16 22:57:55,452 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 0.01; 
+2024-03-16 22:57:55,452 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-10] Метод Симпсона
+2024-03-16 22:57:55,452 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-10] т: 0.01; ans: 0.1394489053459007; abs: 3.348447927415658E-4; count: 8
+2024-03-16 22:57:55,452 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Успешно
+2024-03-16 22:58:01,077 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-4; 
+2024-03-16 22:58:01,077 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Метод Симпсона
+2024-03-16 22:58:01,077 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 1.0E-4; ans: 0.1392023819031094; abs: 1.643489618608681E-5; count: 16
+2024-03-16 22:58:01,077 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:58:03,765 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-4; 
+2024-03-16 22:58:03,765 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-16 22:58:03,765 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 1.0E-4; ans: 0.13916134374645056; abs: 2.5490537479522235E-5; count: 128
+2024-03-16 22:58:03,765 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-16 22:58:06,717 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-4; 
+2024-03-16 22:58:06,717 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-3] Метод средних
+2024-03-16 22:58:06,717 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 1.0E-4; ans: 0.13923781535888965; abs: 5.1037135764301723E-5; count: 64
+2024-03-16 22:58:06,717 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-16 22:58:11,527 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 2.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-4; 
+2024-03-16 22:58:11,527 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-4] Метод правых
+2024-03-16 22:58:11,528 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 1.0E-4; ans: 0.13891281146415; abs: 9.135628753388174E-5; count: 4096
+2024-03-16 22:58:11,528 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-16 22:58:14,491 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-4; 
+2024-03-16 22:58:14,491 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-5] Метод средних
+2024-03-16 22:58:14,491 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 1.0E-4; ans: 0.13923781535888965; abs: 5.1037135764301723E-5; count: 64
+2024-03-16 22:58:14,491 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-16 22:58:19,456 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 2.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-4; 
+2024-03-16 22:58:19,456 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-6] Метод левых
+2024-03-16 22:58:19,457 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 1.0E-4; ans: 0.13946079985808538; abs: 9.13065104448015E-5; count: 4096
+2024-03-16 22:58:19,457 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-16 22:58:21,806 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 2.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-4; 
+2024-03-16 22:58:21,806 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-7] Метод правых
+2024-03-16 22:58:21,806 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 1.0E-4; ans: 0.13891281146415; abs: 9.135628753388174E-5; count: 4096
+2024-03-16 22:58:21,806 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-16 22:58:24,936 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-4; 
+2024-03-16 22:58:24,936 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-8] Метод средних
+2024-03-16 22:58:24,936 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 1.0E-4; ans: 0.13923781535888965; abs: 5.1037135764301723E-5; count: 64
+2024-03-16 22:58:24,936 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-16 22:58:30,732 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-4; 
+2024-03-16 22:58:30,732 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-9] Метод Трапеций
+2024-03-16 22:58:30,732 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 1.0E-4; ans: 0.13916134374645056; abs: 2.5490537479522235E-5; count: 128
+2024-03-16 22:58:30,732 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-16 22:58:32,892 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-4; 
+2024-03-16 22:58:32,892 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-10] Метод Симпсона
+2024-03-16 22:58:32,892 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-10] т: 1.0E-4; ans: 0.1392023819031094; abs: 1.643489618608681E-5; count: 16
+2024-03-16 22:58:32,892 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Успешно
+2024-03-16 22:58:51,128 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 2.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-5; 
+2024-03-16 22:58:51,128 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Метод Симпсона
+2024-03-16 22:58:51,128 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 1.0E-5; ans: 0.1391877902845553; abs: 9.727745702736712E-7; count: 32
+2024-03-16 22:58:51,128 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-16 22:58:53,995 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 2.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-5; 
+2024-03-16 22:58:53,995 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-16 22:58:53,995 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 1.0E-5; ans: 0.1391804590238745; abs: 6.371759141310385E-6; count: 256
+2024-03-16 22:58:53,995 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-16 22:58:56,053 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 2.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-5; 
+2024-03-16 22:58:56,053 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-3] Метод средних
+2024-03-16 22:58:56,053 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 1.0E-5; ans: 0.1391900163344455; abs: 3.1859889516039352E-6; count: 256
+2024-03-16 22:58:56,053 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-16 22:58:58,266 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 2.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-5; 
+2024-03-16 22:58:58,267 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-4] Метод правых
+2024-03-16 22:58:58,271 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 1.0E-5; ans: 0.139169705815137; abs: 5.708309655322319E-6; count: 65536
+2024-03-16 22:58:58,271 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-16 22:59:00,595 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 2.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 5.0; Точность: 1.0E-5; 
+2024-03-16 22:59:00,595 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-5] Метод левых
+2024-03-16 22:59:00,599 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 1.0E-5; ans: 0.13920395508975797; abs: 5.708115218244769E-6; count: 65536
+2024-03-16 22:59:00,599 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
