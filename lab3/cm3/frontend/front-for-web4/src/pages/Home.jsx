@@ -47,8 +47,8 @@ function Home() {
     const myArray = ["\\int_a^b 3x^3-2x^2+7x+26\\ dx",
         "\\int_a^b 3x^{5}+x^{2}+0.1\\ dx",
         "\\int_a^b \\sin(x)+\\cos(x)\\ dx",
-        "cos(x) + 0.1",
-        "tg(x) + 0.67"];
+        "\\int_a^b (1-x^2)^{-\\frac{1}{2}}\\ dx",
+        "\\int_a^b \\frac{1}{x}\\ dx"];
     const myArrayWithKeys = myArray.map((funct, index) => ({ funct, index }));
 
     useEffect(() => {

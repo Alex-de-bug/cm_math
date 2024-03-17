@@ -1,13 +1,9 @@
 package com.example.web4.validators;
 
 public enum CalculateError {
-    //    INCORRECT_USERNAME_OR_PASSWORD("Некорректное имя или пароль"),
-//    INVALID_PASSWORD("Пароль не менее 1 символа и включает только буквы и цифры"),
-//    INVALID_LOGIN("Логин не менее 1 символа и включает только буквы и цифры"),
-//    INVALID_EMAIL("Почта введена неверно"),
-//    USER_ALREADY_EXIST("Пользователь уже существует, придумайте другое имя или измените почту"),
-//    SESSION_EXPIRED("Действие токена истекло");
     INCORRECT_BOUNDS_NULL_S("Некорректные границы, площадь - 0"),
+    INCORRECT_BOUNDS_INT_ERR("На границ(е/ах) есть точк(а/и), в которых первообразная функции не существует, расхождение"),
+    INCORRECT_BOUNDS_INT_ERR_IN_INTER("В итнервале есть точка разрыва, в которой не сущетсвует первообразная, расхождение"),
     INCORRECT_EPSILON("Некорректная погрешность");
 
     private final String errorMessage;

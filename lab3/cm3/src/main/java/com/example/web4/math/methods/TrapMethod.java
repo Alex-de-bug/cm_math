@@ -25,7 +25,7 @@ public class TrapMethod extends MathMethod {
             b = tmp;
         }
 
-        double aNew = a, step, sum = 0, r = e + 1, I = functions.getI(a, b, (int) number);
+        double aNew = a, step, sum = 0, r = e + 1;
         long n = 4;
         double y0 = functions.f(a, (int) number);
         double yn = functions.f(b, (int) number);

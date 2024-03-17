@@ -22,7 +22,7 @@ public class RetangleCentralMethod extends MathMethod {
             b = tmp;
         }
 
-        double step, sum, r = e + 1, I = functions.getI(a, b, (int) number);
+        double step, sum, r = e + 1;
         long n = 4;
         double currAns = 0, prevAns = 0;
 

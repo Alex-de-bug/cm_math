@@ -1,10 +1,13 @@
 package com.example.web4.math;
 
+import java.sql.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Functions {
     public double f(double x, int number) {
         switch (number) {
             case (0) -> {
-//                3x^3-2x^2+7x+26
                 return 3 * Math.pow(x, 3) - 2 * Math.pow(x, 2) + 7 * x + 26;
             }
             case (1) -> {
@@ -14,7 +17,10 @@ public class Functions {
                 return Math.sin(x) + Math.cos(x);
             }
             case (3) -> {
-                return 1 / x;
+                return 1/(Math.sqrt(1-Math.pow(x, 2)));
+            }
+            case (4) -> {
+                return 1/x;
             }
             default -> {
                 System.out.println("Введите число в диапазоне 1-4");
@@ -24,7 +30,21 @@ public class Functions {
 
     }
 
-    private double f_dx(double x, int number) {
+    public ArrayList<Double> getErrPoints( int number) {
+        switch (number) {
+            case 3 -> {
+                return new ArrayList<>(Arrays.asList(-1.0, 1.0));
+            }
+            case 4 -> {
+                return new ArrayList<>(Arrays.asList(0.0));
+            }
+            default -> {
+                return new ArrayList<>();
+            }
+        }
+    }
+
+    public double f_dx(double x, int number) {
         switch (number) {
             case (0) -> {
                 return 3 * Math.pow(x, 4) / 4 - 2 * Math.pow(x, 3) / 3 + 7 * Math.pow(x, 2) / 2 + 26 * x;
@@ -36,16 +56,15 @@ public class Functions {
                 return Math.sin(x) - Math.cos(x);
             }
             case (3) -> {
-                return Math.log(x);
+                return Math.asin(x);
+            }
+            case (4) -> {
+                return Math.log(Math.abs(x));
             }
             default -> {
                 System.out.println("Введите число в диапазоне 1-4");
                 return f_dx(x, number);
             }
         }
-    }
-
-    public double getI(double a, double b, int number) {
-        return f_dx(b, number) - f_dx(a, number);
     }
 }

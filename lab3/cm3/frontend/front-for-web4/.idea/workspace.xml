@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.Home.jsx.executor": "Run",
     "Node.js.HomeSlice.jsx.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -92,7 +93,7 @@
       <workItem from="1710422154436" duration="41000" />
       <workItem from="1710422212289" duration="2822000" />
       <workItem from="1710528378755" duration="10565000" />
-      <workItem from="1710584798296" duration="5391000" />
+      <workItem from="1710584798296" duration="8087000" />
     </task>
     <task id="LOCAL-00001" summary="first front">
       <created>1701183907484</created>
