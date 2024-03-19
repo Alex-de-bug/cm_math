@@ -20,7 +20,7 @@ public class AnswerInfo {
     public AnswerInfo(double e, double answer, double i, double r, long n) {
         this.e = e;
         this.answer = answer;
-        I = i;
+        this.I = i;
         this.r = r;
         this.n = n;
     }
@@ -38,7 +38,8 @@ public class AnswerInfo {
         String eStr = formatScientificNotation(e.toString());
         String answerStr = formatScientificNotation(answer.toString());
         String IStr = formatScientificNotation(Double.toString(I));
-        String rStr = formatScientificNotation(Double.toString(Math.abs(I-answer)/3.0));
+//        String rStr = formatScientificNotation(Double.toString(Math.abs(I-answer)/3.0));
+        String rStr = formatScientificNotation(Double.toString(r));
         String relativeErrorStr = formatScientificNotation(Double.toString(Math.abs(100 * r / ((I + answer) / 2))));
         String nStr = formatScientificNotation(Long.toString(n));
         String ans = "Достигнута\\ точность\\ = \\ " + eStr +

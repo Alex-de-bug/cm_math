@@ -30,7 +30,7 @@ public class SimpsonMethod extends MathMethod {
         double yn = functions.f(b, (int) number);
         double currAns = 0, prevAns = 0;
 
-        while (r > e) {
+        while (r >= e) {
             step = (b - a) / n;
             sum = 0;
             aNew = a + step;

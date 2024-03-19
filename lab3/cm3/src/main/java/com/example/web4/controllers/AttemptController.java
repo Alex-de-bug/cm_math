@@ -1,6 +1,8 @@
 package com.example.web4.controllers;
 
 import com.example.web4.dto.RequestFuncUser;
+import com.example.web4.math.AnswerInfo;
+import com.example.web4.math.Functions;
 import com.example.web4.math.methods.*;
 import com.example.web4.validators.CalculateError;
 import com.example.web4.validators.DataValidation;
@@ -11,6 +13,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
 
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
@@ -41,28 +45,100 @@ public class AttemptController {
         }
         MathMethod mathMethod;
         String tmp = "";
+        Functions test2 = new Functions();
+        ArrayList<Double> critInterval = test2.getErrInterval((int) pointRequest.getTypeFunc());
+
+        if(critInterval.isEmpty()){
+            mathMethod = getMethod((int) pointRequest.getMethod(), pointRequest);
+            mathMethod.calculate();
+            tmp = mathMethod.getAnswer().outAnswer();
+        }else {
+            double a = pointRequest.getA();
+            double b = pointRequest.getB();
+            double crit1 = critInterval.get(0);
+            double crit2 = critInterval.get(1);
+            if (a < crit1 && b > crit2) {
+                // Случай 1: [a, b] охватывает [crit1, crit2]
+                RequestFuncUser interval1 = pointRequest.clone();
+                interval1.setB(crit1);
+                logger.info(interval1.toString());
+
+                RequestFuncUser interval2 = pointRequest.clone();
+                interval2.setA(crit2);
+                logger.info(interval2.toString());
+
+                MathMethod mathMethod1 = getMethod((int) interval1.getMethod(), interval1);
+                MathMethod mathMethod2 = getMethod((int) interval2.getMethod(), interval2);
 
 
-        switch ((int) pointRequest.getMethod()) {
-            case (1) -> mathMethod = new RetangleLeftMethod(pointRequest);
-            case (2) -> mathMethod = new RetangleRightMethod(pointRequest);
-            case (3) -> mathMethod = new RetangleCentralMethod(pointRequest);
-            case (4) -> mathMethod = new TrapMethod(pointRequest);
-            case (5) -> mathMethod = new SimpsonMethod(pointRequest);
-            default -> mathMethod = new RetangleCentralMethod(pointRequest);
+                mathMethod1.calculate();
+                mathMethod2.calculate();
+                logger.info(mathMethod1.answerInfo.toString());
+                logger.info(mathMethod2.answerInfo.toString());
+
+                double e = mathMethod1.answerInfo.e;
+                double ans = mathMethod1.answerInfo.answer + mathMethod2.answerInfo.answer;
+                double r = (mathMethod1.answerInfo.r + mathMethod2.answerInfo.r)/2;
+                long n = mathMethod1.answerInfo.n + mathMethod2.answerInfo.n;
+                AnswerInfo answerInfo = new AnswerInfo(e, ans, ans, r, n);
+                if(Math.abs(interval1.getA()) == Math.abs(interval2.getB())){
+                    answerInfo = new AnswerInfo(0, 0, 0, 0, 0);
+                }
+                tmp = answerInfo.outAnswer();
+            } else if (a >= crit1 && b <= crit2) {
+                // Случай 2: [a, b] полностью внутри [crit1, crit2]
+                AnswerInfo answerInfo = new AnswerInfo(0, 0, 0, 0, 0);
+                tmp = answerInfo.outAnswer();
+            } else if (a >= crit1 && a <= crit2 && b > crit2) {
+                // Случай 3: левая граница внутри, правая снаружи
+                RequestFuncUser interval1 = pointRequest.clone();
+                interval1.setA(crit2);
+                MathMethod mathMethod1 = getMethod((int) interval1.getMethod(), interval1);
+                mathMethod1.calculate();
+                logger.info(mathMethod1.answerInfo.toString());
+                tmp = mathMethod1.answerInfo.outAnswer();
+            } else if (a < crit1 && b <= crit2 && b >= crit1) {
+                // Случай 4: правая граница внутри, левая снаружи
+                RequestFuncUser interval1 = pointRequest.clone();
+                interval1.setB(crit1);
+                MathMethod mathMethod1 = getMethod((int) interval1.getMethod(), interval1);
+                mathMethod1.calculate();
+                logger.info(mathMethod1.answerInfo.toString());
+                tmp = mathMethod1.answerInfo.outAnswer();
+            } else if ((b < crit1)||(a > crit2)) {
+                // Случай 5: [a, b] полностью слева от [crit1, crit2]
+                // Случай 6: [a, b] полностью справа от [crit1, crit2]
+                mathMethod = getMethod((int) pointRequest.getMethod(), pointRequest);
+                mathMethod.calculate();
+                tmp = mathMethod.getAnswer().outAnswer();
+            } else {
+                AnswerInfo answerInfo = new AnswerInfo(0, 0, 0, 0, 0);
+                tmp = answerInfo.outAnswer();
+            }
         }
-        mathMethod.calculate();
-        tmp = mathMethod.getAnswer();
         logger.info("Успешно");
-
-
         return new ResponseEntity<>(tmp, HttpStatus.OK);
-
-
-//        return new ResponseEntity<>("Ошибочно введены данные", HttpStatus.BAD_REQUEST);
-//        String result = pointRequest.calculate();
-//        String replacedString = result.replace("E", "*10^");
-//        return new ResponseEntity<>(replacedString, HttpStatus.CREATED);
-
+    }
+    private MathMethod getMethod(int x, RequestFuncUser pointRequest){
+        switch (x) {
+            case (1) -> {
+                return new RetangleLeftMethod(pointRequest);
+            }
+            case (2) -> {
+                return new RetangleRightMethod(pointRequest);
+            }
+            case (3) -> {
+                return new RetangleCentralMethod(pointRequest);
+            }
+            case (4) -> {
+                return new TrapMethod(pointRequest);
+            }
+            case (5) ->  {
+                return new SimpsonMethod(pointRequest);
+            }
+            default -> {
+                return new RetangleCentralMethod(pointRequest);
+            }
+        }
     }
 }

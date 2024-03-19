@@ -7,7 +7,7 @@ import lombok.*;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class RequestFuncUser {
+public class RequestFuncUser implements Cloneable{
     private double typeFunc; //тип функции
     private double a; //пределы интегрирования
     private double b;
@@ -18,4 +18,12 @@ public class RequestFuncUser {
     // 3 - Метод прямоугольников средние
     // 4 - Метод трапеций
     // 5 - Метод Симпсона
+    @Override
+    public RequestFuncUser clone() {
+        try {
+            return (RequestFuncUser) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError(); // Не должно произойти
+        }
+    }
 }

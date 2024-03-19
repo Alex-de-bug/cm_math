@@ -21,8 +21,8 @@ public abstract class MathMethod {
 
     public abstract void calculate();
 
-    public String getAnswer() {
-        return answerInfo.outAnswer();
+    public AnswerInfo getAnswer() {
+        return answerInfo;
     }
 
     ;

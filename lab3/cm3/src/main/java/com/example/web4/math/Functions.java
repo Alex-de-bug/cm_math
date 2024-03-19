@@ -44,6 +44,17 @@ public class Functions {
         }
     }
 
+    public ArrayList<Double> getErrInterval( int number) {
+        switch (number) {
+            case 4 -> {
+                return new ArrayList<>(Arrays.asList(-1.0001, 1.0001));
+            }
+            default -> {
+                return new ArrayList<>();
+            }
+        }
+    }
+
     public double f_dx(double x, int number) {
         switch (number) {
             case (0) -> {

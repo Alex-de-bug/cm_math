@@ -26,9 +26,15 @@ public class DataValidation {
 
     private CalculateError isValidInterval(RequestFuncUser requestFuncUser) {
         ArrayList<Double> kritPoints = new Functions().getErrPoints((int) requestFuncUser.getTypeFunc());
+        if(requestFuncUser.getA()>requestFuncUser.getB()){
+            double tmp = requestFuncUser.getA();
+            requestFuncUser.setA(requestFuncUser.getB());
+            requestFuncUser.setB(tmp);
+        }
         Double a = requestFuncUser.getA();
         Double b = requestFuncUser.getB();
         Functions functions = new Functions();
+
         if(a.equals(b)) {
             return CalculateError.INCORRECT_BOUNDS_NULL_S;
         }
@@ -48,7 +54,8 @@ public class DataValidation {
             }
             if(point>a && point<b && (Double.isNaN(functions.f_dx(point, (int) requestFuncUser.getTypeFunc()))
                     || Double.isInfinite(functions.f_dx(point, (int) requestFuncUser.getTypeFunc())) )){
-                return CalculateError.INCORRECT_BOUNDS_INT_ERR_IN_INTER;
+                logger.warn("Интеграл является странным, но будем устранять разрыв, который не является устранимым.");
+//                return CalculateError.INCORRECT_BOUNDS_INT_ERR_IN_INTER;
             }
         }
 
