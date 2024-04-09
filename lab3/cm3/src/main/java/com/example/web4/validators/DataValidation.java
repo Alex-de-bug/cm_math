@@ -58,9 +58,6 @@ public class DataValidation {
 //                return CalculateError.INCORRECT_BOUNDS_INT_ERR_IN_INTER;
             }
         }
-
-
-
         logger.info("f_dx(a): "+functions.f_dx(a, (int) requestFuncUser.getTypeFunc())+"; f_dx(b): "+functions.f_dx(b, (int) requestFuncUser.getTypeFunc()));
         return null;
     }
