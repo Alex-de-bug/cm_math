@@ -1,0 +1,21 @@
+2024-03-20 00:14:31,143 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 36664 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-20 00:14:31,145 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-20 00:14:31,514 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-20 00:14:31,524 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-20 00:14:31,526 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-20 00:14:31,526 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-20 00:14:31,565 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-20 00:14:31,566 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 402 ms
+2024-03-20 00:14:31,692 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-20 00:14:31,700 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-20 00:14:31,704 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.783 seconds (process running for 1.482)
+2024-03-20 00:15:24,759 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-20 00:15:24,761 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-20 00:15:24,765 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2024-03-20 00:15:24,842 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 3.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 1.0E-7; 
+2024-03-20 00:15:24,843 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: false; point<b: true
+2024-03-20 00:15:24,843 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: true; point<b: false
+2024-03-20 00:15:24,843 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-20 00:15:24,843 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-2] Метод Симпсона
+2024-03-20 00:15:32,545 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 1.0E-7; ans: 3.140696573898374; abs: 7.925997218549696E-8; count: 67108864
+2024-03-20 00:15:32,546 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно

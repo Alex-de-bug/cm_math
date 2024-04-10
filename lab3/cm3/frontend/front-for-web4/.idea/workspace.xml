@@ -15,6 +15,7 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -97,6 +98,7 @@
       <workItem from="1710672052644" duration="811000" />
       <workItem from="1710714836161" duration="428000" />
       <workItem from="1710851254911" duration="3409000" />
+      <workItem from="1712649999712" duration="13440000" />
     </task>
     <task id="LOCAL-00001" summary="first front">
       <created>1701183907484</created>

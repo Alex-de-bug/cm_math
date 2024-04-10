@@ -3,17 +3,28 @@ import axios from "axios";
 
 export const sendTry = createAsyncThunk(
     "home/sendTry",
-    async ({ typeFunc, method, a, b, eps }, thunkAPI) => {
+    async ({ sliderValue, points, saveToFile }, thunkAPI) => {
         await new Promise(resolve => setTimeout(resolve, 100));
         try {
             let link = "http://localhost:8080/api/integration/calculate";
             const params = {
-                typeFunc: typeFunc,
-                a: a,
-                b: b,
-                eps: eps,
-                method: method
+                sliderValue: sliderValue,
+                points: points,
+                saveToFile: saveToFile,
             };
+
+            const allFieldsFilled = points.every(point => {
+                const x = parseFloat(point.x);
+                const y = parseFloat(point.y);
+                return !isNaN(x) && !isNaN(y);
+            });
+
+            if (!allFieldsFilled) {
+                return thunkAPI.rejectWithValue("All fields must be filled with valid numbers");
+            }
+
+            console.log("send: ", params);
+
             const response = await axios.post(link, params, {
                 headers: { "Content-Type": "application/json" }
             });
@@ -39,7 +50,13 @@ export const HomeSlice = createSlice({
         isSuccess: false,
         isError: false,
         errorMessage: "",
-        array: ""
+        message1: "",
+        message2: "",
+        message3: "",
+        message4: "",
+        message5: "",
+        message6: "",
+        array: []
     },
     reducers: {
         clearState: (state) => {
@@ -60,11 +77,18 @@ export const HomeSlice = createSlice({
     extraReducers: (builder) => {
         builder
             .addCase(sendTry.fulfilled, (state, { payload }) => {
-                console.log("fulfilled with data: "+payload);
+                console.log("fulfilled with data: ", payload);
+                const [dataArray, message1, message2, message3, message4, message5, message6] = payload;
                 state.isFetching = false;
                 state.isSuccess = true;
                 state.errorMessage = "";
-                state.array = payload;
+                state.array = dataArray;
+                state.message1 = message1;
+                state.message2 = message2;
+                state.message3 = message3;
+                state.message4 = message4;
+                state.message5 = message5;
+                state.message6 = message6;
                 return state;
             })
             .addCase(sendTry.rejected, (state, { payload }) => {
@@ -80,6 +104,12 @@ export const HomeSlice = createSlice({
                 const formattedTime = `${hours}:${minutes}:${seconds}`;
                 state.errorMessage = payload + "; Время запроса: " + formattedTime;
                 state.array = "";
+                state.message1 = "";
+                state.message2 = "";
+                state.message3 = "";
+                state.message4 = "";
+                state.message5 = "";
+                state.message6 = "";
             })
             .addCase(sendTry.pending, (state) => {
                 console.log("pending");

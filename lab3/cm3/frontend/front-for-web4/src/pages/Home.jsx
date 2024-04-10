@@ -1,193 +1,225 @@
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { homeSelector, sendTry } from "../store/slices/HomeSlice.jsx";
-import {useEffect, useState} from "react";
+import { homeSelector, sendTry } from "../store/slices/HomeSlice";
 import 'katex/dist/katex.min.css';
 import {
-    Snackbar,
-    Alert,
-    Grid,
-    InputLabel,
-    Select,
-    MenuItem,
-    OutlinedInput,
+    Snackbar, Alert, Grid, Typography, Slider, TextField, Box, Button, Container, Paper
 } from '@mui/material';
-import {
-    Button,
-    Container,
-    FormControl,
-    FormLabel,
-    Paper
-} from "@mui/material";
 import { BlockMath } from 'react-katex';
 import "../styles/Home.css";
 
-const ITEM_HEIGHT = 48;
-const ITEM_PADDING_TOP = 8;
-const MenuProps = {
-    PaperProps: {
-        style: {
-            maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-            width: 250,
-        },
-    },
-};
-
 function Home() {
     const dispatch = useDispatch();
-    const { isFetching, isError, errorMessage, array } = useSelector(homeSelector);
+    const { isFetching, isError, errorMessage, message1, message2,message3,message4,message5,message6,} = useSelector(homeSelector);
     const [formData, setFormData] = useState({
-        typeFunc: 0,
-        a: 0,
-        b: 0,
-        eps: 0.01,
-        method: 1
+        sliderValue: 8,
+        points: Array.from({ length: 8 }, () => ({ x: '', y: '' })),
+        saveToFile: 0,
     });
     const [openError, setOpenError] = useState(false);
-    const [err, setErr] = useState('');
-    const myArray = ["\\int_a^b 3x^3-2x^2+7x+26\\ dx",
-        "\\int_a^b 3x^{5}+x^{2}+0.1\\ dx",
-        "\\int_a^b \\sin(x)+\\cos(x)\\ dx",
-        "\\int_a^b (1-x^2)^{-\\frac{1}{2}}\\ dx",
-        "\\int_a^b \\frac{1}{x}\\ dx"];
-    const myArrayWithKeys = myArray.map((funct, index) => ({ funct, index }));
 
     useEffect(() => {
-        if(errorMessage!== ""&&isError){
+        if (isError && errorMessage !== "") {
             setOpenError(true);
-            setErr(errorMessage);
         }
-        homeSelector.isError =false;
     }, [errorMessage, isError]);
+
+    const handleCloseSnackbar = () => {
+        setOpenError(false);
+    };
+
     const handleFormSubmit = async (e) => {
         e.preventDefault();
-        try {
-            await onSubmit(formData);
-        } catch (error) {
-            console.log('Error submitting form: ' + error.message);
-        }
-    };
-    const onSubmit = (data) => {
-        console.log(data);
-        dispatch(sendTry(data));
+        dispatch(sendTry(formData));
     };
 
+    const handleSliderChange = (event, newValue) => {
+        setFormData(prevFormData => ({
+            ...prevFormData,
+            sliderValue: newValue,
+            points: Array.from({ length: newValue }, (_, index) => prevFormData.points[index] || { x: '', y: '' }),
+        }));
+    };
 
-    const handleSelectChangeFunc = (event) => {
-        const { value } = event.target;
+    const handleFileChange = (event) => {
+        const file = event.target.files[0];
+        const reader = new FileReader();
+
+        reader.onload = (e) => {
+            const content = e.target.result;
+            const pointsFromFile = content.trim().split('\n').map(line => {
+                const [x, y] = line.split(',').map(Number);
+                return { x, y };
+            });
+            setFormData({
+                points: pointsFromFile,
+                sliderValue: pointsFromFile.length,
+                saveToFile: 0,
+            });
+        };
+
+        reader.readAsText(file);
+    };
+
+    const handleSaveToFileChange = (event, newValue) => {
         setFormData(prevFormData => ({
             ...prevFormData,
-            typeFunc: Number(value),
+            saveToFile: newValue,
         }));
     };
-    const handleChangeType = (event) => {
-        const { value } = event.target;
+
+    const updatePoint = (index, coord, value) => {
         setFormData(prevFormData => ({
             ...prevFormData,
-            method: Number(value),
+            points: prevFormData.points.map((point, i) => i === index ? { ...point, [coord]: value } : point),
         }));
-    };
-    const handleInputChange = (event, propertyName) => {
-        const value = parseFloat(event.target.value);
-        setFormData({
-            ...formData,
-            [propertyName]: value
-        });
     };
 
     return (
         <div>
-            <Container maxWidth="sm" sx={{mt: 4}}>
-                <Paper sx={{p: 4}}>
-                    <FormControl>
-                        <InputLabel id="demo-multiple-name-label">Function</InputLabel>
-                        <Select
-                            labelId="demo-multiple-name-label"
-                            id="demo-multiple-name"
-                            value={formData.typeFunc}
-                            onChange={handleSelectChangeFunc}
-                            input={<OutlinedInput label="Name"/>}
-                            MenuProps={MenuProps}
-                        >
-                            {myArrayWithKeys.map((item) => (
-                                <MenuItem
-                                    key={item.funct}
-                                    value={item.index}
-                                >
-                                    <BlockMath math={item.funct}/>
-                                </MenuItem>
-                            ))}
-                        </Select>
-                    </FormControl>
-                    <br/><br/>
-                    <FormControl>
-                        <InputLabel id="demo-simple-select-label">Method</InputLabel>
-                        <Select
-                            labelId="demo-simple-select-label"
-                            id="demo-simple-select"
-                            value={formData.method}
-                            label="Method"
-                            onChange={handleChangeType}
-                        >
-                            <MenuItem value={1}>Метод прямоугольников левые</MenuItem>
-                            <MenuItem value={2}>Метод прямоугольников правые</MenuItem>
-                            <MenuItem value={3}>Метод прямоугольников средние</MenuItem>
-                            <MenuItem value={4}>Метод трапеций</MenuItem>
-                            <MenuItem value={5}>Метод Симпсона</MenuItem>
-                        </Select>
-                    </FormControl>
-
-                    <FormLabel component="legend">Выберите начальное приближение</FormLabel>
-                    <div>
-                        <label>a: </label>
-                        <input type="number" value={formData.a} onChange={(e) => handleInputChange(e, 'a')}
-                               step="0.01"/>
-                    </div>
-                    <div>
-                        <label>b: </label>
-                        <input type="number" value={formData.b} onChange={(e) => handleInputChange(e, 'b')}
-                               step="0.01"/>
-                    </div>
-                    <FormLabel component="legend">Выберите погрешность</FormLabel>
-                    <div>
-                        <label>eps: </label>
-                        <input type="number" value={formData.eps} onChange={(e) => handleInputChange(e, 'eps')}
-                               step="0.01"/>
-                    </div>
-                    <br/>
-
-                    <form onSubmit={handleFormSubmit}>
-                        <Grid item xs={6}>
-                            <Button variant="contained" type="submit" disabled={isFetching}>
-                                {isFetching ? 'Sending...' : 'Send'}
+            <Container maxWidth="sm" sx={{ mt: 4 }}>
+                <Paper sx={{ p: 4 }}>
+                    <Box sx={{ width: 300, margin: 'auto', textAlign: 'center' }}>
+                        <Typography id="input-slider" gutterBottom>
+                            Number of Points
+                        </Typography>
+                        <Slider
+                            aria-label="Points"
+                            valueLabelDisplay="auto"
+                            step={1}
+                            marks
+                            min={8}
+                            max={12}
+                            value={formData.sliderValue}
+                            onChange={handleSliderChange}
+                        />
+                        <input
+                            accept=".txt"
+                            id="contained-button-file"
+                            multiple
+                            type="file"
+                            style={{ display: 'none' }}
+                            onChange={handleFileChange}
+                        />
+                        <label htmlFor="contained-button-file">
+                            <Button variant="contained" component="span" sx={{ mt: 2 }}>
+                                Upload File
                             </Button>
-                        </Grid>
-                    </form>
+                        </label>
+                        <Grid container spacing={2} sx={{ mt: 2 }}>
+                            {formData.points.slice(0, formData.sliderValue).map((point, index) => (
+                                <React.Fragment key={index}>
+                                    <Grid item xs={6}>
+                                        <TextField
+                                            label="X"
+                                            type="text" // Меняем тип обратно на text
+                                            value={point.x}
+                                            onChange={(e) => {
+                                                const value = e.target.value;
+                                                const number = parseFloat(value);
 
+                                                // Проверяем, является ли преобразованное значение числом и соответствует ли исходное значение формату числа
+                                                if (!isNaN(number) && value.match(/^-?\d*\.?\d*$/)) {
+                                                    updatePoint(index, 'x', number);
+                                                }
+                                            }}
+                                            variant="outlined"
+                                            fullWidth
+                                        />
+                                    </Grid>
+                                    <Grid item xs={6}>
+                                        <TextField
+                                            label="Y"
+                                            type="text" // Аналогично для Y
+                                            value={point.y}
+                                            onChange={(e) => {
+                                                const value = e.target.value;
+                                                const number = parseFloat(value);
+
+                                                if (!isNaN(number) && value.match(/^-?\d*\.?\d*$/)) {
+                                                    updatePoint(index, 'y', number);
+                                                }
+                                            }}
+                                            variant="outlined"
+                                            fullWidth
+
+                                        />
+                                    </Grid>
+                                </React.Fragment>
+                            ))}
+                        </Grid>
+                        <Typography sx={{ mt: 4 }} gutterBottom>
+                            Save to File?
+                        </Typography>
+                        <Slider
+                            aria-label="SaveToFile"
+                            valueLabelDisplay="auto"
+                            step={1}
+                            marks={[{value: 0, label: 'No'}, {value: 1, label: 'Yes'}]}
+                            min={0}
+                            max={1}
+                            value={formData.saveToFile}
+                            onChange={handleSaveToFileChange}
+                        />
+                    </Box>
+                    <br/>
+                    <form onSubmit={handleFormSubmit}>
+                        <Button variant="contained" type="submit" disabled={isFetching}>
+                            {isFetching ? 'Sending...' : 'Send'}
+                        </Button>
+                    </form>
                 </Paper>
             </Container>
             <br/>
-            {array && array.length > 0 && (
-                <Container sx={{mt: 3}}>
-                    <Paper sx={{p: 3}}>
-
-                            <div>
-                                Ответ:
-                            </div>
-                        <BlockMath math={array}/>
-
+            {message1 && message1.length > 0 && (
+                <Container sx={{ mt: 3 }}>
+                    <Paper sx={{ p: 3 }}>
+                        <BlockMath math={message1}/>
                     </Paper>
                 </Container>
             )}
-            <Snackbar open={openError} autoHideDuration={3000} onClose={() => setOpenError(false)}>
-                <Alert severity="error" onClose={() => setOpenError(false)}>
-                    {err}
+            {message2 && message2.length > 0 && (
+                <Container sx={{ mt: 3 }}>
+                    <Paper sx={{ p: 3 }}>
+                        <BlockMath math={message2}/>
+                    </Paper>
+                </Container>
+            )}
+            {message3 && message3.length > 0 && (
+                <Container sx={{ mt: 3 }}>
+                    <Paper sx={{ p: 3 }}>
+                        <BlockMath math={message3}/>
+                    </Paper>
+                </Container>
+            )}
+            {message4 && message4.length > 0 && (
+                <Container sx={{ mt: 3 }}>
+                    <Paper sx={{ p: 3 }}>
+                        <BlockMath math={message4}/>
+                    </Paper>
+                </Container>
+            )}
+            {message5 && message5.length > 0 && (
+                <Container sx={{ mt: 3 }}>
+                    <Paper sx={{ p: 3 }}>
+                        <BlockMath math={message5}/>
+                    </Paper>
+                </Container>
+            )}
+            {message6 && message6.length > 0 && (
+                <Container sx={{ mt: 3 }}>
+                    <Paper sx={{ p: 3 }}>
+                        <BlockMath math={message6}/>
+                    </Paper>
+                </Container>
+            )}
+            <Snackbar open={openError} autoHideDuration={3000} onClose={handleCloseSnackbar}>
+                <Alert severity="error" onClose={handleCloseSnackbar}>
+                    {errorMessage}
                 </Alert>
             </Snackbar>
         </div>
     );
-
 }
 
 export default Home;
-
-

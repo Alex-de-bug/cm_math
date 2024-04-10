@@ -105,11 +105,10 @@
   </component>
   <component name="RunManager">
     <configuration name="Web4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="ACTIVE_PROFILES" />
       <envs>
         <env name="PASS" value="0426186" />
       </envs>
-      <module name="cm3" />
+      <module name="web4" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.web4.Web4Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,6 +160,8 @@
       <workItem from="1710714794207" duration="462000" />
       <workItem from="1710849671842" duration="9962000" />
       <workItem from="1710882144427" duration="1073000" />
+      <workItem from="1712649994772" duration="828000" />
+      <workItem from="1712657035679" duration="17936000" />
     </task>
     <task id="LOCAL-00001" summary="new functional auth">
       <created>1700822021496</created>
@@ -190,6 +191,26 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -207,26 +228,6 @@
                 </map>
               </option>
             </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="master" />
-                </option>
-              </RecentGroup>
-            </list>
           </value>
         </entry>
       </map>
