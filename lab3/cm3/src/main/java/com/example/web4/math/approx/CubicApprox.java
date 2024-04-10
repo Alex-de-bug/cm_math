@@ -2,11 +2,13 @@ package com.example.web4.math.approx;
 
 import com.example.web4.dto.PointDto;
 import com.example.web4.dto.RequestFuncUser;
+import lombok.Getter;
 import org.apache.commons.math3.linear.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
+@Getter
 
 public class CubicApprox extends Method{
     private Double a;

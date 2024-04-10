@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
+import java.util.stream.Stream;
 
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
@@ -65,7 +67,33 @@ public class AttemptController {
         PowerApprox powerApprox = new PowerApprox(pointRequest);
         powerApprox.calculate();
 
-        List<Integer> dataArray = Arrays.asList(1, 2, 3, 4);
+        double[] sValues = new double[]{
+                linApprox.getS(),
+                quadApprox.getS(),
+                cubicApprox.getS(),
+                expApprox.getS(),
+                logApprox.getS(),
+                powerApprox.getS()
+        };
+
+        double minValue = sValues[0];
+        int minIndex = 0;
+
+        for (int i = 1; i < sValues.length; i++) {
+            if (sValues[i] < minValue) {
+                minValue = sValues[i];
+                minIndex = i;
+            }
+        }
+
+
+        List<? extends Number> dataArray = Arrays.asList(
+                linApprox.getA(), linApprox.getB(),
+                quadApprox.getA(), quadApprox.getB(), quadApprox.getC(),
+                cubicApprox.getA(), cubicApprox.getB(), cubicApprox.getC(), cubicApprox.getD(),
+                expApprox.getA(), expApprox.getB(),
+                logApprox.getA(), logApprox.getB(),
+                powerApprox.getA(), powerApprox.getB(), minIndex);
 
 
         List<Object> response = Arrays.asList(dataArray, linApprox.getAnswer(), quadApprox.getAnswer(), cubicApprox.getAnswer(),

@@ -56,7 +56,7 @@ export const HomeSlice = createSlice({
         message4: "",
         message5: "",
         message6: "",
-        array: []
+        array: [],
     },
     reducers: {
         clearState: (state) => {
@@ -103,7 +103,7 @@ export const HomeSlice = createSlice({
                 const seconds = pad(now.getSeconds());
                 const formattedTime = `${hours}:${minutes}:${seconds}`;
                 state.errorMessage = payload + "; Время запроса: " + formattedTime;
-                state.array = "";
+                state.array = [];
                 state.message1 = "";
                 state.message2 = "";
                 state.message3 = "";

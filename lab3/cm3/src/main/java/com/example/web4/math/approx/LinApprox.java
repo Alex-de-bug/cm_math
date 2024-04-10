@@ -5,9 +5,10 @@ import com.example.web4.dto.RequestFuncUser;
 
 import java.util.ArrayList;
 
+import lombok.Getter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+@Getter
 public class LinApprox extends Method {
     private Double a;
     private Double b;

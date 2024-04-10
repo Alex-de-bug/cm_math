@@ -7,6 +7,7 @@ import {
 } from '@mui/material';
 import { BlockMath } from 'react-katex';
 import "../styles/Home.css";
+import Graph from "../components/Graph.jsx";
 
 function Home() {
     const dispatch = useDispatch();
@@ -77,6 +78,7 @@ function Home() {
 
     return (
         <div>
+
             <Container maxWidth="sm" sx={{ mt: 4 }}>
                 <Paper sx={{ p: 4 }}>
                     <Box sx={{ width: 300, margin: 'auto', textAlign: 'center' }}>
@@ -175,6 +177,7 @@ function Home() {
                 <Container sx={{ mt: 3 }}>
                     <Paper sx={{ p: 3 }}>
                         <BlockMath math={message1}/>
+                        <Graph fu={"0"} points={formData.points}/>
                     </Paper>
                 </Container>
             )}
@@ -182,6 +185,7 @@ function Home() {
                 <Container sx={{ mt: 3 }}>
                     <Paper sx={{ p: 3 }}>
                         <BlockMath math={message2}/>
+                        <Graph fu={"1"} points={formData.points}/>
                     </Paper>
                 </Container>
             )}
@@ -189,6 +193,7 @@ function Home() {
                 <Container sx={{ mt: 3 }}>
                     <Paper sx={{ p: 3 }}>
                         <BlockMath math={message3}/>
+                        <Graph fu={"2"} points={formData.points}/>
                     </Paper>
                 </Container>
             )}
@@ -196,6 +201,7 @@ function Home() {
                 <Container sx={{ mt: 3 }}>
                     <Paper sx={{ p: 3 }}>
                         <BlockMath math={message4}/>
+                        <Graph fu={"3"} points={formData.points}/>
                     </Paper>
                 </Container>
             )}
@@ -203,6 +209,7 @@ function Home() {
                 <Container sx={{ mt: 3 }}>
                     <Paper sx={{ p: 3 }}>
                         <BlockMath math={message5}/>
+                        <Graph fu={"4"} points={formData.points}/>
                     </Paper>
                 </Container>
             )}
@@ -210,7 +217,9 @@ function Home() {
                 <Container sx={{ mt: 3 }}>
                     <Paper sx={{ p: 3 }}>
                         <BlockMath math={message6}/>
+                        <Graph fu={"5"} points={formData.points}/>
                     </Paper>
+
                 </Container>
             )}
             <Snackbar open={openError} autoHideDuration={3000} onClose={handleCloseSnackbar}>

@@ -2,10 +2,11 @@ package com.example.web4.math.approx;
 
 import com.example.web4.dto.PointDto;
 import com.example.web4.dto.RequestFuncUser;
+import lombok.Getter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
-
+@Getter
 public class PowerApprox extends Method {
     private Double a;
     private Double b;

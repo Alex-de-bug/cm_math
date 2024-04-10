@@ -2,6 +2,7 @@ package com.example.web4.math.approx;
 
 
 import com.example.web4.dto.RequestFuncUser;
+import lombok.Getter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,7 @@ public abstract class Method {
     private static final Logger logger = LoggerFactory.getLogger(LogApprox.class);
 
     protected RequestFuncUser requestFuncUser;
+    @Getter
     protected Double S = 0.0; // мера отклонения
 
     protected Double sko;
@@ -65,4 +67,5 @@ public abstract class Method {
     }
     protected abstract String getNameMethod();
     protected abstract String getStringFun();
+
 }
