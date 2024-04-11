@@ -1,0 +1,31 @@
+2024-04-12 01:19:53,224 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 3148 (/home/alwx/Рабочий стол/cm_math/lab4/cm3/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab4/cm3)
+2024-04-12 01:19:53,225 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-12 01:19:53,595 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-04-12 01:19:53,598 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-12 01:19:53,599 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-12 01:19:53,599 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-04-12 01:19:53,638 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-12 01:19:53,638 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 397 ms
+2024-04-12 01:19:53,770 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-12 01:19:53,775 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-04-12 01:19:53,779 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.763 seconds (process running for 1.012)
+2024-04-12 01:24:01,183 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-12 01:24:01,184 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-12 01:24:01,184 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-04-12 01:24:01,228 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] количество точек: 8
+2024-04-12 01:24:01,228 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] сохранение в файл: false
+2024-04-12 01:24:01,229 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] точка: (83.0, 183.0)
+2024-04-12 01:24:01,229 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] точка: (71.0, 168.0)
+2024-04-12 01:24:01,229 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] точка: (64.0, 171.0)
+2024-04-12 01:24:01,229 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] точка: (69.0, 178.0)
+2024-04-12 01:24:01,229 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] точка: (69.0, 176.0)
+2024-04-12 01:24:01,229 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] точка: (64.0, 172.0)
+2024-04-12 01:24:01,229 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] точка: (68.0, 165.0)
+2024-04-12 01:24:01,229 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] точка: (59.0, 158.0)
+2024-04-12 01:24:01,229 INFO c.e.w.m.a.LinApprox [http-nio-8080-exec-2] lin: a = 0.8476464247215235; b = 113.41717570966583
+2024-04-12 01:24:01,237 INFO c.e.w.m.a.QuadApprox [http-nio-8080-exec-2] quad: a = -0.020597303396624234; b = 3.7919358409396007; c = 9.292337615650831
+2024-04-12 01:24:01,240 INFO c.e.w.m.a.CubicApprox [http-nio-8080-exec-2] cubic: a = 0.011834310714476902; b = -2.523287929608302; c = 178.6737568513438; d = -4030.7288856509754
+2024-04-12 01:24:01,240 INFO c.e.w.m.a.ExpApprox [http-nio-8080-exec-2] exp: a = 122.15803171966486; b = 0.004937645027586328
+2024-04-12 01:24:01,241 INFO c.e.w.m.a.LogApprox [http-nio-8080-exec-2] log: a = 60.69353212387455; b = -84.78618563295754
+2024-04-12 01:24:01,241 INFO c.e.w.m.a.PowerApprox [http-nio-8080-exec-2] power: a = 38.401501429015354; b = 0.3541775497589336
+2024-04-12 01:24:01,242 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
