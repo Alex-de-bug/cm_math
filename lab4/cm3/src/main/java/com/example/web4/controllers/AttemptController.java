@@ -68,37 +68,51 @@ public class AttemptController {
         powerApprox.calculate();
 
         double[] sValues = new double[]{
-                linApprox.getS(),
-                quadApprox.getS(),
-                cubicApprox.getS(),
-                expApprox.getS(),
-                logApprox.getS(),
-                powerApprox.getS()
+                linApprox.getDeterm(),
+                quadApprox.getDeterm(),
+                cubicApprox.getDeterm(),
+                expApprox.getDeterm(),
+                logApprox.getDeterm(),
+                powerApprox.getDeterm()
         };
 
         double minValue = sValues[0];
-        int minIndex = 0;
 
         for (int i = 1; i < sValues.length; i++) {
-            if (sValues[i] < minValue) {
+            if (sValues[i] > minValue) {
                 minValue = sValues[i];
-                minIndex = i;
             }
         }
 
 
-        List<? extends Number> dataArray = Arrays.asList(
+        List<?> dataArray = Arrays.asList(
                 linApprox.getA(), linApprox.getB(),
                 quadApprox.getA(), quadApprox.getB(), quadApprox.getC(),
                 cubicApprox.getA(), cubicApprox.getB(), cubicApprox.getC(), cubicApprox.getD(),
                 expApprox.getA(), expApprox.getB(),
                 logApprox.getA(), logApprox.getB(),
-                powerApprox.getA(), powerApprox.getB(), minIndex);
+                powerApprox.getA(), powerApprox.getB(),
+                Arrays.asList(linApprox.getDeterm() == minValue,
+                        quadApprox.getDeterm() == minValue,
+                        cubicApprox.getDeterm() == minValue,
+                        expApprox.getDeterm() == minValue,
+                        logApprox.getDeterm() == minValue,
+                        powerApprox.getDeterm() == minValue
+                        )
+                );
 
 
-        List<Object> response = Arrays.asList(dataArray, linApprox.getAnswer(), quadApprox.getAnswer(), cubicApprox.getAnswer(),
-                expApprox.getAnswer(), logApprox.getAnswer(), powerApprox.getAnswer());
+        List<Object> response = Arrays.asList(dataArray,
+                linApprox.getAnswer().contains("NaN") ? "": linApprox.getAnswer(),
+                quadApprox.getAnswer().contains("NaN") ? "": quadApprox.getAnswer(),
+                cubicApprox.getAnswer().contains("NaN") ? "": cubicApprox.getAnswer(),
+                expApprox.getAnswer().contains("NaN") ? "": expApprox.getAnswer(),
+                logApprox.getAnswer().contains("NaN") ? "": logApprox.getAnswer(),
+                powerApprox.getAnswer().contains("NaN") ? "": powerApprox.getAnswer()
+        );
+
         logger.info("Успешно");
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }
+

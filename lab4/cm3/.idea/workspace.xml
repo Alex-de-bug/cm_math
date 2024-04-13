@@ -4,174 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ca071c-6bba-4269-8808-54cfc9ffc480" name="Changes" comment="1. First step to front auth;&#10;2. Smart front web with redux;&#10;3. For realisation redux, i use redux toolkit, bcs this tool makes the code easier;&#10;4. Delete all useless relation in bd;">
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/cm2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/cm3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98/storage_v2/_src_/database/web.VMsBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98/storage_v2/_src_/database/web.VMsBAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98/storage_v2/_src_/database/web.VMsBAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98/storage_v2/_src_/database/web.VMsBAA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/.idea/frontend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/.idea/front-for-web4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/dist/assets/index-IWswn_P3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/dist/assets/index-bSOJ9pON.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/src/Router.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/src/pages/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/src/store/slices/HomeSlice.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/src/store/store.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/src/styles/Home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/front-for-web4/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/frontend/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/logs/archived/spring-boot-logger-2024-03-16.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/logs/archived/spring-boot-logger-2024-03-17.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/logs/archived/spring-boot-logger-2024-03-18.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/logs/archived/spring-boot-logger-2024-03-19.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/logs/spring-boot-logger.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/Web4Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/controllers/AttemptController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/dto/RequestFuncUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/math/AnswerInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/math/Functions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/math/methods/MathMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/math/methods/RetangleCentralMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/math/methods/RetangleLeftMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/math/methods/RetangleRightMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/math/methods/SimpsonMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/math/methods/TrapMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/validators/CalculateError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/java/com/example/web4/validators/DataValidation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/resources/templates/attempt-info.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/resources/templates/attempts.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/resources/templates/login.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/main/resources/templates/registration.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/cm4/src/test/java/com/example/web4/Web4ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/points(1).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/points(2).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/ЛР4 Задание.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab4/Лекция №4 Аппроксимация функции.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/center.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/cm2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/cm3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98/storage_v2/_src_/database/web.VMsBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98/storage_v2/_src_/database/web.VMsBAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98/storage_v2/_src_/database/web.VMsBAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/dataSources/46629334-bc0d-4060-9146-cd206337ec98/storage_v2/_src_/database/web.VMsBAA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/.idea/frontend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/.idea/front-for-web4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/dist/assets/index-IWswn_P3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/dist/assets/index-bSOJ9pON.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/src/Router.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/src/components/Graph.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/src/pages/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/src/store/slices/HomeSlice.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/src/store/store.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/src/styles/Home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/vite.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/front-for-web4/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/frontend/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/logs/archived/spring-boot-logger-2024-03-16.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/logs/archived/spring-boot-logger-2024-03-17.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/logs/archived/spring-boot-logger-2024-03-18.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/logs/archived/spring-boot-logger-2024-03-19.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/logs/archived/spring-boot-logger-2024-04-09.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/logs/spring-boot-logger.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/Web4Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/controllers/AttemptController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/dto/PointDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/dto/RequestFuncUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/math/approx/CubicApprox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/math/approx/ExpApprox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/math/approx/LinApprox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/math/approx/LogApprox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/math/approx/Method.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/math/approx/PowerApprox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/math/approx/QuadApprox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/validators/CalculateError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/java/com/example/web4/validators/DataValidation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/resources/templates/attempt-info.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/resources/templates/attempts.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/resources/templates/login.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/main/resources/templates/registration.ftlh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/cm3/src/test/java/com/example/web4/Web4ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/left.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/main.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/right.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/simpson.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/trapez.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/Лекция_№3_Численное_интегрирование.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/задание.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="39ca071c-6bba-4269-8808-54cfc9ffc480" name="Changes" comment="1. First step to front auth;&#10;2. Smart front web with redux;&#10;3. For realisation redux, i use redux toolkit, bcs this tool makes the code easier;&#10;4. Delete all useless relation in bd;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,45 +46,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Maven.web4 [clean].executor": "Run",
-    "Maven.web4 [install].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Web4Application.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alwx/Рабочий стол/cm_math/lab4/cm3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.5159386",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.general",
-    "spring.configuration.checksum": "e495ef918e04c7e781faefb8dc5e6e40",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Maven.web4 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.web4 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Web4Application.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alwx/Рабочий стол/cm_math/lab4/cm3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5159386&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e495ef918e04c7e781faefb8dc5e6e40&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -333,6 +166,9 @@
       <workItem from="1712873805652" duration="7000" />
       <workItem from="1712873865683" duration="15000" />
       <workItem from="1712873977466" duration="298000" />
+      <workItem from="1713003605737" duration="438000" />
+      <workItem from="1713004053202" duration="2000" />
+      <workItem from="1713004127875" duration="2792000" />
     </task>
     <task id="LOCAL-00001" summary="new functional auth">
       <created>1700822021496</created>

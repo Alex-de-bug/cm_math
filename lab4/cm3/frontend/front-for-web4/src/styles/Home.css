@@ -4,11 +4,21 @@
     align-items: center;
 }
 body{
-    background-color: gray;
+    background-color: #313131;
 }
 .center-container {
     display: flex;
     justify-content: center; /* Центрирование по горизонтали */
     align-items: center; /* Центрирование по вертикали */
-    height: 100vh; /* Пример высоты, может быть изменено в зависимости от вашего дизайна */
+    height: 70vh; /* Пример высоты, может быть изменено в зависимости от вашего дизайна */
+}
+
+.graph{
+    border: 2px solid #313131;
+}
+
+input{
+    background-color: gray;
+    border: 2px solid gray;
+    width: 7%;
 }

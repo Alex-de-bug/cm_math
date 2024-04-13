@@ -12,13 +12,12 @@ public abstract class Method {
     private static final Logger logger = LoggerFactory.getLogger(LogApprox.class);
 
     protected RequestFuncUser requestFuncUser;
-    @Getter
     protected Double S = 0.0; // мера отклонения
 
     protected Double sko;
 
     protected Double korrelPirs;
-
+    @Getter
     protected Double determ;
 
     ArrayList<ArrayList<Double>> table = new ArrayList<>(); // x, y, f(x), eps

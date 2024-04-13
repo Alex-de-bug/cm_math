@@ -8,6 +8,7 @@ import {
 import { BlockMath } from 'react-katex';
 import "../styles/Home.css";
 import Graph from "../components/Graph.jsx";
+import {grey} from "@mui/material/colors";
 
 function Home() {
     const dispatch = useDispatch();
@@ -80,12 +81,13 @@ function Home() {
         <div>
 
             <Container maxWidth="sm" sx={{ mt: 4 }}>
-                <Paper sx={{ p: 4 }}>
+                <Paper sx={{ p: 4, bgcolor: 'grey', }} >
                     <Box sx={{ width: 300, margin: 'auto', textAlign: 'center' }}>
                         <Typography id="input-slider" gutterBottom>
                             Number of Points
                         </Typography>
                         <Slider
+                            color="secondary"
                             aria-label="Points"
                             valueLabelDisplay="auto"
                             step={1}
@@ -104,7 +106,7 @@ function Home() {
                             onChange={handleFileChange}
                         />
                         <label htmlFor="contained-button-file">
-                            <Button variant="contained" component="span" sx={{ mt: 2 }}>
+                            <Button color="secondary" variant="contained" component="span" sx={{ mt: 2 }}>
                                 Upload File
                             </Button>
                         </label>
@@ -154,6 +156,7 @@ function Home() {
                             Save to File?
                         </Typography>
                         <Slider
+                            color="secondary"
                             aria-label="SaveToFile"
                             valueLabelDisplay="auto"
                             step={1}
@@ -166,7 +169,7 @@ function Home() {
                     </Box>
                     <br/>
                     <form onSubmit={handleFormSubmit}>
-                        <Button variant="contained" type="submit" disabled={isFetching}>
+                        <Button color="secondary" variant="contained" type="submit" disabled={isFetching}>
                             {isFetching ? 'Sending...' : 'Send'}
                         </Button>
                     </form>
@@ -175,7 +178,7 @@ function Home() {
             <br/>
             {message1 && message1.length > 0 && (
                 <Container sx={{ mt: 3 }}>
-                    <Paper sx={{ p: 3 }}>
+                    <Paper sx={{ p: 3, bgcolor: 'grey' }}>
                         <BlockMath math={message1}/>
                         <Graph fu={"0"} points={formData.points}/>
                     </Paper>
@@ -183,7 +186,7 @@ function Home() {
             )}
             {message2 && message2.length > 0 && (
                 <Container sx={{ mt: 3 }}>
-                    <Paper sx={{ p: 3 }}>
+                    <Paper sx={{ p: 3, bgcolor: 'grey' }}>
                         <BlockMath math={message2}/>
                         <Graph fu={"1"} points={formData.points}/>
                     </Paper>
@@ -191,7 +194,7 @@ function Home() {
             )}
             {message3 && message3.length > 0 && (
                 <Container sx={{ mt: 3 }}>
-                    <Paper sx={{ p: 3 }}>
+                    <Paper sx={{ p: 3, bgcolor: 'grey' }}>
                         <BlockMath math={message3}/>
                         <Graph fu={"2"} points={formData.points}/>
                     </Paper>
@@ -199,7 +202,7 @@ function Home() {
             )}
             {message4 && message4.length > 0 && (
                 <Container sx={{ mt: 3 }}>
-                    <Paper sx={{ p: 3 }}>
+                    <Paper sx={{ p: 3, bgcolor: 'grey' }}>
                         <BlockMath math={message4}/>
                         <Graph fu={"3"} points={formData.points}/>
                     </Paper>
@@ -207,7 +210,7 @@ function Home() {
             )}
             {message5 && message5.length > 0 && (
                 <Container sx={{ mt: 3 }}>
-                    <Paper sx={{ p: 3 }}>
+                    <Paper sx={{ p: 3, bgcolor: 'grey' }}>
                         <BlockMath math={message5}/>
                         <Graph fu={"4"} points={formData.points}/>
                     </Paper>
@@ -215,7 +218,7 @@ function Home() {
             )}
             {message6 && message6.length > 0 && (
                 <Container sx={{ mt: 3 }}>
-                    <Paper sx={{ p: 3 }}>
+                    <Paper sx={{ p: 3, bgcolor: 'grey' }}>
                         <BlockMath math={message6}/>
                         <Graph fu={"5"} points={formData.points}/>
                     </Paper>

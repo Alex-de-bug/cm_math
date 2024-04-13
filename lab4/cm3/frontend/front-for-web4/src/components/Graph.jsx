@@ -142,7 +142,7 @@ const Graph = ({fu, points} ) => {
         // Рисуем график
         ctx.beginPath();
         ctx.strokeStyle = 'red';
-        if(fu === array[15]+""){
+        if(array[15][Number(fu)]){
             ctx.strokeStyle = 'green';
         }
         for (let i = bounds.xmin; i <= bounds.xmax; i += (bounds.xmax - bounds.xmin) / width) {
@@ -201,7 +201,7 @@ const Graph = ({fu, points} ) => {
     const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 }); // Состояние для хранения координат курсора
 
     return (
-        <>
+        <div className="graph" >
             <div className="center-container">
                 <canvas ref={canvasRef} width={width} height={height}/>
             </div>
@@ -253,7 +253,7 @@ const Graph = ({fu, points} ) => {
                 </label>
             </div>
             <p>X: {cursorPosition.x.toFixed(2)}, Y: {cursorPosition.y.toFixed(2)}</p>
-        </>
+        </div>
     );
 };
 
