@@ -1,0 +1,1065 @@
+2024-03-19 15:27:59,212 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 31725 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:27:59,214 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:27:59,588 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 15:27:59,600 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:27:59,601 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 15:27:59,601 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 15:27:59,642 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 15:27:59,643 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 411 ms
+2024-03-19 15:27:59,778 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:27:59,786 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 15:27:59,791 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.813 seconds (process running for 1.226)
+2024-03-19 15:28:18,600 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 15:28:18,602 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 15:28:18,603 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-19 15:28:18,675 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 4.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:28:18,676 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: true; point<b: true
+2024-03-19 15:28:18,676 ERROR c.e.w.c.AttemptController [http-nio-8080-exec-2] В итнервале есть точка разрыва, в которой не сущетсвует первообразная, расхождение
+2024-03-19 15:36:48,903 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 31887 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:36:48,904 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:36:49,229 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 15:36:49,237 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:36:49,237 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 15:36:49,238 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 15:36:49,274 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 15:36:49,274 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 349 ms
+2024-03-19 15:36:49,383 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:36:49,390 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 15:36:49,394 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.695 seconds (process running for 1.083)
+2024-03-19 15:36:53,892 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 15:36:53,893 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 15:36:53,895 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-03-19 15:36:53,939 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:36:53,939 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 15:36:53,939 ERROR c.e.w.c.AttemptController [http-nio-8080-exec-1] В итнервале есть точка разрыва, в которой не сущетсвует первообразная, расхождение
+2024-03-19 15:37:04,844 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 31902 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:37:04,845 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:37:05,250 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.546 seconds (process running for 0.884)
+2024-03-19 15:37:10,881 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 31920 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:37:10,882 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:37:11,168 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 15:37:11,175 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:37:11,176 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 15:37:11,176 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 15:37:11,203 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 15:37:11,203 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 301 ms
+2024-03-19 15:37:11,308 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:37:11,315 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 15:37:11,320 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.619 seconds (process running for 0.855)
+2024-03-19 15:37:14,916 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 15:37:14,917 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 15:37:14,921 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2024-03-19 15:37:14,961 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:37:14,962 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 0.0; f_dx(b): 0.6931471805599453
+2024-03-19 15:37:14,962 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-1] Метод левых
+2024-03-19 15:37:19,803 ERROR c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-1] Первышено количесвто итераций
+2024-03-19 15:37:19,805 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 2.5069465406032307; abs: 1.2091995775529913; count: 536870912
+2024-03-19 15:37:19,806 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 15:37:26,210 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 4.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:37:26,211 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] f_dx(a): 0.0; f_dx(b): 0.6931471805599453
+2024-03-19 15:37:26,211 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-3] Метод Трапеций
+2024-03-19 15:37:31,092 ERROR c.e.w.m.m.TrapMethod [http-nio-8080-exec-3] Первышено количесвто итераций
+2024-03-19 15:37:31,093 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 0.01; ans: 2.5069465447941823; abs: 1.2091995761560086; count: 536870912
+2024-03-19 15:37:31,093 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-19 15:37:48,413 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 4.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:37:48,416 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] f_dx(a): 0.0; f_dx(b): 0.6931471805599453
+2024-03-19 15:37:48,416 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-2] Метод Симпсона
+2024-03-19 15:37:53,411 ERROR c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-2] Первышено количесвто итераций
+2024-03-19 15:37:53,411 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: 3.7161461209519864; abs: 0.4030665253853211; count: 536870912
+2024-03-19 15:37:53,412 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-19 15:48:07,759 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 31990 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:48:07,761 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:48:08,081 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 15:48:08,090 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:48:08,090 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 15:48:08,090 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 15:48:08,124 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 15:48:08,124 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 345 ms
+2024-03-19 15:48:08,232 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:48:08,239 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 15:48:08,243 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.685 seconds (process running for 1.025)
+2024-03-19 15:48:14,867 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32004 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:48:14,868 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:48:15,298 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.558 seconds (process running for 0.887)
+2024-03-19 15:48:21,142 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 15:48:21,142 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 15:48:21,144 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-03-19 15:48:21,201 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 4.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:48:21,201 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: true; point<b: true
+2024-03-19 15:48:21,202 ERROR c.e.w.c.AttemptController [http-nio-8080-exec-2] В итнервале есть точка разрыва, в которой не сущетсвует первообразная, расхождение
+2024-03-19 15:48:26,870 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32017 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:48:26,871 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:48:27,149 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 15:48:27,158 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:48:27,158 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 15:48:27,159 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 15:48:27,188 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 15:48:27,188 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 303 ms
+2024-03-19 15:48:27,289 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:48:27,295 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 15:48:27,299 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.595 seconds (process running for 0.916)
+2024-03-19 15:48:29,956 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 15:48:29,956 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 15:48:29,958 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-03-19 15:48:29,999 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:48:29,999 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 15:48:29,999 ERROR c.e.w.c.AttemptController [http-nio-8080-exec-1] В итнервале есть точка разрыва, в которой не сущетсвует первообразная, расхождение
+2024-03-19 15:49:16,158 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 4.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:49:16,160 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: true; point<b: true
+2024-03-19 15:49:16,160 ERROR c.e.w.c.AttemptController [http-nio-8080-exec-2] В итнервале есть точка разрыва, в которой не сущетсвует первообразная, расхождение
+2024-03-19 15:49:50,181 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32033 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:49:50,182 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:49:50,541 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.484 seconds (process running for 0.804)
+2024-03-19 15:49:54,333 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32044 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:49:54,334 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:49:54,603 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 15:49:54,610 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:49:54,611 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 15:49:54,611 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 15:49:54,638 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 15:49:54,639 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 290 ms
+2024-03-19 15:49:54,738 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:49:54,746 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 15:49:54,751 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.583 seconds (process running for 0.806)
+2024-03-19 15:49:58,109 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 15:49:58,110 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 15:49:58,114 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2024-03-19 15:49:58,200 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:49:58,201 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 15:49:58,201 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 15:49:58,202 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 0.0; f_dx(b): 0.6931471805599453
+2024-03-19 15:49:58,202 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] [-1.0, 1.0]
+2024-03-19 15:49:58,202 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Метод Симпсона
+2024-03-19 15:50:03,594 ERROR c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Первышено количесвто итераций
+2024-03-19 15:50:03,600 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 3.7161461209519864; abs: 0.4030665253853211; count: 536870912
+2024-03-19 15:50:03,600 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 15:50:55,991 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 3.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:50:55,992 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: false; point<b: true
+2024-03-19 15:50:55,993 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: true; point<b: true
+2024-03-19 15:50:56,002 ERROR c.e.w.c.AttemptController [http-nio-8080-exec-2] На границ(е/ах) есть точк(а/и), в которых первообразная функции не существует, расхождение
+2024-03-19 15:51:01,951 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 3.0; Метод: 5.0; Граница левая: 0.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 15:51:01,953 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] point > a: false; point<b: true
+2024-03-19 15:51:01,953 ERROR c.e.w.c.AttemptController [http-nio-8080-exec-3] На границ(е/ах) есть точк(а/и), в которых первообразная функции не существует, расхождение
+2024-03-19 15:51:13,266 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 3.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:51:13,268 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] point > a: false; point<b: true
+2024-03-19 15:51:13,268 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] point > a: true; point<b: false
+2024-03-19 15:51:13,268 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:51:13,268 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] []
+2024-03-19 15:51:13,268 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-4] Метод Симпсона
+2024-03-19 15:51:13,280 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.01; ans: 3.2186454970136844; abs: 0.005682194155459038; count: 32768
+2024-03-19 15:51:13,281 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-19 15:51:48,967 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 3.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:51:48,969 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] point > a: false; point<b: true
+2024-03-19 15:51:48,969 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] point > a: true; point<b: false
+2024-03-19 15:51:48,970 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:51:48,970 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] []
+2024-03-19 15:51:48,970 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-5] Метод Трапеций
+2024-03-19 15:51:49,025 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 0.01; ans: 3.1528814432318666; abs: 0.0049054425539337325; count: 262144
+2024-03-19 15:51:49,026 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-19 15:51:52,345 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 3.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:51:52,345 INFO c.e.w.v.DataValidation [http-nio-8080-exec-6] point > a: false; point<b: true
+2024-03-19 15:51:52,346 INFO c.e.w.v.DataValidation [http-nio-8080-exec-6] point > a: true; point<b: false
+2024-03-19 15:51:52,346 INFO c.e.w.v.DataValidation [http-nio-8080-exec-6] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:51:52,347 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] []
+2024-03-19 15:51:52,347 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-6] Метод Симпсона
+2024-03-19 15:51:52,355 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.01; ans: 3.2186454970136844; abs: 0.005682194155459038; count: 32768
+2024-03-19 15:51:52,356 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-19 15:51:54,725 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 3.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:51:54,726 INFO c.e.w.v.DataValidation [http-nio-8080-exec-7] point > a: false; point<b: true
+2024-03-19 15:51:54,727 INFO c.e.w.v.DataValidation [http-nio-8080-exec-7] point > a: true; point<b: false
+2024-03-19 15:51:54,727 INFO c.e.w.v.DataValidation [http-nio-8080-exec-7] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:51:54,727 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] []
+2024-03-19 15:51:54,728 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-7] Метод средних
+2024-03-19 15:51:54,729 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.01; ans: 3.088126517882971; abs: 0.0073783786513377985; count: 512
+2024-03-19 15:51:54,729 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-19 15:52:18,468 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 3.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:52:18,471 INFO c.e.w.v.DataValidation [http-nio-8080-exec-8] point > a: false; point<b: true
+2024-03-19 15:52:18,471 INFO c.e.w.v.DataValidation [http-nio-8080-exec-8] point > a: true; point<b: false
+2024-03-19 15:52:18,471 INFO c.e.w.v.DataValidation [http-nio-8080-exec-8] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:52:18,472 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] []
+2024-03-19 15:52:18,472 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-8] Метод Симпсона
+2024-03-19 15:52:18,478 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.01; ans: 3.2186454970136844; abs: 0.005682194155459038; count: 32768
+2024-03-19 15:52:18,479 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-19 15:52:52,772 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32085 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:52:52,773 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:52:53,131 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.484 seconds (process running for 0.8)
+2024-03-19 15:52:59,534 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 3.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:52:59,538 INFO c.e.w.v.DataValidation [http-nio-8080-exec-9] point > a: false; point<b: true
+2024-03-19 15:52:59,538 INFO c.e.w.v.DataValidation [http-nio-8080-exec-9] point > a: true; point<b: false
+2024-03-19 15:52:59,538 INFO c.e.w.v.DataValidation [http-nio-8080-exec-9] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:52:59,538 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] []
+2024-03-19 15:52:59,539 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-9] Метод Симпсона
+2024-03-19 15:52:59,548 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 0.01; ans: 3.2186454970136844; abs: 0.005682194155459038; count: 32768
+2024-03-19 15:52:59,549 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-19 15:53:04,670 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32100 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:53:04,671 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:53:04,944 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 15:53:04,951 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:53:04,952 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 15:53:04,952 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 15:53:04,981 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 15:53:04,982 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 297 ms
+2024-03-19 15:53:05,084 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:53:05,092 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 15:53:05,096 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.6 seconds (process running for 0.834)
+2024-03-19 15:53:10,332 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 15:53:10,333 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 15:53:10,335 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-19 15:53:10,377 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 3.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:53:10,379 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: false; point<b: true
+2024-03-19 15:53:10,379 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: false
+2024-03-19 15:53:10,380 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:53:10,380 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] []
+2024-03-19 15:53:10,380 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Метод Симпсона
+2024-03-19 15:53:10,386 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 3.2186454970136844; abs: 0.005682194155459038; count: 32768
+2024-03-19 15:53:10,386 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 15:55:32,623 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32113 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:55:32,624 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:55:32,900 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 15:55:32,907 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:55:32,908 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 15:55:32,908 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 15:55:32,936 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 15:55:32,937 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 296 ms
+2024-03-19 15:55:33,039 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:55:33,045 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 15:55:33,049 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.62 seconds (process running for 0.912)
+2024-03-19 15:55:38,014 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32132 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:55:38,015 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:55:38,376 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.485 seconds (process running for 0.804)
+2024-03-19 15:55:42,640 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32144 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 15:55:42,641 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 15:55:42,920 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 15:55:42,927 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:55:42,927 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 15:55:42,927 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 15:55:42,957 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 15:55:42,957 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 295 ms
+2024-03-19 15:55:43,060 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 15:55:43,067 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 15:55:43,070 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.604 seconds (process running for 0.859)
+2024-03-19 15:55:46,616 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 15:55:46,616 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 15:55:46,618 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-19 15:55:46,665 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 3.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:55:46,666 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: false; point<b: true
+2024-03-19 15:55:46,666 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: false
+2024-03-19 15:55:46,666 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:55:46,666 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] []
+2024-03-19 15:55:46,666 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-1] Метод Симпсона
+2024-03-19 15:55:46,672 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 3.2186454970136844; abs: 0.005682194155459038; count: 32768
+2024-03-19 15:55:46,672 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 15:55:49,654 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 3.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:55:49,656 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: false; point<b: true
+2024-03-19 15:55:49,656 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: true; point<b: false
+2024-03-19 15:55:49,659 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:55:49,660 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] []
+2024-03-19 15:55:49,660 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-19 15:55:49,719 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: 3.1528814432318666; abs: 0.0049054425539337325; count: 262144
+2024-03-19 15:55:49,720 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-19 15:55:52,900 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 3.0; Метод: 3.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:55:52,901 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] point > a: false; point<b: true
+2024-03-19 15:55:52,902 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] point > a: true; point<b: false
+2024-03-19 15:55:52,902 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:55:52,902 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] []
+2024-03-19 15:55:52,903 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-3] Метод средних
+2024-03-19 15:55:52,903 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 0.01; ans: 3.088126517882971; abs: 0.0073783786513377985; count: 512
+2024-03-19 15:55:52,904 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-19 15:55:56,935 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 3.0; Метод: 2.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:55:56,936 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] point > a: false; point<b: true
+2024-03-19 15:55:56,937 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] point > a: true; point<b: false
+2024-03-19 15:55:56,937 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 15:55:56,938 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] []
+2024-03-19 15:55:56,938 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-4] Метод правых
+2024-03-19 15:55:56,999 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.01; ans: 3.1528814436979506; abs: 0.004905442500347561; count: 262144
+2024-03-19 15:55:56,999 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-19 15:56:06,456 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 4.0; Метод: 5.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 15:56:06,457 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] point > a: true; point<b: true
+2024-03-19 15:56:06,457 WARN c.e.w.v.DataValidation [http-nio-8080-exec-5] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 15:56:06,458 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] f_dx(a): 0.0; f_dx(b): 0.0
+2024-03-19 15:56:06,459 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] [-1.0, 1.0]
+2024-03-19 15:56:06,459 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-5] Метод Симпсона
+2024-03-19 15:56:06,459 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 0.01; ans: Infinity; abs: NaN; count: 8
+2024-03-19 15:56:06,459 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-19 16:03:46,294 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 4.0; Метод: 5.0; Граница левая: -2.0; Граница правая: -1.0; Точность: 0.01; 
+2024-03-19 16:03:46,297 INFO c.e.w.v.DataValidation [http-nio-8080-exec-8] point > a: true; point<b: false
+2024-03-19 16:03:46,297 INFO c.e.w.v.DataValidation [http-nio-8080-exec-8] f_dx(a): 0.6931471805599453; f_dx(b): 0.0
+2024-03-19 16:03:46,297 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] [-1.0, 1.0]
+2024-03-19 16:03:46,297 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-8] Метод Симпсона
+2024-03-19 16:03:46,298 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.01; ans: -0.6931545306545306; abs: 6.629173295843079E-6; count: 8
+2024-03-19 16:03:46,298 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-19 16:33:00,078 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32544 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:33:00,080 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:33:00,463 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.529 seconds (process running for 0.881)
+2024-03-19 16:33:13,315 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -2.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:33:13,321 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 16:33:13,321 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:33:13,322 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 0.6931471805599453; f_dx(b): 0.6931471805599453
+2024-03-19 16:33:13,322 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] [-1.0, 1.0]
+2024-03-19 16:33:13,322 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 16:33:13,322 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: Infinity; abs: NaN; count: 8
+2024-03-19 16:33:13,322 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 16:33:23,563 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32574 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:33:23,564 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:33:23,871 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 16:33:23,879 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:33:23,880 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 16:33:23,880 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 16:33:23,915 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 16:33:23,915 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 337 ms
+2024-03-19 16:33:24,027 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:33:24,034 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 16:33:24,038 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.654 seconds (process running for 0.946)
+2024-03-19 16:33:27,135 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 16:33:27,136 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 16:33:27,138 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-03-19 16:33:27,226 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -2.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:33:27,227 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 16:33:27,227 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:33:27,228 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 0.6931471805599453; f_dx(b): 0.6931471805599453
+2024-03-19 16:33:27,232 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2] with root cause
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.example.web4.controllers.AttemptController.createPoint(AttemptController.java:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-03-19 16:34:24,348 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32595 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:34:24,350 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:34:24,724 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.506 seconds (process running for 0.84)
+2024-03-19 16:34:36,843 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32606 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:34:36,844 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:34:37,115 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 16:34:37,118 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:34:37,118 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 16:34:37,118 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 16:34:37,146 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 16:34:37,146 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 288 ms
+2024-03-19 16:34:37,248 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:34:37,254 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 16:34:37,258 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.587 seconds (process running for 0.8)
+2024-03-19 16:34:40,957 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 16:34:40,958 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 16:34:40,960 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-03-19 16:34:41,023 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -2.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:34:41,024 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 16:34:41,024 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:34:41,026 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 0.6931471805599453; f_dx(b): 0.6931471805599453
+2024-03-19 16:34:41,026 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 16:34:41,026 WARN c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Замена границ
+2024-03-19 16:34:41,026 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 16:34:41,026 WARN c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Замена границ
+2024-03-19 16:34:41,027 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: Infinity; abs: NaN; count: 16
+2024-03-19 16:34:41,027 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 16:37:50,381 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 4.0; Метод: 4.0; Граница левая: -2.0; Граница правая: -1.0; Точность: 0.01; 
+2024-03-19 16:37:50,383 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] point > a: true; point<b: false
+2024-03-19 16:37:50,384 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] f_dx(a): 0.6931471805599453; f_dx(b): 0.0
+2024-03-19 16:37:50,384 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-19 16:38:31,812 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 4.0; Метод: 4.0; Граница левая: -2.0; Граница правая: -1.0; Точность: 0.01; 
+2024-03-19 16:38:31,814 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] point > a: true; point<b: false
+2024-03-19 16:38:31,814 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] f_dx(a): 0.6931471805599453; f_dx(b): 0.0
+2024-03-19 16:38:31,814 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-19 16:38:56,770 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 2.0; Метод: 4.0; Граница левая: -2.0; Граница правая: -1.0; Точность: 0.01; 
+2024-03-19 16:38:56,772 INFO c.e.w.v.DataValidation [http-nio-8080-exec-6] f_dx(a): -0.4931505902785393; f_dx(b): -1.3817732906760363
+2024-03-19 16:38:56,773 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-6] Метод Трапеций
+2024-03-19 16:38:56,774 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.01; ans: -0.8874653381596277; abs: 0.001158569755176882; count: 8
+2024-03-19 16:38:56,774 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-19 16:40:03,951 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32645 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:40:03,952 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:40:04,327 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.502 seconds (process running for 0.836)
+2024-03-19 16:40:17,215 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32655 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:40:17,216 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:40:17,485 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 16:40:17,492 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:40:17,493 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 16:40:17,493 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 16:40:17,526 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 16:40:17,526 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 293 ms
+2024-03-19 16:40:17,627 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:40:17,634 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 16:40:17,637 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.586 seconds (process running for 0.817)
+2024-03-19 16:40:23,142 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 16:40:23,143 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 16:40:23,145 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-03-19 16:40:23,185 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -2.0; Граница правая: -1.0; Точность: 0.01; 
+2024-03-19 16:40:23,186 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: false
+2024-03-19 16:40:23,186 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 0.6931471805599453; f_dx(b): 0.0
+2024-03-19 16:40:23,186 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 16:40:32,236 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 4.0; Метод: 4.0; Граница левая: -2.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:40:32,239 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: true; point<b: true
+2024-03-19 16:40:32,239 WARN c.e.w.v.DataValidation [http-nio-8080-exec-2] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:40:32,240 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] f_dx(a): 0.6931471805599453; f_dx(b): 0.6931471805599453
+2024-03-19 16:40:32,241 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] RequestFuncUser(typeFunc=4.0, a=-2.0, b=-1.0, eps=0.01, method=4.0)
+2024-03-19 16:40:32,241 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] RequestFuncUser(typeFunc=4.0, a=1.0, b=-1.0, eps=0.01, method=4.0)
+2024-03-19 16:40:32,242 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-19 16:40:32,242 WARN c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Замена границ
+2024-03-19 16:40:32,244 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-19 16:40:32,244 WARN c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Замена границ
+2024-03-19 16:40:32,245 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: Infinity; abs: NaN; count: 16
+2024-03-19 16:40:32,245 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-19 16:44:29,697 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32691 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:44:29,698 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:44:30,109 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.554 seconds (process running for 0.89)
+2024-03-19 16:44:37,160 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32703 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:44:37,163 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:44:37,428 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 16:44:37,436 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:44:37,436 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 16:44:37,436 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 16:44:37,464 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 16:44:37,465 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 286 ms
+2024-03-19 16:44:37,565 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:44:37,572 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 16:44:37,576 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.583 seconds (process running for 0.797)
+2024-03-19 16:44:43,027 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 16:44:43,033 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 16:44:43,036 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2024-03-19 16:44:43,085 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 4.0; Метод: 4.0; Граница левая: -2.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:44:43,085 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: true; point<b: true
+2024-03-19 16:44:43,085 WARN c.e.w.v.DataValidation [http-nio-8080-exec-2] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:44:43,086 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] f_dx(a): 0.6931471805599453; f_dx(b): 0.6931471805599453
+2024-03-19 16:44:43,086 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] RequestFuncUser(typeFunc=4.0, a=-2.0, b=-1.0, eps=0.01, method=4.0)
+2024-03-19 16:44:43,086 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] RequestFuncUser(typeFunc=4.0, a=1.0, b=2.0, eps=0.01, method=4.0)
+2024-03-19 16:44:43,086 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-19 16:44:43,086 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-19 16:44:43,086 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: 1.1102230246251565E-16; abs: 9.673197173197257E-4; count: 16
+2024-03-19 16:44:43,086 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-19 16:46:06,287 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 16:46:06,290 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] point > a: true; point<b: true
+2024-03-19 16:46:06,291 WARN c.e.w.v.DataValidation [http-nio-8080-exec-4] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:46:06,293 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 16:46:06,294 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0, eps=0.01, method=4.0)
+2024-03-19 16:46:06,295 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] RequestFuncUser(typeFunc=4.0, a=1.0, b=4.0, eps=0.01, method=4.0)
+2024-03-19 16:46:06,296 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-4] Метод Трапеций
+2024-03-19 16:46:06,296 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-4] Метод Трапеций
+2024-03-19 16:46:06,297 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.01; ans: 0.0; abs: 0.002698466336522265; count: 32
+2024-03-19 16:46:06,297 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-19 16:48:50,240 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32736 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:48:50,241 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:48:50,607 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.493 seconds (process running for 0.815)
+2024-03-19 16:48:57,953 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32746 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:48:57,954 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:48:58,222 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 16:48:58,229 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:48:58,229 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 16:48:58,230 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 16:48:58,259 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 16:48:58,259 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 292 ms
+2024-03-19 16:48:58,360 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:48:58,366 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 16:48:58,370 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.587 seconds (process running for 0.81)
+2024-03-19 16:49:01,754 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 16:49:01,756 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 16:49:01,758 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-03-19 16:49:01,797 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 16:49:01,797 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 16:49:01,797 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:49:01,798 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 16:49:01,798 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=4.0)
+2024-03-19 16:49:01,798 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=4.0)
+2024-03-19 16:49:01,798 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 16:49:01,798 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 16:49:01,798 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 1.3322676295501878E-15; abs: 0.0026977224058311417; count: 32
+2024-03-19 16:49:01,799 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 16:49:56,072 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32768 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:49:56,073 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:49:56,433 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.488 seconds (process running for 0.814)
+2024-03-19 16:50:02,333 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32785 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:50:02,334 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:50:02,603 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 16:50:02,610 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:50:02,611 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 16:50:02,611 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 16:50:02,639 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 16:50:02,640 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 292 ms
+2024-03-19 16:50:02,740 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:50:02,747 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 16:50:02,751 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.597 seconds (process running for 0.823)
+2024-03-19 16:50:07,725 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 16:50:07,725 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 16:50:07,727 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-19 16:50:07,768 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 16:50:07,769 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 16:50:07,769 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:50:07,769 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 16:50:07,769 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=4.0)
+2024-03-19 16:50:07,769 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=4.0)
+2024-03-19 16:50:07,769 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 16:50:07,770 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 16:50:07,770 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=-1.3889300915353546, I=-1.3970232587528488, r=0.0026977224058314007, n=16)
+2024-03-19 16:50:07,770 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=1.388930091535356, I=1.3970232587528486, r=0.0026977224058308824, n=16)
+2024-03-19 16:50:07,770 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 1.3322676295501878E-15; abs: 0.0026977224058311417; count: 32
+2024-03-19 16:50:07,770 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 16:51:13,025 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 1.0E-6; 
+2024-03-19 16:51:13,028 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] point > a: true; point<b: true
+2024-03-19 16:51:13,029 WARN c.e.w.v.DataValidation [http-nio-8080-exec-3] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:51:13,029 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 16:51:13,029 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=1.0E-6, method=4.0)
+2024-03-19 16:51:13,029 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=1.0E-6, method=4.0)
+2024-03-19 16:51:13,030 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-3] Метод Трапеций
+2024-03-19 16:51:13,030 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-3] Метод Трапеций
+2024-03-19 16:51:13,030 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] AnswerInfo(e=1.0E-6, answer=-1.3861950364833917, I=-1.386197047567915, r=6.70361507785581E-7, n=1024)
+2024-03-19 16:51:13,031 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] AnswerInfo(e=1.0E-6, answer=1.386195036483487, I=1.386197047567897, r=6.703614700379982E-7, n=1024)
+2024-03-19 16:51:13,031 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 1.0E-6; ans: 9.525713551283843E-14; abs: 6.703614889117896E-7; count: 2048
+2024-03-19 16:51:13,031 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-19 16:51:23,723 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 4.0; Метод: 4.0; Граница левая: -3.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 16:51:23,724 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] point > a: true; point<b: true
+2024-03-19 16:51:23,724 WARN c.e.w.v.DataValidation [http-nio-8080-exec-4] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:51:23,725 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] f_dx(a): 1.0986122886681096; f_dx(b): 1.3862943611198906
+2024-03-19 16:51:23,725 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] RequestFuncUser(typeFunc=4.0, a=-3.0, b=-1.0001, eps=0.01, method=4.0)
+2024-03-19 16:51:23,725 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=4.0)
+2024-03-19 16:51:23,726 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-4] Метод Трапеций
+2024-03-19 16:51:23,726 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-4] Метод Трапеций
+2024-03-19 16:51:23,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] AnswerInfo(e=0.01, answer=-1.1031091974932772, I=-1.1165609226716122, r=0.004483908392778346, n=8)
+2024-03-19 16:51:23,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] AnswerInfo(e=0.01, answer=1.388930091535356, I=1.3970232587528486, r=0.0026977224058308824, n=16)
+2024-03-19 16:51:23,727 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.01; ans: 0.2858208940420788; abs: 0.0035908153993046144; count: 24
+2024-03-19 16:51:23,727 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-19 16:52:43,649 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 4.0; Метод: 4.0; Граница левая: -2.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:52:43,657 INFO c.e.w.v.DataValidation [http-nio-8080-exec-6] point > a: true; point<b: true
+2024-03-19 16:52:43,657 WARN c.e.w.v.DataValidation [http-nio-8080-exec-6] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:52:43,657 INFO c.e.w.v.DataValidation [http-nio-8080-exec-6] f_dx(a): 0.6931471805599453; f_dx(b): 0.6931471805599453
+2024-03-19 16:52:43,658 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] RequestFuncUser(typeFunc=4.0, a=-2.0, b=-1.0001, eps=0.01, method=4.0)
+2024-03-19 16:52:43,658 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] RequestFuncUser(typeFunc=4.0, a=1.0001, b=2.0, eps=0.01, method=4.0)
+2024-03-19 16:52:43,658 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-6] Метод Трапеций
+2024-03-19 16:52:43,658 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-6] Метод Трапеций
+2024-03-19 16:52:43,658 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] AnswerInfo(e=0.01, answer=-0.694021401301715, I=-0.6969220161645587, r=9.668716209479215E-4, n=8)
+2024-03-19 16:52:43,658 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] AnswerInfo(e=0.01, answer=0.694021401301715, I=0.6969220161645586, r=9.668716209478845E-4, n=8)
+2024-03-19 16:52:43,658 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.01; ans: 0.0; abs: 9.668716209479029E-4; count: 16
+2024-03-19 16:52:43,659 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-19 16:52:57,332 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 16:52:57,333 INFO c.e.w.v.DataValidation [http-nio-8080-exec-7] point > a: true; point<b: true
+2024-03-19 16:52:57,334 WARN c.e.w.v.DataValidation [http-nio-8080-exec-7] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:52:57,334 INFO c.e.w.v.DataValidation [http-nio-8080-exec-7] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 16:52:57,334 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=4.0)
+2024-03-19 16:52:57,334 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=4.0)
+2024-03-19 16:52:57,335 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-7] Метод Трапеций
+2024-03-19 16:52:57,335 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-7] Метод Трапеций
+2024-03-19 16:52:57,335 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] AnswerInfo(e=0.01, answer=-1.3889300915353546, I=-1.3970232587528488, r=0.0026977224058314007, n=16)
+2024-03-19 16:52:57,336 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] AnswerInfo(e=0.01, answer=1.388930091535356, I=1.3970232587528486, r=0.0026977224058308824, n=16)
+2024-03-19 16:52:57,336 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.01; ans: 1.3322676295501878E-15; abs: 0.0026977224058311417; count: 32
+2024-03-19 16:52:57,337 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-19 16:53:03,817 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 4.0; Метод: 5.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 16:53:03,818 INFO c.e.w.v.DataValidation [http-nio-8080-exec-8] point > a: true; point<b: true
+2024-03-19 16:53:03,818 WARN c.e.w.v.DataValidation [http-nio-8080-exec-8] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:53:03,818 INFO c.e.w.v.DataValidation [http-nio-8080-exec-8] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 16:53:03,818 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=5.0)
+2024-03-19 16:53:03,818 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=5.0)
+2024-03-19 16:53:03,819 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-8] Метод Симпсона
+2024-03-19 16:53:03,819 INFO c.e.w.m.m.SimpsonMethod [http-nio-8080-exec-8] Метод Симпсона
+2024-03-19 16:53:03,819 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] AnswerInfo(e=0.01, answer=-1.3867045381319683, I=-1.3915186406076578, r=3.2094016504597236E-4, n=8)
+2024-03-19 16:53:03,819 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] AnswerInfo(e=0.01, answer=1.3867045381319678, I=1.391518640607658, r=3.2094016504601676E-4, n=8)
+2024-03-19 16:53:03,820 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.01; ans: -4.440892098500626E-16; abs: 3.209401650459946E-4; count: 16
+2024-03-19 16:53:03,820 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-19 16:53:06,949 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 4.0; Метод: 3.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 16:53:06,949 INFO c.e.w.v.DataValidation [http-nio-8080-exec-9] point > a: true; point<b: true
+2024-03-19 16:53:06,949 WARN c.e.w.v.DataValidation [http-nio-8080-exec-9] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:53:06,950 INFO c.e.w.v.DataValidation [http-nio-8080-exec-9] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 16:53:06,950 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=3.0)
+2024-03-19 16:53:06,950 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=3.0)
+2024-03-19 16:53:06,950 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-9] Метод средних
+2024-03-19 16:53:06,951 INFO c.e.w.m.m.RetangleCentralMethod [http-nio-8080-exec-9] Метод средних
+2024-03-19 16:53:06,951 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] AnswerInfo(e=0.01, answer=-1.3808369243178633, I=-1.366067096890207, r=0.004923275809218734, n=8)
+2024-03-19 16:53:06,951 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] AnswerInfo(e=0.01, answer=1.3808369243178633, I=1.3660670968902069, r=0.004923275809218808, n=8)
+2024-03-19 16:53:06,951 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 0.01; ans: 0.0; abs: 0.004923275809218771; count: 16
+2024-03-19 16:53:06,951 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-19 16:53:09,465 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Функция: 4.0; Метод: 2.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 16:53:09,467 INFO c.e.w.v.DataValidation [http-nio-8080-exec-10] point > a: true; point<b: true
+2024-03-19 16:53:09,467 WARN c.e.w.v.DataValidation [http-nio-8080-exec-10] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:53:09,467 INFO c.e.w.v.DataValidation [http-nio-8080-exec-10] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 16:53:09,468 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=2.0)
+2024-03-19 16:53:09,468 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=2.0)
+2024-03-19 16:53:09,469 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-10] Метод правых
+2024-03-19 16:53:09,469 INFO c.e.w.m.m.RetangleRightMethod [http-nio-8080-exec-10] Метод правых
+2024-03-19 16:53:09,469 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] AnswerInfo(e=0.01, answer=-1.4039411350518298, I=-1.422030572443276, r=0.006029812463815398, n=64)
+2024-03-19 16:53:09,470 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] AnswerInfo(e=0.01, answer=1.368790743801892, I=1.351729789943401, r=0.005686984619496978, n=64)
+2024-03-19 16:53:09,470 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-10] т: 0.01; ans: -0.035150391249937796; abs: 0.005858398541656188; count: 128
+2024-03-19 16:53:09,471 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Успешно
+2024-03-19 16:53:12,424 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 1.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 16:53:12,426 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 16:53:12,426 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:53:12,427 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 16:53:12,427 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=1.0)
+2024-03-19 16:53:12,428 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=1.0)
+2024-03-19 16:53:12,428 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-1] Метод левых
+2024-03-19 16:53:12,428 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-1] Метод левых
+2024-03-19 16:53:12,428 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=-1.3687907438018923, I=-1.351729789943401, r=0.005686984619497053, n=64)
+2024-03-19 16:53:12,429 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=1.4039411350518294, I=1.4220305724432762, r=0.00602981246381562, n=64)
+2024-03-19 16:53:12,429 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 0.03515039124993713; abs: 0.005858398541656337; count: 128
+2024-03-19 16:53:12,429 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 16:55:59,397 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32860 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:55:59,399 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:55:59,733 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 16:55:59,741 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:55:59,742 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 16:55:59,742 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 16:55:59,778 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 16:55:59,778 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 358 ms
+2024-03-19 16:55:59,888 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:55:59,895 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 16:55:59,898 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.739 seconds (process running for 1.144)
+2024-03-19 16:56:08,280 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 32878 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:56:08,281 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:56:08,687 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.535 seconds (process running for 0.865)
+2024-03-19 16:56:15,333 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 32896 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:56:15,335 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:56:15,609 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 16:56:15,617 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:56:15,618 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 16:56:15,618 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 16:56:15,645 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 16:56:15,646 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 292 ms
+2024-03-19 16:56:15,747 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:56:15,754 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 16:56:15,757 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.593 seconds (process running for 0.828)
+2024-03-19 16:56:28,222 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 16:56:28,224 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-03-19 16:56:28,226 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2024-03-19 16:56:28,272 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:56:28,272 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 16:56:28,273 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:56:28,273 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 0.0; f_dx(b): 0.6931471805599453
+2024-03-19 16:56:28,274 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.web4.math.AnswerInfo.outAnswer()" because "mathMethod1.answerInfo" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.web4.math.AnswerInfo.outAnswer()" because "mathMethod1.answerInfo" is null
+	at com.example.web4.controllers.AttemptController.createPoint(AttemptController.java:94)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-03-19 16:59:26,094 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 33014 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:59:26,095 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:59:26,484 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.537 seconds (process running for 0.889)
+2024-03-19 16:59:33,999 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 4.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:59:34,005 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] point > a: true; point<b: true
+2024-03-19 16:59:34,006 WARN c.e.w.v.DataValidation [http-nio-8080-exec-3] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:59:34,006 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] f_dx(a): 0.0; f_dx(b): 0.6931471805599453
+2024-03-19 16:59:34,009 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.web4.math.AnswerInfo.outAnswer()" because "mathMethod1.answerInfo" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.web4.math.AnswerInfo.outAnswer()" because "mathMethod1.answerInfo" is null
+	at com.example.web4.controllers.AttemptController.createPoint(AttemptController.java:94)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-03-19 16:59:42,448 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 33039 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 16:59:42,449 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 16:59:42,753 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 16:59:42,761 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:59:42,762 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 16:59:42,762 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 16:59:42,797 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 16:59:42,798 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 334 ms
+2024-03-19 16:59:42,906 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 16:59:42,913 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 16:59:42,917 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.659 seconds (process running for 0.939)
+2024-03-19 16:59:46,751 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 16:59:46,752 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 16:59:46,754 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-03-19 16:59:46,797 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:59:46,797 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 16:59:46,797 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 16:59:46,798 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 0.0; f_dx(b): 0.6931471805599453
+2024-03-19 16:59:46,798 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 16:59:46,798 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=0.694021401301715, I=0.6969220161645586, r=9.668716209478845E-4, n=8)
+2024-03-19 16:59:46,799 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 0.694021401301715; abs: 9.668716209478845E-4; count: 8
+2024-03-19 16:59:46,799 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 16:59:53,635 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 4.0; Метод: 4.0; Граница левая: 1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:59:53,636 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: false; point<b: true
+2024-03-19 16:59:53,636 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] f_dx(a): 0.0; f_dx(b): 0.6931471805599453
+2024-03-19 16:59:53,636 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-19 16:59:53,636 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] AnswerInfo(e=0.01, answer=0.694021401301715, I=0.6969220161645586, r=9.668716209478845E-4, n=8)
+2024-03-19 16:59:53,637 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: 0.694021401301715; abs: 9.668716209478845E-4; count: 8
+2024-03-19 16:59:53,637 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-19 16:59:59,922 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 4.0; Метод: 4.0; Граница левая: 0.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 16:59:59,923 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] point > a: false; point<b: true
+2024-03-19 16:59:59,926 ERROR c.e.w.c.AttemptController [http-nio-8080-exec-3] На границ(е/ах) есть точк(а/и), в которых первообразная функции не существует, расхождение
+2024-03-19 17:00:21,430 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 33056 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 17:00:21,431 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 17:00:21,829 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.528 seconds (process running for 0.854)
+2024-03-19 17:00:37,491 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 33068 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 17:00:37,492 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 17:00:37,851 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.485 seconds (process running for 0.808)
+2024-03-19 17:00:44,788 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 33077 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 17:00:44,789 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 17:00:45,059 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 17:00:45,073 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 17:00:45,074 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 17:00:45,075 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 17:00:45,111 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 17:00:45,112 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 305 ms
+2024-03-19 17:00:45,216 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 17:00:45,222 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 17:00:45,226 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.775 seconds (process running for 1.209)
+2024-03-19 17:00:46,668 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 17:00:46,669 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 17:00:46,670 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-19 17:00:46,717 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: 0.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 17:00:46,717 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: false; point<b: true
+2024-03-19 17:00:46,717 ERROR c.e.w.c.AttemptController [http-nio-8080-exec-1] На границ(е/ах) есть точк(а/и), в которых первообразная функции не существует, расхождение
+2024-03-19 17:00:58,381 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 4.0; Метод: 4.0; Граница левая: 0.01; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 17:00:58,383 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: false; point<b: true
+2024-03-19 17:00:58,385 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] f_dx(a): -4.605170185988091; f_dx(b): 0.6931471805599453
+2024-03-19 17:00:58,385 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-2] Метод Трапеций
+2024-03-19 17:00:58,388 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] AnswerInfo(e=0.01, answer=0.694021401301715, I=0.6969220161645586, r=9.668716209478845E-4, n=8)
+2024-03-19 17:00:58,388 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: 0.694021401301715; abs: 9.668716209478845E-4; count: 8
+2024-03-19 17:00:58,389 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
+2024-03-19 17:01:07,227 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Функция: 4.0; Метод: 4.0; Граница левая: 0.06; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 17:01:07,228 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] point > a: false; point<b: true
+2024-03-19 17:01:07,228 INFO c.e.w.v.DataValidation [http-nio-8080-exec-3] f_dx(a): -2.8134107167600364; f_dx(b): 0.6931471805599453
+2024-03-19 17:01:07,228 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-3] Метод Трапеций
+2024-03-19 17:01:07,229 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] AnswerInfo(e=0.01, answer=0.694021401301715, I=0.6969220161645586, r=9.668716209478845E-4, n=8)
+2024-03-19 17:01:07,229 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-3] т: 0.01; ans: 0.694021401301715; abs: 9.668716209478845E-4; count: 8
+2024-03-19 17:01:07,229 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Успешно
+2024-03-19 17:01:09,570 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 4.0; Метод: 4.0; Граница левая: 1.0; Граница правая: 2.0; Точность: 0.01; 
+2024-03-19 17:01:09,571 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] point > a: false; point<b: true
+2024-03-19 17:01:09,572 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] f_dx(a): 0.0; f_dx(b): 0.6931471805599453
+2024-03-19 17:01:09,572 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-4] Метод Трапеций
+2024-03-19 17:01:09,572 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] AnswerInfo(e=0.01, answer=0.694021401301715, I=0.6969220161645586, r=9.668716209478845E-4, n=8)
+2024-03-19 17:01:09,573 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.01; ans: 0.694021401301715; abs: 9.668716209478845E-4; count: 8
+2024-03-19 17:01:09,573 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-19 17:01:13,315 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 4.0; Метод: 4.0; Граница левая: 2.0; Граница правая: 3.0; Точность: 0.01; 
+2024-03-19 17:01:13,317 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] point > a: false; point<b: true
+2024-03-19 17:01:13,317 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] f_dx(a): 0.6931471805599453; f_dx(b): 1.0986122886681096
+2024-03-19 17:01:13,317 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-5] Метод Трапеций
+2024-03-19 17:01:13,318 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 0.01; ans: 0.4056458511911803; abs: 1.8033916522947058E-4; count: 8
+2024-03-19 17:01:13,318 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-19 17:01:18,933 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 4.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 3.0; Точность: 0.01; 
+2024-03-19 17:01:18,934 INFO c.e.w.v.DataValidation [http-nio-8080-exec-6] point > a: true; point<b: true
+2024-03-19 17:01:18,934 WARN c.e.w.v.DataValidation [http-nio-8080-exec-6] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 17:01:18,935 INFO c.e.w.v.DataValidation [http-nio-8080-exec-6] f_dx(a): 0.0; f_dx(b): 1.0986122886681096
+2024-03-19 17:01:18,935 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-6] Метод Трапеций
+2024-03-19 17:01:18,935 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] AnswerInfo(e=0.01, answer=1.1031091974932772, I=1.116560922671612, r=0.004483908392778273, n=8)
+2024-03-19 17:01:18,936 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.01; ans: 1.1031091974932772; abs: 0.004483908392778273; count: 8
+2024-03-19 17:01:18,936 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-19 17:01:25,529 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Функция: 4.0; Метод: 4.0; Граница левая: 1.0; Граница правая: 3.0; Точность: 0.01; 
+2024-03-19 17:01:25,531 INFO c.e.w.v.DataValidation [http-nio-8080-exec-7] point > a: false; point<b: true
+2024-03-19 17:01:25,532 INFO c.e.w.v.DataValidation [http-nio-8080-exec-7] f_dx(a): 0.0; f_dx(b): 1.0986122886681096
+2024-03-19 17:01:25,532 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-7] Метод Трапеций
+2024-03-19 17:01:25,532 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] AnswerInfo(e=0.01, answer=1.1031091974932772, I=1.116560922671612, r=0.004483908392778273, n=8)
+2024-03-19 17:01:25,533 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-7] т: 0.01; ans: 1.1031091974932772; abs: 0.004483908392778273; count: 8
+2024-03-19 17:01:25,533 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Успешно
+2024-03-19 17:01:36,043 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 17:01:36,044 INFO c.e.w.v.DataValidation [http-nio-8080-exec-8] point > a: true; point<b: true
+2024-03-19 17:01:36,044 WARN c.e.w.v.DataValidation [http-nio-8080-exec-8] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 17:01:36,045 INFO c.e.w.v.DataValidation [http-nio-8080-exec-8] f_dx(a): 1.3862943611198906; f_dx(b): 0.0
+2024-03-19 17:01:36,045 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-8] Метод Трапеций
+2024-03-19 17:01:36,045 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] AnswerInfo(e=0.01, answer=-1.3889300915353546, I=-1.3970232587528488, r=0.0026977224058314007, n=16)
+2024-03-19 17:01:36,045 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-8] т: 0.01; ans: -1.3889300915353546; abs: 0.0026977224058314007; count: 16
+2024-03-19 17:01:36,046 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Успешно
+2024-03-19 17:01:42,827 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: -1.0; Точность: 0.01; 
+2024-03-19 17:01:42,829 INFO c.e.w.v.DataValidation [http-nio-8080-exec-9] point > a: true; point<b: false
+2024-03-19 17:01:42,829 INFO c.e.w.v.DataValidation [http-nio-8080-exec-9] f_dx(a): 1.3862943611198906; f_dx(b): 0.0
+2024-03-19 17:01:42,829 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-9] Метод Трапеций
+2024-03-19 17:01:42,829 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] AnswerInfo(e=0.01, answer=-1.3889300915353546, I=-1.3970232587528488, r=0.0026977224058314007, n=16)
+2024-03-19 17:01:42,830 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-9] т: 0.01; ans: -1.3889300915353546; abs: 0.0026977224058314007; count: 16
+2024-03-19 17:01:42,830 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Успешно
+2024-03-19 17:01:47,475 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: -2.0; Точность: 0.01; 
+2024-03-19 17:01:47,476 INFO c.e.w.v.DataValidation [http-nio-8080-exec-10] point > a: true; point<b: false
+2024-03-19 17:01:47,477 INFO c.e.w.v.DataValidation [http-nio-8080-exec-10] f_dx(a): 1.3862943611198906; f_dx(b): 0.6931471805599453
+2024-03-19 17:01:47,477 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-10] Метод Трапеций
+2024-03-19 17:01:47,477 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-10] т: 0.01; ans: -0.6941218503718503; abs: 9.673197173197442E-4; count: 8
+2024-03-19 17:01:47,478 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Успешно
+2024-03-19 17:01:55,127 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 17:01:55,128 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 17:01:55,128 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 17:01:55,129 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 17:01:55,130 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=4.0)
+2024-03-19 17:01:55,132 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=4.0)
+2024-03-19 17:01:55,132 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 17:01:55,132 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 17:01:55,135 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=-1.3889300915353546, I=-1.3970232587528488, r=0.0026977224058314007, n=16)
+2024-03-19 17:01:55,135 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=1.388930091535356, I=1.3970232587528486, r=0.0026977224058308824, n=16)
+2024-03-19 17:01:55,135 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 1.3322676295501878E-15; abs: 0.0026977224058311417; count: 32
+2024-03-19 17:01:55,136 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 17:02:39,451 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 33091 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 17:02:39,453 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 17:02:39,809 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.483 seconds (process running for 0.799)
+2024-03-19 17:02:46,714 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 33102 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 17:02:46,715 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 17:02:47,013 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 17:02:47,020 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 17:02:47,020 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 17:02:47,020 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 17:02:47,047 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 17:02:47,048 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 316 ms
+2024-03-19 17:02:47,154 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 17:02:47,160 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 17:02:47,164 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.711 seconds (process running for 1.147)
+2024-03-19 17:02:48,190 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 17:02:48,190 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 17:02:48,191 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-19 17:02:48,233 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 17:02:48,233 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 17:02:48,233 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 17:02:48,233 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 17:02:48,233 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=4.0)
+2024-03-19 17:02:48,233 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=4.0)
+2024-03-19 17:02:48,234 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 17:02:48,234 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 17:02:48,234 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=-1.3889300915353546, I=-1.3970232587528488, r=0.0026977224058314007, n=16)
+2024-03-19 17:02:48,234 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=1.388930091535356, I=1.3970232587528486, r=0.0026977224058308824, n=16)
+2024-03-19 17:02:48,234 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 1.3322676295501878E-15; abs: 0.0026977224058311417; count: 32
+2024-03-19 17:02:48,234 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 17:05:00,520 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 33122 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 17:05:00,521 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 17:05:00,878 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.489 seconds (process running for 0.817)
+2024-03-19 17:05:08,063 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 33133 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 17:05:08,064 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 17:05:08,335 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 17:05:08,342 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 17:05:08,343 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 17:05:08,343 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 17:05:08,372 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 17:05:08,373 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 293 ms
+2024-03-19 17:05:08,473 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 17:05:08,480 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 17:05:08,484 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.589 seconds (process running for 0.796)
+2024-03-19 17:05:13,113 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 17:05:13,114 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 17:05:13,116 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-03-19 17:05:13,196 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 17:05:13,197 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 17:05:13,197 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 17:05:13,198 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 17:05:13,198 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=4.0)
+2024-03-19 17:05:13,199 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=4.0)
+2024-03-19 17:05:13,199 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 17:05:13,199 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 17:05:13,200 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=-1.3889300915353546, I=-1.3970232587528488, r=0.0026977224058314007, n=16)
+2024-03-19 17:05:13,200 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=1.388930091535356, I=1.3970232587528486, r=0.0026977224058308824, n=16)
+2024-03-19 17:05:13,200 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.01; ans: 1.3322676295501878E-15; abs: 0.0026977224058311417; count: 32
+2024-03-19 17:05:13,200 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 17:05:54,736 INFO o.s.b.StartupInfoLogger [main] Starting Web4ApplicationTests using Java 20.0.1 with PID 33153 (started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 17:05:54,737 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 17:05:55,126 INFO o.s.b.StartupInfoLogger [main] Started Web4ApplicationTests in 0.536 seconds (process running for 0.88)
+2024-03-19 17:06:00,979 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 33164 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 17:06:00,981 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 17:06:01,246 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 17:06:01,254 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 17:06:01,255 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 17:06:01,255 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 17:06:01,286 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 17:06:01,287 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 292 ms
+2024-03-19 17:06:01,389 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 17:06:01,396 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 17:06:01,399 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.584 seconds (process running for 0.839)
+2024-03-19 17:06:03,245 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 17:06:03,245 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 17:06:03,246 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-19 17:06:03,286 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Функция: 4.0; Метод: 4.0; Граница левая: -4.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 17:06:03,286 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] point > a: true; point<b: true
+2024-03-19 17:06:03,286 WARN c.e.w.v.DataValidation [http-nio-8080-exec-1] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 17:06:03,287 INFO c.e.w.v.DataValidation [http-nio-8080-exec-1] f_dx(a): 1.3862943611198906; f_dx(b): 1.3862943611198906
+2024-03-19 17:06:03,287 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=-4.0, b=-1.0001, eps=0.01, method=4.0)
+2024-03-19 17:06:03,287 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=4.0)
+2024-03-19 17:06:03,287 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 17:06:03,287 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-1] Метод Трапеций
+2024-03-19 17:06:03,287 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=-1.3889300915353546, I=-1.3970232587528488, r=0.0026977224058314007, n=16)
+2024-03-19 17:06:03,287 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] AnswerInfo(e=0.01, answer=1.388930091535356, I=1.3970232587528486, r=0.0026977224058308824, n=16)
+2024-03-19 17:06:03,287 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-1] т: 0.0; ans: 0.0; abs: 0.0; count: 0
+2024-03-19 17:06:03,287 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Успешно
+2024-03-19 17:06:34,694 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 4.0; Метод: 4.0; Граница левая: -3.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 17:06:34,696 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] point > a: true; point<b: true
+2024-03-19 17:06:34,696 WARN c.e.w.v.DataValidation [http-nio-8080-exec-4] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 17:06:34,696 INFO c.e.w.v.DataValidation [http-nio-8080-exec-4] f_dx(a): 1.0986122886681096; f_dx(b): 1.3862943611198906
+2024-03-19 17:06:34,696 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] RequestFuncUser(typeFunc=4.0, a=-3.0, b=-1.0001, eps=0.01, method=4.0)
+2024-03-19 17:06:34,697 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] RequestFuncUser(typeFunc=4.0, a=1.0001, b=4.0, eps=0.01, method=4.0)
+2024-03-19 17:06:34,697 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-4] Метод Трапеций
+2024-03-19 17:06:34,697 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-4] Метод Трапеций
+2024-03-19 17:06:34,697 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] AnswerInfo(e=0.01, answer=-1.1031091974932772, I=-1.1165609226716122, r=0.004483908392778346, n=8)
+2024-03-19 17:06:34,697 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] AnswerInfo(e=0.01, answer=1.388930091535356, I=1.3970232587528486, r=0.0026977224058308824, n=16)
+2024-03-19 17:06:34,698 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-4] т: 0.01; ans: 0.2858208940420788; abs: 0.0035908153993046144; count: 24
+2024-03-19 17:06:34,698 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Успешно
+2024-03-19 17:06:45,753 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Функция: 4.0; Метод: 4.0; Граница левая: -1.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 17:06:45,755 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] point > a: true; point<b: true
+2024-03-19 17:06:45,755 WARN c.e.w.v.DataValidation [http-nio-8080-exec-5] Интеграл является странным, но будем устранять разрыв, который не является устранимым.
+2024-03-19 17:06:45,756 INFO c.e.w.v.DataValidation [http-nio-8080-exec-5] f_dx(a): 0.0; f_dx(b): 1.3862943611198906
+2024-03-19 17:06:45,756 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-5] Метод Трапеций
+2024-03-19 17:06:45,757 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] AnswerInfo(e=0.01, answer=1.388930091535356, I=1.3970232587528486, r=0.0026977224058308824, n=16)
+2024-03-19 17:06:45,757 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-5] т: 0.01; ans: 1.388930091535356; abs: 0.0026977224058308824; count: 16
+2024-03-19 17:06:45,758 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Успешно
+2024-03-19 17:06:48,641 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Функция: 4.0; Метод: 4.0; Граница левая: 1.0; Граница правая: 4.0; Точность: 0.01; 
+2024-03-19 17:06:48,642 INFO c.e.w.v.DataValidation [http-nio-8080-exec-6] point > a: false; point<b: true
+2024-03-19 17:06:48,642 INFO c.e.w.v.DataValidation [http-nio-8080-exec-6] f_dx(a): 0.0; f_dx(b): 1.3862943611198906
+2024-03-19 17:06:48,643 INFO c.e.w.m.m.TrapMethod [http-nio-8080-exec-6] Метод Трапеций
+2024-03-19 17:06:48,643 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] AnswerInfo(e=0.01, answer=1.388930091535356, I=1.3970232587528486, r=0.0026977224058308824, n=16)
+2024-03-19 17:06:48,643 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-6] т: 0.01; ans: 1.388930091535356; abs: 0.0026977224058308824; count: 16
+2024-03-19 17:06:48,643 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Успешно
+2024-03-19 19:02:06,413 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 34387 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 19:02:06,414 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 19:02:06,742 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 19:02:06,751 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 19:02:06,751 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 19:02:06,751 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 19:02:06,787 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 19:02:06,787 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 353 ms
+2024-03-19 19:02:06,903 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 19:02:06,910 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 19:02:06,914 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.712 seconds (process running for 1.157)
+2024-03-19 19:02:23,833 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 34396 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 19:02:23,834 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 19:02:24,133 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 19:02:24,141 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 19:02:24,141 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 19:02:24,142 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 19:02:24,169 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 19:02:24,170 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 317 ms
+2024-03-19 19:02:24,273 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 19:02:24,282 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 19:02:24,286 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.635 seconds (process running for 0.906)
+2024-03-19 19:38:25,236 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.1 with PID 34836 (/Users/alexalex/Desktop/cm_math/lab3/cm3/target/classes started by alexalex in /Users/alexalex/Desktop/cm_math/lab3/cm3)
+2024-03-19 19:38:25,237 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-03-19 19:38:25,550 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-03-19 19:38:25,558 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-19 19:38:25,558 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-03-19 19:38:25,558 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-03-19 19:38:25,592 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-03-19 19:38:25,593 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 338 ms
+2024-03-19 19:38:25,699 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-03-19 19:38:25,707 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-19 19:38:25,711 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.687 seconds (process running for 1.042)
+2024-03-19 19:44:30,841 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19 19:44:30,843 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-03-19 19:44:30,844 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-03-19 19:44:30,906 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Функция: 3.0; Метод: 1.0; Граница левая: -1.0; Граница правая: 1.0; Точность: 0.01; 
+2024-03-19 19:44:30,907 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: false; point<b: true
+2024-03-19 19:44:30,907 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] point > a: true; point<b: false
+2024-03-19 19:44:30,907 INFO c.e.w.v.DataValidation [http-nio-8080-exec-2] f_dx(a): -1.5707963267948966; f_dx(b): 1.5707963267948966
+2024-03-19 19:44:30,907 INFO c.e.w.m.m.RetangleLeftMethod [http-nio-8080-exec-2] Метод левых
+2024-03-19 19:44:30,936 INFO c.e.w.m.AnswerInfo [http-nio-8080-exec-2] т: 0.01; ans: 3.152881443697954; abs: 0.004905442500345784; count: 262144
+2024-03-19 19:44:30,936 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Успешно
