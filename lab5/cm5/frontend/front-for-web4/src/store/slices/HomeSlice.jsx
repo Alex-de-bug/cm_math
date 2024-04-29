@@ -3,27 +3,50 @@ import axios from "axios";
 
 export const sendTry = createAsyncThunk(
     "home/sendTry",
-    async ({ sliderValue, points, saveToFile }, thunkAPI) => {
+    async ({val, points, func, range, step, inputType}, thunkAPI) => {
         await new Promise(resolve => setTimeout(resolve, 100));
         try {
             let link = "http://localhost:8080/api/integration/calculate";
+            let interval = [range.from, range.to];
             const params = {
-                sliderValue: sliderValue,
+                val: val,
                 points: points,
-                saveToFile: saveToFile,
+                function: func,
+                a: interval[0],
+                b: interval[1],
+                step: step,
+                type: inputType==="points" ? 0 : 1
             };
 
-            const allFieldsFilled = points.every(point => {
-                const x = parseFloat(point.x);
-                const y = parseFloat(point.y);
-                return !isNaN(x) && !isNaN(y);
-            });
-
-            if (!allFieldsFilled) {
-                return thunkAPI.rejectWithValue("All fields must be filled with valid numbers");
+            console.log("prevent: ", params, inputType);
+            switch (inputType) {
+                case 'points': {
+                    // Check if all points have valid numbers
+                    let allFieldsFilled = points.every(point => {
+                        const x = parseFloat(point.x);
+                        const y = parseFloat(point.y);
+                        return !isNaN(x) && !isNaN(y);
+                    });
+                    let minX = points.reduce((min, p) => p.x < min ? p.x : min, points[0].x);
+                    let maxX = points.reduce((max, p) => p.x > max ? p.x : max, points[0].x);
+                    if (!(val>=minX && val<=maxX) ||!allFieldsFilled) {
+                        return thunkAPI.rejectWithValue("All fields must be filled with valid numbers for points input.");
+                    }
+                    break;
+                }
+                case 'function': {
+                    if (!(val>=range.from && val<=range.to) || range.from > range.to || step < 0.01 || (step >= (range.to - range.from))) {
+                        return thunkAPI.rejectWithValue("Function input requires valid range and step values.");
+                    }
+                    break;
+                }
+                default:
+                    return thunkAPI.rejectWithValue("Unknown input type or other error.");
             }
 
-            console.log("send: ", params);
+
+
+            console.log("send");
 
             const response = await axios.post(link, params, {
                 headers: { "Content-Type": "application/json" }
@@ -78,7 +101,7 @@ export const HomeSlice = createSlice({
         builder
             .addCase(sendTry.fulfilled, (state, { payload }) => {
                 console.log("fulfilled with data: ", payload);
-                const [dataArray, message1, message2, message3, message4, message5, message6] = payload;
+                const [message1, message2, message3, message4, message5, message6, dataArray] = payload;
                 state.isFetching = false;
                 state.isSuccess = true;
                 state.errorMessage = "";

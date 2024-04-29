@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71f950eb-7371-46f5-b7f9-8448526fe1ed" name="Changes" comment="adaptive">
-      <change beforePath="$PROJECT_DIR$/../../../../lab4/cm4/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lab4/cm4/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../lab4/cm4/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lab4/cm4/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../lab4/cm4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lab4/cm4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../lab4/cm4/frontend/front-for-web4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lab4/cm4/frontend/front-for-web4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../lab4/cm4/logs/spring-boot-logger.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../lab4/cm4/logs/spring-boot-logger.log" afterDir="false" />
-    </list>
+    <list default="true" id="71f950eb-7371-46f5-b7f9-8448526fe1ed" name="Changes" comment="adaptive" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/alexalex/Desktop/cm_math/lab5/cm5/frontend/front-for-web4",
+    "last_opened_file_path": "/home/alwx/Рабочий стол/cm_math/lab5/cm5/frontend/front-for-web4",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -65,6 +59,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -112,6 +107,11 @@
       <workItem from="1713368109173" duration="60000" />
       <workItem from="1713519152962" duration="17000" />
       <workItem from="1714164568240" duration="2234000" />
+      <workItem from="1714229735423" duration="21000" />
+      <workItem from="1714229761809" duration="7000" />
+      <workItem from="1714229838432" duration="18955000" />
+      <workItem from="1714292693860" duration="9020000" />
+      <workItem from="1714376996799" duration="1123000" />
     </task>
     <task id="LOCAL-00001" summary="first front">
       <created>1701183907484</created>
