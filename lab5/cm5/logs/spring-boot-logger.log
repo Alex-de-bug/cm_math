@@ -3840,3 +3840,10 @@ java.lang.IndexOutOfBoundsException: Index 6 out of bounds for length 6
 2024-04-29 15:26:00,749 INFO c.e.w.m.Gauss [http-nio-8080-exec-2] Forward interpolation
 2024-04-29 15:26:00,749 INFO c.e.w.m.Stirling [http-nio-8080-exec-2] 0.12300000000000022
 2024-04-29 15:26:00,749 INFO c.e.w.m.Bessel [http-nio-8080-exec-2] 0.12300000000000022
+2024-04-29 15:27:54,602 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Тип: 1
+2024-04-29 15:27:54,602 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Аргумент: 2.123
+2024-04-29 15:27:54,602 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Функция: 0; A: 0.0; B: 4.0; Step: 0.5
+2024-04-29 15:27:54,602 INFO c.e.w.m.Lagrange [http-nio-8080-exec-4] 3.744400643747943
+2024-04-29 15:27:54,602 INFO c.e.w.m.Gauss [http-nio-8080-exec-4] Forward interpolation
+2024-04-29 15:27:54,602 INFO c.e.w.m.Stirling [http-nio-8080-exec-4] 0.24600000000000044
+2024-04-29 15:27:54,603 INFO c.e.w.m.Bessel [http-nio-8080-exec-4] 0.24600000000000044
