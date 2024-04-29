@@ -15,7 +15,7 @@ public class Tracing extends Method{
 
     private Double F(Double x){
         return switch (requestFuncUser.getFunction()) {
-            case 0 -> 3 * Math.sin(x);
+            case 0 -> 3 * Math.sin(x) + Math.cos(8 *x) + x;
             case 1 ->  Math.cos(8 *x);
             default -> Math.random();
         };

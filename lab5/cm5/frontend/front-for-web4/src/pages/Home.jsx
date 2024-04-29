@@ -139,7 +139,7 @@ function Home() {
             func: Number(value),
         }));
     };
-    const myArray = ["3sin(x)",
+    const myArray = ["3sin(x) + cos8x + x",
         "cos(8x)"];
     const myArrayWithKeys = myArray.map((funct, index) => ({ funct, index }));
 

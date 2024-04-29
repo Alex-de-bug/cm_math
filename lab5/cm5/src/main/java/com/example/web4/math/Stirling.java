@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class Stirling extends Method {
     private double interpolatedValue = 0.0;
-    private ArrayList<ArrayList<Double>> defy;
+    private double[] deltas;
     private static final Logger logger = LoggerFactory.getLogger(Stirling.class);
 
     public Stirling(Integer size, Double arg, ArrayList<Double> xVal, ArrayList<Double> yVal, ArrayList<ArrayList<Double>> defy) {
@@ -17,44 +17,79 @@ public class Stirling extends Method {
 
     @Override
     public void calculate() {
-        if (size % 2 == 0) {
-            logger.warn("Stirling's interpolation requires an even number of data points.");
+        int n = xVal.size();
+        double tSub = (arg - xVal.get(n / 2))/(xVal.get(1) - xVal.get(0));
+        logger.info(String.valueOf(tSub));
+        if ((size % 2 == 0)||(Math.abs(tSub) > 0.25)) {
             return;
         }
-
-        int n = size - 1;
-        int center = n / 2;
-        double a = xVal.get(center);
-        double h = xVal.get(1) - xVal.get(0);  // Assuming uniform spacing
-        double t = (arg - a) / h;
-        logger.info(t+"");
-
-        interpolatedValue = defy.get(center).get(0)
-                + t * (defy.get(center - 1).get(1) + defy.get(center).get(1)) / 2
-                + Math.pow(t, 2) / 2 * defy.get(center - 1).get(2);
-
-        double term = Math.pow(t, 2) / 2;
-        for (int k = 3; k <= n; k++) {
-            if (k % 2 == 0) {
-                term *= t / k;
-                interpolatedValue += term * defy.get(center - k / 2).get(k);
-            } else {
-                term *= (Math.pow(t, 2) - Math.pow(k / 2, 2)) / (k * t);
-                interpolatedValue += term * (defy.get(center - k / 2 - 1).get(k) + defy.get(center - k / 2).get(k)) / 2;
+        deltas = new double[n];
+        double factorial = 1;
+        double result = yVal.get(n / 2);
+        for (int i = 0; i < n; i++) {
+            deltas[i] = yVal.get(i);
+        }
+        for (int i = 1; i < n; i++) {
+            for (int j = n - 1; j >= i; j--) {
+                deltas[j] = deltas[j] - deltas[j - 1];
             }
         }
+        for (int i = 1; i <= n / 2; i++) {
+            factorial *= i;
+            double tPower = Math.pow(tSub, 2 * i);
+            double deltaSum = deltas[2 * i - 1] + deltas[2 * i];
+            result += (tPower / (factorial * factorial)) * deltaSum / 2;
+            if (i % 2 == 0) {
+                tPower *= (tSub - ( i / 2) * (tSub / i));
+                result -= (tPower / (2 * factorial * factorial)) * deltas[2 * i];
+            }
+        }
+
+        interpolatedValue = result;
     }
+
+    public double estimateError() {
+        int n = xVal.size();
+        if (n % 2 == 0) {
+            logger.error("Ошибка: Интерполяционный многочлен Стирлинга строится только по нечётному количеству точек.");
+            return Double.NaN;
+        }
+
+        double h = xVal.get(1) - xVal.get(0); // Равномерный шаг предполагается между узлами
+        double tSub = (arg - xVal.get(n / 2)) / h;
+        if (Math.abs(tSub) > 0.25) {
+            logger.error("Ошибка: Стирлинг даёт большую погрешность.");
+            return Double.NaN;
+        }
+
+        // Используем последнюю доступную разность для оценки погрешности
+        // Получаем последнюю значимую разность из массива deltas, которая находится в предпоследнем столбце таблицы разностей.
+        double lastDelta = deltas[n - 1];
+        return Math.abs(lastDelta * Math.pow(h, n)) / factorial(n)*100;
+    }
+
+
+
+
+
 
     @Override
     public String getNameMethod() {
-        return "Stirling's Interpolation";
+        return "Stirling's\\ Interpolation";
     }
 
     @Override
     public String getAnswer() {
         if (size % 2 == 0) {
-            return "Stirling's interpolation requires an even number of data points.";
+            return "Многочлен\\ Стирлинга\\ строится\\ только\\ по\\ нечётному\\ количесту\\ узлов.";
         }
-        return getNameMethod() + String.format(": Interpolated value at x = %.2f is y = %.2f", this.arg, interpolatedValue);
+        int n = xVal.size();
+        double tSub = (arg - xVal.get(n / 2))/(xVal.get(1) - xVal.get(0));
+        if (Math.abs(tSub)>0.25) {
+            return "Так\\ как\\ t\\ >\\ 0.25,\\ Стирлинг\\ даёт\\ большую\\ погрешность.";
+        }
+        return getNameMethod() + "\\\\ Interpolated\\ value\\ at\\ x\\ =\\ "+this.arg+" \\ is\\ y\\ =\\ " +this.interpolatedValue + "\\\\ Примерная\\ погрешность: "+ formatScientificNotation(String.valueOf(estimateError()))+"\\ \\%";
+
+
     }
 }
