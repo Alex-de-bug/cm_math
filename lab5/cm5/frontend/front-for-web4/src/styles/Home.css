@@ -3,9 +3,11 @@
     justify-content: center;
     align-items: center;
 }
-body{
+
+body {
     background-color: #313131;
 }
+
 .center-container {
     display: flex;
     justify-content: center; /* Центрирование по горизонтали */
@@ -13,11 +15,11 @@ body{
     height: 70vh; /* Пример высоты, может быть изменено в зависимости от вашего дизайна */
 }
 
-.graph{
+.graph {
     border: 2px solid #313131;
 }
 
-input{
+input {
     background-color: gray;
     border: 2px solid gray;
     width: 7%;

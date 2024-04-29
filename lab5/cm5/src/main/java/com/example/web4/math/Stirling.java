@@ -6,9 +6,9 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 
 public class Stirling extends Method {
+    private static final Logger logger = LoggerFactory.getLogger(Stirling.class);
     private double interpolatedValue = 0.0;
     private double[] deltas;
-    private static final Logger logger = LoggerFactory.getLogger(Stirling.class);
 
     public Stirling(Integer size, Double arg, ArrayList<Double> xVal, ArrayList<Double> yVal, ArrayList<ArrayList<Double>> defy) {
         super(size, arg, xVal, yVal);
@@ -18,59 +18,63 @@ public class Stirling extends Method {
     @Override
     public void calculate() {
         int n = xVal.size();
-        double tSub = (arg - xVal.get(n / 2))/(xVal.get(1) - xVal.get(0));
+        double tSub = (arg - xVal.get(n / 2)) / (xVal.get(1) - xVal.get(0));
         logger.info(String.valueOf(tSub));
-        if ((size % 2 == 0)||(Math.abs(tSub) > 0.25)) {
+        if ((size % 2 == 0) || (Math.abs(tSub) > 0.25)) {
             return;
         }
-        deltas = new double[n];
-        double factorial = 1;
-        double result = yVal.get(n / 2);
+
         for (int i = 0; i < n; i++) {
-            deltas[i] = yVal.get(i);
+            defy.get(i).set(0, yVal.get(i));
         }
+
         for (int i = 1; i < n; i++) {
-            for (int j = n - 1; j >= i; j--) {
-                deltas[j] = deltas[j] - deltas[j - 1];
-            }
-        }
-        for (int i = 1; i <= n / 2; i++) {
-            factorial *= i;
-            double tPower = Math.pow(tSub, 2 * i);
-            double deltaSum = deltas[2 * i - 1] + deltas[2 * i];
-            result += (tPower / (factorial * factorial)) * deltaSum / 2;
-            if (i % 2 == 0) {
-                tPower *= (tSub - ( i / 2) * (tSub / i));
-                result -= (tPower / (2 * factorial * factorial)) * deltas[2 * i];
+            for (int j = 0; j < n - i; j++) {
+                defy.get(j).set(i, defy.get(j + 1).get(i - 1) - defy.get(j).get(i - 1));
             }
         }
 
+        n = xVal.size() - 1;
+        int center = n / 2;
+        double a = xVal.get(center);
+        double t = (arg - a) / (xVal.get(1) - xVal.get(0));
+
+        double result = defy.get(center).get(0) + t * (defy.get(center - 1).get(1) + defy.get(center).get(1))*0.5 + (Math.pow(t, 2))* 0.5 * defy.get(center - 1).get(2);
+        double term = (Math.pow(t, 2))* 0.5;
+
+        for(int k = 3; k < n; k++) {
+            if(k % 2 == 0){
+                term *= t / k;
+                result =result + term * defy.get((center - k/2)).get(k);
+            }
+             else{
+                term *= (Math.pow(t, 2) - (int)Math.pow(k*0.5, 2))/ (k * t);
+                result += term * (defy.get((center - k/2 - 1)).get(k) + defy.get((center - k/2)).get(k))*0.5;
+            }
+
+        }
         interpolatedValue = result;
     }
 
-    public double estimateError() {
-        int n = xVal.size();
-        if (n % 2 == 0) {
-            logger.error("Ошибка: Интерполяционный многочлен Стирлинга строится только по нечётному количеству точек.");
-            return Double.NaN;
-        }
-
-        double h = xVal.get(1) - xVal.get(0); // Равномерный шаг предполагается между узлами
-        double tSub = (arg - xVal.get(n / 2)) / h;
-        if (Math.abs(tSub) > 0.25) {
-            logger.error("Ошибка: Стирлинг даёт большую погрешность.");
-            return Double.NaN;
-        }
-
-        // Используем последнюю доступную разность для оценки погрешности
-        // Получаем последнюю значимую разность из массива deltas, которая находится в предпоследнем столбце таблицы разностей.
-        double lastDelta = deltas[n - 1];
-        return Math.abs(lastDelta * Math.pow(h, n)) / factorial(n)*100;
-    }
-
-
-
-
+//    public double estimateError() {
+//        int n = xVal.size();
+//        if (n % 2 == 0) {
+//            logger.error("Ошибка: Интерполяционный многочлен Стирлинга строится только по нечётному количеству точек.");
+//            return Double.NaN;
+//        }
+//
+//        double h = xVal.get(1) - xVal.get(0); // Равномерный шаг предполагается между узлами
+//        double tSub = (arg - xVal.get(n / 2)) / h;
+//        if (Math.abs(tSub) > 0.25) {
+//            logger.error("Ошибка: Стирлинг даёт большую погрешность.");
+//            return Double.NaN;
+//        }
+//
+//        // Используем последнюю доступную разность для оценки погрешности
+//        // Получаем последнюю значимую разность из массива deltas, которая находится в предпоследнем столбце таблицы разностей.
+//        double lastDelta = deltas[n - 1];
+//        return Math.abs(lastDelta * Math.pow(h, n)) / factorial(n) * 100;
+//    }
 
 
     @Override
@@ -84,11 +88,11 @@ public class Stirling extends Method {
             return "Многочлен\\ Стирлинга\\ строится\\ только\\ по\\ нечётному\\ количесту\\ узлов.";
         }
         int n = xVal.size();
-        double tSub = (arg - xVal.get(n / 2))/(xVal.get(1) - xVal.get(0));
-        if (Math.abs(tSub)>0.25) {
+        double tSub = (arg - xVal.get(n / 2)) / (xVal.get(1) - xVal.get(0));
+        if (Math.abs(tSub) > 0.25) {
             return "Так\\ как\\ t\\ >\\ 0.25,\\ Стирлинг\\ даёт\\ большую\\ погрешность.";
         }
-        return getNameMethod() + "\\\\ Interpolated\\ value\\ at\\ x\\ =\\ "+this.arg+" \\ is\\ y\\ =\\ " +this.interpolatedValue + "\\\\ Примерная\\ погрешность: "+ formatScientificNotation(String.valueOf(estimateError()))+"\\ \\%";
+        return getNameMethod() + "\\\\ Interpolated\\ value\\ at\\ x\\ =\\ " + this.arg + " \\ is\\ y\\ =\\ " + this.interpolatedValue; //+ "\\\\ Примерная\\ погрешность: " + formatScientificNotation(String.valueOf(estimateError())) + "\\ \\%";
 
 
     }

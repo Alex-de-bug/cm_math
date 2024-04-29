@@ -6,10 +6,11 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 
 public class Gauss extends Method {
+    private static final Logger logger = LoggerFactory.getLogger(Gauss.class);
     private double interpolatedValue = 0.0;
     private ArrayList<Double> coefficients = new ArrayList<>();
     private ArrayList<Double> nodes = new ArrayList<>();
-    private static final Logger logger = LoggerFactory.getLogger(Gauss.class);
+    private double tmp = 0.0;
 
     public Gauss(Integer size, Double arg, ArrayList<Double> xVal, ArrayList<Double> yVal) {
         super(size, arg, xVal, yVal);
@@ -57,28 +58,25 @@ public class Gauss extends Method {
                 interpolatedValue += term * y_diff[nearestIndex - i + 1];
             }
         }
-
         nodesForGraph();
-
     }
 
-    private void nodesForGraph(){
-        double[] y_diff = new double[size];
+    private void nodesForGraph() {
+        double[] yDiff = new double[size];
         for (int i = 0; i < size; i++) {
-            y_diff[i] = yVal.get(i);
+            yDiff[i] = yVal.get(i);
         }
-        double x_target = arg;
+        double xTarget = arg;
         for (int i = 0; i < size; i++) {
-            coefficients.add(y_diff[i]);
+            coefficients.add(yDiff[i]);
             nodes.add(xVal.get(i));
 
             for (int j = size - 1; j > i; j--) {
-                y_diff[j] = (y_diff[j] - y_diff[j - 1]) / (xVal.get(j) - xVal.get(j - i - 1));
+                yDiff[j] = (yDiff[j] - yDiff[j - 1]) / (xVal.get(j) - xVal.get(j - i - 1));
             }
         }
-        interpolatedValue = 0.0;
         for (int i = size - 1; i >= 0; i--) {
-            interpolatedValue = interpolatedValue * (x_target - xVal.get(i)) + coefficients.get(i);
+            tmp = tmp * (xTarget - xVal.get(i)) + coefficients.get(i);
         }
     }
 
@@ -121,6 +119,6 @@ public class Gauss extends Method {
 
     @Override
     public String getAnswer() {
-        return getNameMethod() + "\\\\ Interpolated\\ value\\ at\\ x\\ =\\ " + this.arg + "\\ is\\ y\\ =\\ " + interpolatedValue;
+        return getNameMethod() + "\\\\ Interpolated\\ value\\ at\\ x\\ =\\ " + this.arg + "\\ is\\ y\\ =\\ " + tmp;
     }
 }

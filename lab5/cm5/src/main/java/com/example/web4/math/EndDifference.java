@@ -2,7 +2,7 @@ package com.example.web4.math;
 
 import java.util.ArrayList;
 
-public class EndDifference extends Method{
+public class EndDifference extends Method {
 
 
     public EndDifference(Integer size, Double arg, ArrayList<Double> xVal, ArrayList<Double> yVal) {
@@ -37,12 +37,12 @@ public class EndDifference extends Method{
 
         StringBuilder sb = new StringBuilder();
         sb.append("Table\\ of\\ end\\ difference\\\\\\\\ \\begin{array}{");
-        sb.append("|c".repeat(Math.max(0, size+1    )));
+        sb.append("|c".repeat(Math.max(0, size + 1)));
         sb.append("c|");
         sb.append("}\n");
 
         sb.append("\\hline\\ x_i& ");
-        for (int j = 0; j < size ; j++) {
+        for (int j = 0; j < size; j++) {
             sb.append(xVal.get(j));
             if (j < size - 1) {
                 sb.append(" & ");
@@ -51,7 +51,7 @@ public class EndDifference extends Method{
         sb.append(" \\\\\n \\hline\\ ");
         sb.append("y_i& ");
         for (int i = 0; i < size; i++) {
-            if(i!=0){
+            if (i != 0) {
                 sb.append("\\Delta^{").append(i).append("}y_i& ");
             }
 

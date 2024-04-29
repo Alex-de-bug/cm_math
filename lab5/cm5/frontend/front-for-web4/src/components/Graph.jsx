@@ -1,10 +1,10 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
-import { homeSelector } from "../store/slices/HomeSlice.jsx";
+import {useSelector} from 'react-redux';
+import {homeSelector} from "../store/slices/HomeSlice.jsx";
 import DesmosGraph from "./DesmosGraph.jsx";
 
 const Graph = () => {
-    const { message1, message3, message4 } = useSelector(homeSelector);
+    const {message1, message3, message4} = useSelector(homeSelector);
     const originalXValues = message1[1];
     const yValues = message1[2];
 
@@ -41,7 +41,7 @@ const Graph = () => {
             justifyContent: 'center',
             alignItems: 'center',
         }}>
-            <DesmosGraph expressions={expressions} />
+            <DesmosGraph expressions={expressions}/>
         </div>
     );
 };

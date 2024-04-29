@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, {useEffect, useRef} from 'react';
 
-const DesmosGraph = ({ expressions }) => {
+const DesmosGraph = ({expressions}) => {
     const calculatorRef = useRef(null);
 
     useEffect(() => {
@@ -12,7 +12,7 @@ const DesmosGraph = ({ expressions }) => {
         return () => calculator.destroy(); // Чистка при размонтировании компонента
     }, [expressions]);
 
-    return <div ref={calculatorRef} style={{ width: '600px', height: '400px' }} />;
+    return <div ref={calculatorRef} style={{width: '600px', height: '400px'}}/>;
 };
 
 export default DesmosGraph;

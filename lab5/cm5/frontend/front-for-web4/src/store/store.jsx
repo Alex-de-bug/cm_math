@@ -1,4 +1,4 @@
-import { configureStore } from "@reduxjs/toolkit";
+import {configureStore} from "@reduxjs/toolkit";
 import {HomeSlice} from "./slices/HomeSlice.jsx";
 
 const store = configureStore({

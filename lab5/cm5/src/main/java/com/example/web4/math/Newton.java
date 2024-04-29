@@ -2,7 +2,7 @@ package com.example.web4.math;
 
 import java.util.ArrayList;
 
-public class Newton extends Method{
+public class Newton extends Method {
     private double interpolatedValue = 0.0;
     private ArrayList<ArrayList<Double>> dividedDifferences;
     private String polynomialString = "";
@@ -72,6 +72,6 @@ public class Newton extends Method{
 
     @Override
     public String getAnswer() {
-        return getNameMethod() + "\\\\ Interpolated\\ value\\ at\\ x\\ =\\ "+this.arg+" \\ is\\ y\\ =\\ " +this.interpolatedValue;
+        return getNameMethod() + "\\\\ Interpolated\\ value\\ at\\ x\\ =\\ " + this.arg + " \\ is\\ y\\ =\\ " + this.interpolatedValue;
     }
 }

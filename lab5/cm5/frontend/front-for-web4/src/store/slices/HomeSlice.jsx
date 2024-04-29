@@ -1,4 +1,4 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import axios from "axios";
 
 export const sendTry = createAsyncThunk(
@@ -15,7 +15,7 @@ export const sendTry = createAsyncThunk(
                 a: interval[0],
                 b: interval[1],
                 step: step,
-                type: inputType==="points" ? 0 : 1
+                type: inputType === "points" ? 0 : 1
             };
 
             console.log("prevent: ", params, inputType);
@@ -29,13 +29,13 @@ export const sendTry = createAsyncThunk(
                     });
                     let minX = points.reduce((min, p) => p.x < min ? p.x : min, points[0].x);
                     let maxX = points.reduce((max, p) => p.x > max ? p.x : max, points[0].x);
-                    if (!(val>=minX && val<=maxX) ||!allFieldsFilled) {
+                    if (!(val >= minX && val <= maxX) || !allFieldsFilled) {
                         return thunkAPI.rejectWithValue("All fields must be filled with valid numbers for points input.");
                     }
                     break;
                 }
                 case 'function': {
-                    if (!(val>=range.from && val<=range.to) || range.from > range.to || step < 0.01 || (step >= (range.to - range.from))) {
+                    if (!(val >= range.from && val <= range.to) || range.from > range.to || step < 0.01 || (step >= (range.to - range.from))) {
                         return thunkAPI.rejectWithValue("Function input requires valid range and step values.");
                     }
                     break;
@@ -45,14 +45,13 @@ export const sendTry = createAsyncThunk(
             }
 
 
-
             console.log("send");
 
             const response = await axios.post(link, params, {
-                headers: { "Content-Type": "application/json" }
+                headers: {"Content-Type": "application/json"}
             });
             let data = await response.data;
-            console.log("status: "+response.status)
+            console.log("status: " + response.status)
             // if (response.status === 200||response.status === 201) {
             if (response.status === 200) {
                 return data;
@@ -60,7 +59,7 @@ export const sendTry = createAsyncThunk(
                 return thunkAPI.rejectWithValue(data);
             }
         } catch (e) {
-            console.log("status: "+e.response.status)
+            console.log("status: " + e.response.status)
             return thunkAPI.rejectWithValue(e.response.data);
         }
     }
@@ -99,7 +98,7 @@ export const HomeSlice = createSlice({
     },
     extraReducers: (builder) => {
         builder
-            .addCase(sendTry.fulfilled, (state, { payload }) => {
+            .addCase(sendTry.fulfilled, (state, {payload}) => {
                 console.log("fulfilled with data: ", payload);
                 const [message1, message2, message3, message4, message5, message6, dataArray] = payload;
                 state.isFetching = false;
@@ -114,8 +113,8 @@ export const HomeSlice = createSlice({
                 state.message6 = message6;
                 return state;
             })
-            .addCase(sendTry.rejected, (state, { payload }) => {
-                console.log("rejected with error: "+payload);
+            .addCase(sendTry.rejected, (state, {payload}) => {
+                console.log("rejected with error: " + payload);
                 state.isFetching = false;
                 state.isError = true;
                 state.isSuccess = false;
@@ -141,6 +140,6 @@ export const HomeSlice = createSlice({
     }
 });
 
-export const { clearState } = HomeSlice.actions;
+export const {clearState} = HomeSlice.actions;
 
 export const homeSelector = (state) => state.home;

@@ -10,7 +10,7 @@ import java.util.List;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class RequestFuncUser{
+public class RequestFuncUser {
     private Double val;
     private Integer function;
     private Double step;
@@ -18,6 +18,7 @@ public class RequestFuncUser{
     private Double a;
     private Double b;
     private Integer type;
+
     public void sortPointsByX() {
         points.sort(Comparator.comparing(PointDto::getX));
     }

@@ -31,30 +31,30 @@ public class AttemptController {
 //        log.warn("A WARN Message");
 //        log.error("An ERROR Message");
 
-        logger.info("Тип: "+pointRequest.getType());
-        logger.info("Аргумент: "+pointRequest.getVal());
+        logger.info("Тип: " + pointRequest.getType());
+        logger.info("Аргумент: " + pointRequest.getVal());
 
 
         Integer size = 0;
         ArrayList<Double> xVal = new ArrayList<>();
         ArrayList<Double> yVal = new ArrayList<>();
 
-        switch (pointRequest.getType()){
+        switch (pointRequest.getType()) {
             case 0: {
                 size = pointRequest.getPoints().size();
                 pointRequest.sortPointsByX();
-                for(PointDto pointDto : pointRequest.getPoints()){
+                for (PointDto pointDto : pointRequest.getPoints()) {
                     xVal.add(pointDto.getX());
                     yVal.add(pointDto.getY());
-                    logger.info("Точка: ("+pointDto.getX()+", "+pointDto.getY()+")");
+                    logger.info("Точка: (" + pointDto.getX() + ", " + pointDto.getY() + ")");
                 }
                 break;
             }
-            case 1:{
-                logger.info("Функция: "+pointRequest.getFunction()+ "; "+
-                        "A: "+pointRequest.getA()+ "; "+
-                        "B: "+pointRequest.getB()+ "; "+
-                        "Step: "+pointRequest.getStep());
+            case 1: {
+                logger.info("Функция: " + pointRequest.getFunction() + "; " +
+                        "A: " + pointRequest.getA() + "; " +
+                        "B: " + pointRequest.getB() + "; " +
+                        "Step: " + pointRequest.getStep());
                 Tracing tracing = new Tracing(pointRequest);
                 tracing.calculate();
                 size = tracing.getSize();
@@ -64,32 +64,33 @@ public class AttemptController {
             }
         }
 
-        EndDifference endDifference = new EndDifference(size, pointRequest.getVal() ,xVal, yVal);
+        EndDifference endDifference = new EndDifference(size, pointRequest.getVal(), xVal, yVal);
         endDifference.calculate();
         List<Object> diffTable = new ArrayList<>();
         diffTable.add(endDifference.getAnswer());
         diffTable.add(xVal);
         diffTable.add(yVal);
 
-        Lagrange lagrange = new Lagrange(size, pointRequest.getVal() ,xVal, yVal);
+        Lagrange lagrange = new Lagrange(size, pointRequest.getVal(), xVal, yVal);
         lagrange.calculate();
 
-        Newton newton = new Newton(size, pointRequest.getVal() ,xVal, yVal);
+        Newton newton = new Newton(size, pointRequest.getVal(), xVal, yVal);
         newton.calculate();
         List<String> newt = new ArrayList<>();
         newt.add(newton.getAnswer());
         newt.add(newton.buildPolynomialString());
 
-        Gauss gauss = new Gauss(size, pointRequest.getVal() ,xVal, yVal);
+        Gauss gauss = new Gauss(size, pointRequest.getVal(), xVal, yVal);
         gauss.calculate();
         List<String> gaus = new ArrayList<>();
         gaus.add(gauss.getAnswer());
         gaus.add(gauss.getPolynomial());
 
-        Stirling stir = new Stirling(size, pointRequest.getVal() ,xVal, yVal, endDifference.getDefy());
+        Stirling stir = new Stirling(size, pointRequest.getVal(), xVal, yVal, endDifference.getDefy());
         stir.calculate();
 
-        Bessel bess = new Bessel(size, pointRequest.getVal() ,xVal, yVal);
+        Bessel bess = new Bessel(size, pointRequest.getVal(), xVal, yVal);
+        bess.setDefy(endDifference.getDefy());
         bess.calculate();
 
         String lag = lagrange.getAnswer();
