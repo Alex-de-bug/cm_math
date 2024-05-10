@@ -18,11 +18,9 @@ public class Gauss extends Method {
 
     @Override
     public void calculate() {
-
-
-        double[] y_diff = new double[size];
+        double[] yDiff = new double[size];
         for (int i = 0; i < size; i++) {
-            y_diff[i] = yVal.get(i);
+            yDiff[i] = yVal.get(i);
         }
 
         double x_target = arg;
@@ -31,31 +29,31 @@ public class Gauss extends Method {
         int nearestIndex = findNearestIndex(x_target);
 
         double p = (x_target - xVal.get(nearestIndex)) / h;
-        interpolatedValue = y_diff[nearestIndex];
+        interpolatedValue = yDiff[nearestIndex];
 
         if (nearestIndex <= n) {
             logger.info("Forward interpolation");
             for (int i = 1; i <= n; i++) {
                 for (int j = nearestIndex; j < size - i; j++) {
-                    y_diff[j] = y_diff[j + 1] - y_diff[j];
+                    yDiff[j] = yDiff[j + 1] - yDiff[j];
                 }
                 double term = p;
                 for (int k = 1; k < i; k++) {
                     term *= (p - k) / (k + 1);
                 }
-                interpolatedValue += term * y_diff[nearestIndex];
+                interpolatedValue += term * yDiff[nearestIndex];
             }
         } else {
             logger.info("Backward interpolation");
             for (int i = 1; i <= n; i++) {
                 for (int j = nearestIndex; j >= i; j--) {
-                    y_diff[j] = y_diff[j] - y_diff[j - 1];
+                    yDiff[j] = yDiff[j] - yDiff[j - 1];
                 }
                 double term = p;
                 for (int k = 1; k < i; k++) {
                     term *= (p + k) / (k + 1);
                 }
-                interpolatedValue += term * y_diff[nearestIndex - i + 1];
+                interpolatedValue += term * yDiff[nearestIndex - i + 1];
             }
         }
         nodesForGraph();

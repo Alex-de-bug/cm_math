@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cm2" />
-        <module name="web4" />
+        <module name="cm5" />
         <module name="cm4" />
+        <module name="web4" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="cm2" options="-parameters" />
       <module name="cm3" options="-parameters" />
       <module name="cm4" options="-parameters" />
+      <module name="cm5" options="-parameters" />
       <module name="web4" options="-parameters" />
     </option>
   </component>
