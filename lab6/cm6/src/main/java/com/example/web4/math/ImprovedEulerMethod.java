@@ -9,7 +9,6 @@ public class ImprovedEulerMethod extends Method{
         double y = y0;
         double x = x0;
         points.add("("+formatScientificNotation(x)+", "+formatScientificNotation(y)+")");
-
         while (x < xn) {
             if (x + h > xn) h = xn - x;
             double yEulerTilda = y + h * eq.eval(x, y);
@@ -25,7 +24,7 @@ public class ImprovedEulerMethod extends Method{
                 x += h;
                 points.add("("+formatScientificNotation(x)+", "+formatScientificNotation(y)+")");
             }
-            h *= R > eps ? 0.5 : 1.25;
+            h *= R > eps ? 0.5 : 1;
         }
         return points;
     }

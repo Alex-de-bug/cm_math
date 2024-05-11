@@ -58,12 +58,20 @@ public class AttemptController {
 
 
         List<Object> response = new ArrayList<>();
+        List<String> names = new ArrayList<>();
+
+        names.add(new ImprovedEulerMethod().getNameMethod());
+        names.add(new AdaptiveRungeKutta4().getNameMethod());
+        names.add(new AdaptiveAdamsMethod().getNameMethod());
+
         response.add(euler);
         response.add(runge);
         response.add(adam);
         response.add(func.getLatexEquation(x0, y0));
+        response.add(names);
 
-//        logger.info("Успешно");
+
+        logger.info("Успешно");
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 

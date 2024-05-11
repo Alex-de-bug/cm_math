@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ca071c-6bba-4269-8808-54cfc9ffc480" name="Changes" comment="1. First step to front auth;&#10;2. Smart front web with redux;&#10;3. For realisation redux, i use redux toolkit, bcs this tool makes the code easier;&#10;4. Delete all useless relation in bd;">
-      <change beforePath="$PROJECT_DIR$/../../lab5/cm5/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/cm5/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/cm5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/cm5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/cm5/frontend/front-for-web4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/cm5/frontend/front-for-web4/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="39ca071c-6bba-4269-8808-54cfc9ffc480" name="Changes" comment="1. First step to front auth;&#10;2. Smart front web with redux;&#10;3. For realisation redux, i use redux toolkit, bcs this tool makes the code easier;&#10;4. Delete all useless relation in bd;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,7 +182,7 @@
       <workItem from="1714486329431" duration="2489000" />
       <workItem from="1715361341763" duration="658000" />
       <workItem from="1715377423521" duration="7432000" />
-      <workItem from="1715417536901" duration="10169000" />
+      <workItem from="1715417536901" duration="14892000" />
     </task>
     <task id="LOCAL-00001" summary="new functional auth">
       <created>1700822021496</created>

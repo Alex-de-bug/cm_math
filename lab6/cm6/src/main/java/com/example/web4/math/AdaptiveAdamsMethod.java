@@ -43,36 +43,39 @@ public class AdaptiveAdamsMethod extends Method {
                     x[i] = x[i-1] + h1;
                     points.add("(" + formatScientificNotation(x[i]) + ", " + formatScientificNotation(y[i]) + ")");
                 } else {
-                    h1 *= 0.5; // Уменьшение шага, если ошибка слишком велика
+                    h1 *= 0.5;
                 }
             }
         }
 
 
-
+        double maxError = 0;
         while (x[ORDER - 1] < xn) {
-            if (x[ORDER - 1] + h > xn) h = xn - x[ORDER - 1];
-            double yNext = y[ORDER - 1] + h * (55 * eq.eval(x[ORDER - 1], y[ORDER - 1])
-                    - 59 * eq.eval(x[ORDER - 2], y[ORDER - 2])
-                    + 37 * eq.eval(x[ORDER - 3], y[ORDER - 3])
-                    - 9 * eq.eval(x[ORDER - 4], y[ORDER - 4])) / 24;
+            double fI = eq.eval(x[ORDER - 4], y[ORDER - 4]);
+            double fI1 = eq.eval(x[ORDER - 3], y[ORDER - 3]);
+            double fI2 = eq.eval(x[ORDER - 2], y[ORDER - 2]);
+            double fI3 = eq.eval(x[ORDER - 1], y[ORDER - 1]);
 
-            double maxError = 0;
-            for (int i = 0; i < ORDER; i++) {
-                maxError = Math.max(maxError, Math.abs(eq.getYRight(x0, y0, x[ORDER - 1]) - yNext));
-            }
+            double deltaFI = fI3 - fI2;
+            double delta2FI = fI3 - 2*fI2 + fI1;
+            double delta3FI = fI3 - 3*fI2 + 3*fI1 - fI;
 
-            if (maxError <= eps) {
-                System.arraycopy(x, 1, x, 0, ORDER - 1);
-                System.arraycopy(y, 1, y, 0, ORDER - 1);
-                x[ORDER - 1] += h;
-                y[ORDER - 1] = yNext;
-                points.add("(" + formatScientificNotation(x[ORDER - 1]) + ", " + formatScientificNotation(y[ORDER - 1]) + ")");
-            }
-            h *= maxError > eps ? 0.5 : 1.25;
+            double yNext = y[ORDER - 1] + h*fI3 + Math.pow(h, 2)*0.5*deltaFI + 5/12.f*Math.pow(h, 3)*delta2FI + 3/8.f*Math.pow(h, 4)*delta3FI;
+
+            maxError = Math.max(maxError, Math.abs(eq.getYRight(x0, y0, x[ORDER - 1]) - yNext));
+
+            System.arraycopy(x, 1, x, 0, ORDER - 1);
+            System.arraycopy(y, 1, y, 0, ORDER - 1);
+            x[ORDER - 1] += h;
+            y[ORDER - 1] = yNext;
+            points.add("(" + formatScientificNotation(x[ORDER - 1]) + ", " + formatScientificNotation(y[ORDER - 1]) + ")");
         }
 
-        return points;
+        if(maxError < eps){
+            return points;
+        }else return solve(eq,  x0, y0, xn, h*0.5, eps);
+
+
     }
 
     @Override
@@ -80,3 +83,26 @@ public class AdaptiveAdamsMethod extends Method {
         return "Метод Адамса с адаптивным шагом";
     }
 }
+
+
+//while (x[ORDER - 1] < xn) {
+//        if (x[ORDER - 1] + h > xn) h = xn - x[ORDER - 1];
+//double yNext = y[ORDER - 1] + h * (55 * eq.eval(x[ORDER - 1], y[ORDER - 1])
+//        - 59 * eq.eval(x[ORDER - 2], y[ORDER - 2])
+//        + 37 * eq.eval(x[ORDER - 3], y[ORDER - 3])
+//        - 9 * eq.eval(x[ORDER - 4], y[ORDER - 4])) / 24;
+//
+//double maxError = 0;
+//            for (int i = 0; i < ORDER; i++) {
+//maxError = Math.max(maxError, Math.abs(eq.getYRight(x0, y0, x[ORDER - 1]) - yNext));
+//        }
+//
+//        if (maxError <= eps) {
+//        System.arraycopy(x, 1, x, 0, ORDER - 1);
+//                System.arraycopy(y, 1, y, 0, ORDER - 1);
+//x[ORDER - 1] += h;
+//y[ORDER - 1] = yNext;
+//                points.add("(" + formatScientificNotation(x[ORDER - 1]) + ", " + formatScientificNotation(y[ORDER - 1]) + ")");
+//        }
+//h *= maxError > eps ? 0.5 : 1.25;
+//        }

@@ -22,7 +22,55 @@ import "../styles/Home.css";
 import Graph from "../components/Graph.jsx";
 import {BlockMath} from 'react-katex';
 import 'katex/dist/katex.min.css';
+function parseData(data) {
+    return data.map(item => {
+        const cleanedItem = item.replace(/[()]/g, ''); // Remove parentheses
+        const [x, y] = cleanedItem.split(',').map(Number); // Split by comma and convert to Number
+        return [x, y];
+    });
+}
 
+function DataTable({ data }) {
+    return (
+        <table style={{ margin: 'auto', borderCollapse: 'collapse', width: '80%' }}>
+            <thead>
+            <tr>
+                <th style={{ border: '1px solid black', padding: '8px', textAlign: 'center' }}>x</th>
+                <th style={{ border: '1px solid black', padding: '8px', textAlign: 'center' }}>y</th>
+            </tr>
+            </thead>
+            <tbody>
+            {data.map(([x, y], index) => (
+                <tr key={index}>
+                    <td style={{ border: '1px solid black', padding: '8px', textAlign: 'center' }}>{x}</td>
+                    <td style={{ border: '1px solid black', padding: '8px', textAlign: 'center' }}>{y}</td>
+                </tr>
+            ))}
+            </tbody>
+        </table>
+    );
+}
+
+
+function DataComponent({ messages, message5 }) {
+    return (
+        <>
+            {messages.map((message, idx) => (
+                message.length > 0 && (
+                    <Container key={idx} sx={{ mt: 3 }}>
+                        <Paper sx={{p: 3, bgcolor: 'grey'}}>
+                            <h2>{message5[idx]}</h2>
+                            <br/>
+                            <Graph message={message}/>
+                            <br/>
+                            <DataTable data={parseData(message)}/>
+                        </Paper>
+                    </Container>
+                )
+            ))}
+        </>
+    );
+}
 
 function Home() {
     const dispatch = useDispatch();
@@ -60,7 +108,6 @@ function Home() {
         e.preventDefault();
         dispatch(sendTry(formData));
     };
-
 
     const handleSelectChangeFunc = (event) => {
         const {value} = event.target;
@@ -166,7 +213,6 @@ function Home() {
                 variant="outlined"
                 sx={{mt: 2}}
             />
-
         </Box>
     );
 
@@ -186,42 +232,7 @@ function Home() {
                 </Paper>
             </Container>
             <br/>
-            {message1.length > 0 && (
-                <Container sx={{mt: 3}}>
-                    <Paper sx={{p: 3, bgcolor: 'grey'}}>
-                        <Graph message = {message1}/>
-                    </Paper>
-                    {/*<Paper sx={{p: 3, bgcolor: 'grey', overflow: 'auto'}}>*/}
-                    {/*    <div style={{maxWidth: '100%'}}>*/}
-                    {/*        <BlockMath math={message1}/>*/}
-                    {/*    </div>*/}
-                    {/*</Paper>*/}
-                </Container>
-            )}
-            {message2.length > 0 && (
-                <Container sx={{mt: 3}}>
-                    <Paper sx={{p: 3, bgcolor: 'grey'}}>
-                        <Graph message = {message2}/>
-                    </Paper>
-                    {/*<Paper sx={{p: 3, bgcolor: 'grey', overflow: 'auto'}}>*/}
-                    {/*    <div style={{maxWidth: '100%'}}>*/}
-                    {/*        <BlockMath math={message2}/>*/}
-                    {/*    </div>*/}
-                    {/*</Paper>*/}
-                </Container>
-            )}
-            {message3.length > 0 && (
-                <Container sx={{mt: 3}}>
-                    <Paper sx={{p: 3, bgcolor: 'grey'}}>
-                        <Graph message = {message3}/>
-                    </Paper>
-                    {/*<Paper sx={{p: 3, bgcolor: 'grey', overflow: 'auto'}}>*/}
-                    {/*    <div style={{maxWidth: '100%'}}>*/}
-                    {/*        <BlockMath math={message2}/>*/}
-                    {/*    </div>*/}
-                    {/*</Paper>*/}
-                </Container>
-            )}
+            <DataComponent messages={[message1, message2, message3]} message5={message5}/>
 
             <Snackbar open={openError} autoHideDuration={3000} onClose={handleCloseSnackbar}>
                 <Alert severity="error" onClose={handleCloseSnackbar}>

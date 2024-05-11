@@ -18,9 +18,17 @@ export const sendTry = createAsyncThunk(
 
             console.log("prevent: ", params);
 
+            if(x0>=xn){
+                return thunkAPI.rejectWithValue("Неверно введены границы");
+            }
+            if(x0+xn<step || step<0){
+                return thunkAPI.rejectWithValue("Неверно введён шаг");
+            }
+            if(eps<0){
+                return thunkAPI.rejectWithValue("Неверно введёна погрешность");
+            }
 
             console.log("send");
-
             const response = await axios.post(link, params, {
                 headers: {"Content-Type": "application/json"}
             });
