@@ -1,0 +1,1916 @@
+2024-05-11 00:56:12,917 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 3487 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 00:56:12,918 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 00:56:13,276 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 00:56:13,279 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 00:56:13,280 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 00:56:13,280 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 00:56:13,317 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 00:56:13,317 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 383 ms
+2024-05-11 00:56:13,438 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 00:56:13,443 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 00:56:13,447 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.746 seconds (process running for 0.991)
+2024-05-11 01:00:52,314 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 3814 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 01:00:52,315 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 01:00:52,587 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 01:00:52,590 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 01:00:52,591 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 01:00:52,591 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 01:00:52,619 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 01:00:52,620 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 288 ms
+2024-05-11 01:00:52,723 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 01:00:52,728 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 01:00:52,731 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.585 seconds (process running for 0.781)
+2024-05-11 01:00:56,899 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 01:00:56,899 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 01:00:56,899 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 01:00:56,945 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 01:00:56,945 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 0.0
+2024-05-11 01:00:56,945 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 01:00:56,945 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 10.0
+2024-05-11 01:00:56,945 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 01:00:56,945 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 01:01:11,964 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 1.0
+2024-05-11 01:01:11,964 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 2.0
+2024-05-11 01:01:11,964 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 01:01:11,964 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 3.0
+2024-05-11 01:01:11,964 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 123.0
+2024-05-11 01:01:11,964 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1123
+2024-05-11 01:35:03,500 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 4360 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 01:35:03,501 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 01:35:03,774 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 01:35:03,777 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 01:35:03,778 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 01:35:03,778 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 01:35:03,806 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 01:35:03,806 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 290 ms
+2024-05-11 01:35:03,910 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 01:35:03,915 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 01:35:03,918 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.588 seconds (process running for 0.764)
+2024-05-11 01:35:19,796 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 01:35:19,796 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 01:35:19,797 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 01:35:19,836 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 1.0
+2024-05-11 01:35:19,836 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 2.0
+2024-05-11 01:35:19,836 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 01:35:19,837 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 01:35:19,837 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 0.1
+2024-05-11 01:35:19,837 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1123
+2024-05-11 01:40:55,404 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 4512 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 01:40:55,405 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 01:40:55,670 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 01:40:55,673 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 01:40:55,673 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 01:40:55,674 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 01:40:55,700 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 01:40:55,701 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 279 ms
+2024-05-11 01:40:55,813 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 01:40:55,818 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 01:40:55,821 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.578 seconds (process running for 0.747)
+2024-05-11 01:40:59,040 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 01:40:59,041 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 01:40:59,041 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 01:40:59,080 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 1.0
+2024-05-11 01:40:59,080 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 2.0
+2024-05-11 01:40:59,080 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 01:40:59,080 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 01:40:59,080 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 0.1
+2024-05-11 01:40:59,080 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1123
+2024-05-11 01:43:33,554 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 4633 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 01:43:33,555 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 01:43:33,824 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 01:43:33,827 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 01:43:33,828 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 01:43:33,828 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 01:43:33,855 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 01:43:33,855 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 285 ms
+2024-05-11 01:43:33,959 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 01:43:33,964 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 01:43:33,967 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.586 seconds (process running for 0.779)
+2024-05-11 01:43:37,445 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 01:43:37,445 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 01:43:37,446 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 01:43:37,486 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 1.0
+2024-05-11 01:43:37,486 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 2.0
+2024-05-11 01:43:37,486 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 01:43:37,486 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 01:43:37,486 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 0.1
+2024-05-11 01:43:37,486 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1123
+2024-05-11 01:43:37,499 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.example.web4.math.StepResult]] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.example.web4.math.StepResult and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0]->java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1308)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:53)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:30)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:479)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:318)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1572)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1061)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:297)
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:245)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-05-11 01:49:10,207 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 4826 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 01:49:10,208 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 01:49:10,468 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 01:49:10,471 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 01:49:10,471 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 01:49:10,472 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 01:49:10,498 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 01:49:10,499 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 276 ms
+2024-05-11 01:49:10,601 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 01:49:10,606 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 01:49:10,609 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.585 seconds (process running for 0.769)
+2024-05-11 01:49:14,572 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 01:49:14,572 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 01:49:14,573 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 01:49:14,614 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 1.0
+2024-05-11 01:49:14,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 2.0
+2024-05-11 01:49:14,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 01:49:14,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 01:49:14,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 0.1
+2024-05-11 01:49:14,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1123
+2024-05-11 01:52:56,371 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 01:52:56,372 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 0.0
+2024-05-11 01:52:56,372 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 0
+2024-05-11 01:52:56,372 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 10.0
+2024-05-11 01:52:56,372 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 01:52:56,372 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 01:55:18,975 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 01:55:18,975 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 1.0
+2024-05-11 01:55:18,975 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 0
+2024-05-11 01:55:18,975 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 3.0
+2024-05-11 01:55:18,975 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 01:55:18,975 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.1
+2024-05-11 01:56:36,421 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] x0: 0.0
+2024-05-11 01:56:36,422 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] y0: 0.0
+2024-05-11 01:56:36,422 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] func: 0
+2024-05-11 01:56:36,422 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] xn: 3.0
+2024-05-11 01:56:36,422 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] step: 1.0
+2024-05-11 01:56:36,422 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] eps: 0.1
+2024-05-11 01:58:56,211 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] x0: 0.0
+2024-05-11 01:58:56,211 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] y0: 0.0
+2024-05-11 01:58:56,211 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] func: 0
+2024-05-11 01:58:56,211 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] xn: 3.0
+2024-05-11 01:58:56,211 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] step: 1.0
+2024-05-11 01:58:56,211 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] eps: 0.1
+2024-05-11 01:59:48,498 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] x0: 0.0
+2024-05-11 01:59:48,498 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] y0: 0.0
+2024-05-11 01:59:48,498 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] func: 0
+2024-05-11 01:59:48,498 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] xn: 3.0
+2024-05-11 01:59:48,499 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] step: 1.0
+2024-05-11 01:59:48,499 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] eps: 0.1
+2024-05-11 02:00:14,303 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 02:00:14,303 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 0.0
+2024-05-11 02:00:14,303 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 02:00:14,303 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 02:00:14,303 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 02:00:14,304 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 02:00:32,020 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 02:00:32,020 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 0.0
+2024-05-11 02:00:32,020 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 0
+2024-05-11 02:00:32,020 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 3.0
+2024-05-11 02:00:32,020 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 02:00:32,020 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 02:02:13,642 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 02:02:13,643 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 4.0
+2024-05-11 02:02:13,643 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 0
+2024-05-11 02:02:13,643 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 4.0
+2024-05-11 02:02:13,643 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 02:02:13,643 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.1
+2024-05-11 02:07:07,904 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] x0: 0.0
+2024-05-11 02:07:07,904 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] y0: 4.0
+2024-05-11 02:07:07,904 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] func: 1
+2024-05-11 02:07:07,904 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] xn: 4.0
+2024-05-11 02:07:07,904 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] step: 1.0
+2024-05-11 02:07:07,904 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] eps: 0.1
+2024-05-11 02:07:11,322 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] x0: 0.0
+2024-05-11 02:07:11,322 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] y0: 4.0
+2024-05-11 02:07:11,322 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] func: 2
+2024-05-11 02:07:11,322 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] xn: 4.0
+2024-05-11 02:07:11,322 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] step: 1.0
+2024-05-11 02:07:11,322 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] eps: 0.1
+2024-05-11 02:09:35,093 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] x0: 0.0
+2024-05-11 02:09:35,094 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] y0: 4.0
+2024-05-11 02:09:35,094 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] func: 2
+2024-05-11 02:09:35,094 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] xn: 4.0
+2024-05-11 02:09:35,094 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] step: 0.1
+2024-05-11 02:09:35,094 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] eps: 0.1
+2024-05-11 02:10:24,050 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 02:10:24,050 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 4.0
+2024-05-11 02:10:24,050 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 02:10:24,050 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 4.0
+2024-05-11 02:10:24,050 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 0.01
+2024-05-11 02:10:24,050 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 02:13:05,650 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 02:13:05,650 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 4.0
+2024-05-11 02:13:05,650 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 1
+2024-05-11 02:13:05,650 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 4.0
+2024-05-11 02:13:05,650 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 0.01
+2024-05-11 02:13:05,650 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 02:13:15,568 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 02:13:15,569 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 4.0
+2024-05-11 02:13:15,569 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 0
+2024-05-11 02:13:15,569 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 4.0
+2024-05-11 02:13:15,569 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 0.01
+2024-05-11 02:13:15,569 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.1
+2024-05-11 02:19:52,728 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] x0: 0.0
+2024-05-11 02:19:52,728 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] y0: 4.0
+2024-05-11 02:19:52,728 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] func: 0
+2024-05-11 02:19:52,729 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] xn: 4.0
+2024-05-11 02:19:52,729 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] step: 0.01
+2024-05-11 02:19:52,729 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] eps: 0.1
+2024-05-11 02:20:03,277 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 5404 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 02:20:03,278 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 02:20:03,551 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 02:20:03,554 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 02:20:03,554 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 02:20:03,555 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 02:20:03,581 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 02:20:03,581 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 288 ms
+2024-05-11 02:20:03,686 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 02:20:03,690 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 02:20:03,694 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.581 seconds (process running for 0.758)
+2024-05-11 02:20:05,821 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 02:20:05,821 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 02:20:05,822 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 02:20:05,863 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 02:20:05,863 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 4.0
+2024-05-11 02:20:05,863 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 02:20:05,864 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 4.0
+2024-05-11 02:20:05,864 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 0.01
+2024-05-11 02:20:05,864 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 02:24:02,208 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 5570 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 02:24:02,209 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 02:24:02,472 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 02:24:02,475 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 02:24:02,476 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 02:24:02,476 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 02:24:02,502 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 02:24:02,503 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 278 ms
+2024-05-11 02:24:02,605 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 02:24:02,610 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 02:24:02,613 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.573 seconds (process running for 0.755)
+2024-05-11 02:24:05,412 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 02:24:05,413 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 02:24:05,413 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 02:24:05,453 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 02:24:05,453 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 4.0
+2024-05-11 02:24:05,454 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 02:24:05,454 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 4.0
+2024-05-11 02:24:05,454 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 0.01
+2024-05-11 02:24:05,454 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 02:24:51,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 02:24:51,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 0.0
+2024-05-11 02:24:51,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 0
+2024-05-11 02:24:51,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 10.0
+2024-05-11 02:24:51,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 02:24:51,615 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 02:25:33,075 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 02:25:33,075 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 0.0
+2024-05-11 02:25:33,075 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 02:25:33,075 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 10.0
+2024-05-11 02:25:33,075 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 02:25:33,075 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 02:25:46,941 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 02:25:46,942 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 3.0
+2024-05-11 02:25:46,942 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 2
+2024-05-11 02:25:46,942 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 10.0
+2024-05-11 02:25:46,942 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 02:25:46,942 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.1
+2024-05-11 02:28:47,816 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 5821 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 02:28:47,817 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 02:28:48,075 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 02:28:48,078 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 02:28:48,079 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 02:28:48,079 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 02:28:48,106 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 02:28:48,106 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 274 ms
+2024-05-11 02:28:48,207 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 02:28:48,212 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 02:28:48,215 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.568 seconds (process running for 0.744)
+2024-05-11 02:28:53,598 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 02:28:53,599 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 02:28:53,599 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 02:28:53,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 02:28:53,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 3.0
+2024-05-11 02:28:53,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 02:28:53,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 10.0
+2024-05-11 02:28:53,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 02:28:53,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 02:29:24,186 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 02:29:24,186 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 3.0
+2024-05-11 02:29:24,187 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 1
+2024-05-11 02:29:24,187 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 10.0
+2024-05-11 02:29:24,187 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 02:29:24,187 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 02:29:51,609 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 02:29:51,609 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 3.0
+2024-05-11 02:29:51,609 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 02:29:51,609 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 10.0
+2024-05-11 02:29:51,609 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 02:29:51,610 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 02:30:40,015 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 5953 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 02:30:40,015 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 02:30:40,274 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 02:30:40,277 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 02:30:40,278 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 02:30:40,278 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 02:30:40,304 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 02:30:40,305 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 274 ms
+2024-05-11 02:30:40,405 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 02:30:40,409 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 02:30:40,413 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.564 seconds (process running for 0.744)
+2024-05-11 02:30:42,278 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 02:30:42,278 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 02:30:42,279 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 02:30:42,320 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 02:30:42,320 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 3.0
+2024-05-11 02:30:42,320 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 02:30:42,320 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 10.0
+2024-05-11 02:30:42,320 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 0.1
+2024-05-11 02:30:42,320 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 02:31:18,005 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 02:31:18,005 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 3.0
+2024-05-11 02:31:18,005 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 02:31:18,005 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 5.0
+2024-05-11 02:31:18,005 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 0.1
+2024-05-11 02:31:18,005 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 02:31:38,269 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 02:31:38,269 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 7.0
+2024-05-11 02:31:38,269 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 02:31:38,269 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 5.0
+2024-05-11 02:31:38,269 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 0.1
+2024-05-11 02:31:38,269 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 02:32:47,940 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 6084 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 02:32:47,941 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 02:32:48,204 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 02:32:48,207 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 02:32:48,208 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 02:32:48,208 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 02:32:48,235 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 02:32:48,235 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 280 ms
+2024-05-11 02:32:48,340 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 02:32:48,345 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 02:32:48,348 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.574 seconds (process running for 0.752)
+2024-05-11 02:32:50,261 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 02:32:50,261 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 02:32:50,261 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 02:32:50,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 02:32:50,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 7.0
+2024-05-11 02:32:50,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 02:32:50,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 5.0
+2024-05-11 02:32:50,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 0.1
+2024-05-11 02:32:50,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 02:32:56,465 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 02:32:56,466 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 1.0
+2024-05-11 02:32:56,466 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 02:32:56,466 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 5.0
+2024-05-11 02:32:56,466 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 0.1
+2024-05-11 02:32:56,466 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 02:35:07,007 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 02:35:07,007 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 0.0
+2024-05-11 02:35:07,007 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 0
+2024-05-11 02:35:07,007 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 10.0
+2024-05-11 02:35:07,007 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 02:35:07,007 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.1
+2024-05-11 02:35:37,704 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 02:35:37,704 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 0.0
+2024-05-11 02:35:37,704 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 0
+2024-05-11 02:35:37,704 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 10.0
+2024-05-11 02:35:37,704 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 02:35:37,704 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.1
+2024-05-11 02:36:40,096 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] x0: 0.0
+2024-05-11 02:36:40,096 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] y0: 0.0
+2024-05-11 02:36:40,097 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] func: 0
+2024-05-11 02:36:40,097 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] xn: 10.0
+2024-05-11 02:36:40,097 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] step: 1.0
+2024-05-11 02:36:40,097 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] eps: 0.1
+2024-05-11 02:37:45,918 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] x0: 0.0
+2024-05-11 02:37:45,918 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] y0: 0.0
+2024-05-11 02:37:45,919 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] func: 0
+2024-05-11 02:37:45,919 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] xn: 10.0
+2024-05-11 02:37:45,919 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] step: 1.0
+2024-05-11 02:37:45,919 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] eps: 0.1
+2024-05-11 02:37:58,924 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] x0: 0.0
+2024-05-11 02:37:58,924 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] y0: 2.0
+2024-05-11 02:37:58,924 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] func: 0
+2024-05-11 02:37:58,924 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] xn: 5.0
+2024-05-11 02:37:58,924 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] step: 1.0
+2024-05-11 02:37:58,924 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] eps: 0.1
+2024-05-11 02:46:01,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 02:46:01,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 0.0
+2024-05-11 02:46:01,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 1
+2024-05-11 02:46:01,556 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 10.0
+2024-05-11 02:46:01,556 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 02:46:01,556 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 02:46:27,532 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 02:46:27,532 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 0.0
+2024-05-11 02:46:27,532 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 1
+2024-05-11 02:46:27,532 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 2.0
+2024-05-11 02:46:27,533 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 02:46:27,533 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 11:52:48,843 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 2144 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 11:52:48,844 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 11:52:49,164 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 11:52:49,167 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 11:52:49,168 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 11:52:49,168 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 11:52:49,204 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 11:52:49,205 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 343 ms
+2024-05-11 11:52:49,321 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 11:52:49,327 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 11:52:49,330 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.7 seconds (process running for 0.982)
+2024-05-11 11:53:34,255 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 11:53:34,256 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 11:53:34,256 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 11:53:34,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 11:53:34,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 0.0
+2024-05-11 11:53:34,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 0
+2024-05-11 11:53:34,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 10.0
+2024-05-11 11:53:34,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 11:53:34,302 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 11:53:37,859 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 11:53:37,860 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 0.0
+2024-05-11 11:53:37,860 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 11:53:37,860 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 10.0
+2024-05-11 11:53:37,860 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 11:53:37,860 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 11:53:52,626 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 11:53:52,626 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 2.0
+2024-05-11 11:53:52,626 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 2
+2024-05-11 11:53:52,626 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 10.0
+2024-05-11 11:53:52,626 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 11:53:52,626 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.1
+2024-05-11 11:54:15,517 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 11:54:15,517 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 2.0
+2024-05-11 11:54:15,517 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 2
+2024-05-11 11:54:15,517 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 10.0
+2024-05-11 11:54:15,517 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 11:54:15,517 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.001
+2024-05-11 11:54:27,150 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] x0: 0.0
+2024-05-11 11:54:27,151 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] y0: 2.0
+2024-05-11 11:54:27,151 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] func: 2
+2024-05-11 11:54:27,151 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] xn: 10.0
+2024-05-11 11:54:27,151 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] step: 1.0
+2024-05-11 11:54:27,151 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] eps: 0.01
+2024-05-11 12:11:05,280 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 3161 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:11:05,281 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:11:05,542 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:11:05,546 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:11:05,546 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:11:05,546 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:11:05,574 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:11:05,574 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 279 ms
+2024-05-11 12:11:05,678 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:11:05,683 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:11:05,686 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.587 seconds (process running for 0.776)
+2024-05-11 12:11:10,512 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:11:10,512 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:11:10,513 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 12:11:10,554 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:11:10,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 2.0
+2024-05-11 12:11:10,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 12:11:10,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 10.0
+2024-05-11 12:11:10,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:11:10,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.01
+2024-05-11 12:19:22,516 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 3319 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:19:22,517 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:19:22,794 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:19:22,797 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:19:22,798 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:19:22,798 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:19:22,827 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:19:22,828 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 295 ms
+2024-05-11 12:19:22,933 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:19:22,938 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:19:22,941 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.587 seconds (process running for 0.766)
+2024-05-11 12:19:26,832 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:19:26,833 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:19:26,834 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 12:19:26,881 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:19:26,882 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 2.0
+2024-05-11 12:19:26,882 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 12:19:26,882 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 10.0
+2024-05-11 12:19:26,882 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:19:26,882 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.01
+2024-05-11 12:39:07,672 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 3846 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:39:07,673 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:39:07,932 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:39:07,934 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:39:07,935 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:39:07,935 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:39:07,962 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:39:07,962 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 273 ms
+2024-05-11 12:39:08,065 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:39:08,070 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:39:08,073 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.568 seconds (process running for 0.765)
+2024-05-11 12:39:12,288 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:39:12,288 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:39:12,289 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 12:39:12,334 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:39:12,334 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 2.0
+2024-05-11 12:39:12,334 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 12:39:12,334 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 10.0
+2024-05-11 12:39:12,334 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:39:12,334 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.01
+2024-05-11 12:39:24,312 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 12:39:24,312 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 2.0
+2024-05-11 12:39:24,312 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 12:39:24,312 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 10.0
+2024-05-11 12:39:24,312 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 12:39:24,312 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 1.0
+2024-05-11 12:39:32,672 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 12:39:32,672 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 2.0
+2024-05-11 12:39:32,672 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 12:39:32,672 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 10.0
+2024-05-11 12:39:32,672 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 12:39:32,672 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 12:39:42,784 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 12:39:42,785 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 2.0
+2024-05-11 12:39:42,785 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 2
+2024-05-11 12:39:42,785 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 10.0
+2024-05-11 12:39:42,785 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 12:39:42,785 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.5
+2024-05-11 12:39:46,720 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 12:39:46,720 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 2.0
+2024-05-11 12:39:46,720 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 2
+2024-05-11 12:39:46,721 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 10.0
+2024-05-11 12:39:46,721 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 12:39:46,721 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.1
+2024-05-11 12:39:55,250 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] x0: 0.0
+2024-05-11 12:39:55,250 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] y0: 2.0
+2024-05-11 12:39:55,250 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] func: 2
+2024-05-11 12:39:55,250 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] xn: 10.0
+2024-05-11 12:39:55,250 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] step: 1.0
+2024-05-11 12:39:55,250 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] eps: 0.05
+2024-05-11 12:40:52,820 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] x0: 0.0
+2024-05-11 12:40:52,820 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] y0: 6.0
+2024-05-11 12:40:52,820 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] func: 2
+2024-05-11 12:40:52,820 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] xn: 10.0
+2024-05-11 12:40:52,821 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] step: 1.0
+2024-05-11 12:40:52,821 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] eps: 0.05
+2024-05-11 12:40:59,861 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] x0: 0.0
+2024-05-11 12:40:59,862 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] y0: 6.0
+2024-05-11 12:40:59,862 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] func: 2
+2024-05-11 12:40:59,862 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] xn: 15.0
+2024-05-11 12:40:59,862 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] step: 1.0
+2024-05-11 12:40:59,862 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] eps: 0.05
+2024-05-11 12:41:17,409 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] x0: 0.0
+2024-05-11 12:41:17,409 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] y0: 6.0
+2024-05-11 12:41:17,409 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] func: 2
+2024-05-11 12:41:17,409 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] xn: 15.0
+2024-05-11 12:41:17,409 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] step: 1.0
+2024-05-11 12:41:17,409 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] eps: 0.1
+2024-05-11 12:44:10,152 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 4149 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:44:10,153 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:44:10,421 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:44:10,424 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:44:10,424 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:44:10,425 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:44:10,451 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:44:10,452 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 284 ms
+2024-05-11 12:44:10,558 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:44:10,563 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:44:10,567 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.589 seconds (process running for 0.768)
+2024-05-11 12:44:14,344 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:44:14,345 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:44:14,345 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 12:44:14,389 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:44:14,389 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 12:44:14,389 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 12:44:14,389 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 15.0
+2024-05-11 12:44:14,389 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:44:14,389 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 12:44:29,505 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 4243 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:44:29,506 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:44:29,772 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:44:29,775 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:44:29,776 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:44:29,776 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:44:29,803 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:44:29,804 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 283 ms
+2024-05-11 12:44:29,908 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:44:29,913 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:44:29,916 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.582 seconds (process running for 0.761)
+2024-05-11 12:44:31,778 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:44:31,778 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:44:31,778 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 12:44:31,819 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:44:31,820 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 12:44:31,820 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 12:44:31,820 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 15.0
+2024-05-11 12:44:31,820 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:44:31,820 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 12:45:26,570 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 4350 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:45:26,571 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:45:26,848 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:45:26,851 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:45:26,851 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:45:26,851 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:45:26,878 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:45:26,879 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 288 ms
+2024-05-11 12:45:26,991 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:45:26,995 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:45:26,999 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.6 seconds (process running for 0.779)
+2024-05-11 12:45:28,309 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:45:28,310 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:45:28,310 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 12:45:28,346 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:45:28,347 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 12:45:28,347 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 12:45:28,347 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 15.0
+2024-05-11 12:45:28,347 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:45:28,347 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 12:45:39,684 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 12:45:39,685 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 6.0
+2024-05-11 12:45:39,685 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 12:45:39,685 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 15.0
+2024-05-11 12:45:39,685 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 12:45:39,685 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.5
+2024-05-11 12:45:49,706 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 12:45:49,707 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 6.0
+2024-05-11 12:45:49,707 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 12:45:49,707 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 15.0
+2024-05-11 12:45:49,707 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 12:45:49,707 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 12:45:57,750 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 12:45:57,750 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 3.0
+2024-05-11 12:45:57,750 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 2
+2024-05-11 12:45:57,750 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 15.0
+2024-05-11 12:45:57,750 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 12:45:57,751 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.1
+2024-05-11 12:46:03,297 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 12:46:03,297 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 3.0
+2024-05-11 12:46:03,297 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 2
+2024-05-11 12:46:03,297 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 15.0
+2024-05-11 12:46:03,297 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 12:46:03,297 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.001
+2024-05-11 12:46:23,854 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] x0: 0.0
+2024-05-11 12:46:23,855 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] y0: 0.0
+2024-05-11 12:46:23,855 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] func: 1
+2024-05-11 12:46:23,855 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] xn: 10.0
+2024-05-11 12:46:23,855 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] step: 1.0
+2024-05-11 12:46:23,855 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] eps: 0.1
+2024-05-11 12:46:51,226 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] x0: 0.0
+2024-05-11 12:46:51,226 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] y0: 0.0
+2024-05-11 12:46:51,226 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] func: 0
+2024-05-11 12:46:51,226 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] xn: 10.0
+2024-05-11 12:46:51,226 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] step: 1.0
+2024-05-11 12:46:51,226 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] eps: 0.1
+2024-05-11 12:47:10,462 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 4562 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:47:10,463 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:47:10,751 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:47:10,753 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:47:10,754 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:47:10,754 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:47:10,781 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:47:10,782 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 300 ms
+2024-05-11 12:47:10,887 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:47:10,891 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:47:10,895 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.646 seconds (process running for 0.858)
+2024-05-11 12:47:29,874 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 4658 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:47:29,875 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:47:30,147 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:47:30,150 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:47:30,151 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:47:30,151 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:47:30,177 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:47:30,178 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 286 ms
+2024-05-11 12:47:30,283 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:47:30,287 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:47:30,291 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.584 seconds (process running for 0.767)
+2024-05-11 12:47:41,982 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:47:41,982 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:47:41,983 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 12:47:42,024 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:47:42,024 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 0.0
+2024-05-11 12:47:42,024 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 12:47:42,025 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 10.0
+2024-05-11 12:47:42,025 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:47:42,025 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 12:47:55,988 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 4760 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:47:55,989 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:47:56,254 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:47:56,257 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:47:56,257 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:47:56,257 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:47:56,284 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:47:56,285 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 281 ms
+2024-05-11 12:47:56,390 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:47:56,394 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:47:56,398 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.626 seconds (process running for 0.837)
+2024-05-11 12:48:04,145 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:48:04,145 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:48:04,145 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 12:48:04,184 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:48:04,185 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 0.0
+2024-05-11 12:48:04,185 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 12:48:04,185 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 10.0
+2024-05-11 12:48:04,185 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:48:04,185 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 12:48:28,596 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 12:48:28,596 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 0.0
+2024-05-11 12:48:28,596 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 0
+2024-05-11 12:48:28,596 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 10.0
+2024-05-11 12:48:28,596 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 12:48:28,596 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.01
+2024-05-11 12:49:10,632 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 12:49:10,632 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 0.0
+2024-05-11 12:49:10,632 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 0
+2024-05-11 12:49:10,632 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 5.0
+2024-05-11 12:49:10,632 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 12:49:10,632 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 12:49:18,638 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 12:49:18,638 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 0.0
+2024-05-11 12:49:18,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 0
+2024-05-11 12:49:18,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 5.0
+2024-05-11 12:49:18,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 12:49:18,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.01
+2024-05-11 12:50:01,523 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 12:50:01,524 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 0.0
+2024-05-11 12:50:01,524 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 1
+2024-05-11 12:50:01,524 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 5.0
+2024-05-11 12:50:01,524 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 12:50:01,524 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.01
+2024-05-11 12:50:36,461 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] x0: 0.0
+2024-05-11 12:50:36,461 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] y0: 0.0
+2024-05-11 12:50:36,461 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] func: 1
+2024-05-11 12:50:36,461 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] xn: 10.0
+2024-05-11 12:50:36,461 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] step: 1.0
+2024-05-11 12:50:36,461 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] eps: 0.1
+2024-05-11 12:51:09,149 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] x0: 0.0
+2024-05-11 12:51:09,149 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] y0: 0.0
+2024-05-11 12:51:09,149 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] func: 0
+2024-05-11 12:51:09,149 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] xn: 4.0
+2024-05-11 12:51:09,150 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] step: 1.0
+2024-05-11 12:51:09,150 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] eps: 0.1
+2024-05-11 12:51:14,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] x0: 0.0
+2024-05-11 12:51:14,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] y0: 0.0
+2024-05-11 12:51:14,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] func: 1
+2024-05-11 12:51:14,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] xn: 4.0
+2024-05-11 12:51:14,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] step: 1.0
+2024-05-11 12:51:14,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] eps: 0.1
+2024-05-11 12:52:29,638 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] x0: 2.0
+2024-05-11 12:52:29,638 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] y0: 0.0
+2024-05-11 12:52:29,638 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] func: 1
+2024-05-11 12:52:29,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] xn: 4.0
+2024-05-11 12:52:29,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] step: 1.0
+2024-05-11 12:52:29,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] eps: 0.1
+2024-05-11 12:52:46,977 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 2.0
+2024-05-11 12:52:46,977 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 3.0
+2024-05-11 12:52:46,977 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 1
+2024-05-11 12:52:46,977 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 4.0
+2024-05-11 12:52:46,977 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:52:46,977 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 12:53:00,150 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 2.0
+2024-05-11 12:53:00,150 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 3.0
+2024-05-11 12:53:00,150 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 12:53:00,150 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 4.0
+2024-05-11 12:53:00,150 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 12:53:00,150 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 12:54:22,210 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 5131 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:54:22,211 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:54:22,474 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:54:22,477 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:54:22,478 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:54:22,478 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:54:22,505 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:54:22,505 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 279 ms
+2024-05-11 12:54:22,606 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:54:22,611 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:54:22,614 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.572 seconds (process running for 0.762)
+2024-05-11 12:54:25,182 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:54:25,182 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:54:25,182 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 12:54:25,227 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 2.0
+2024-05-11 12:54:25,227 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 3.0
+2024-05-11 12:54:25,227 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 12:54:25,227 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 4.0
+2024-05-11 12:54:25,227 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 12:54:25,227 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 12:54:34,161 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 12:54:34,161 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 3.0
+2024-05-11 12:54:34,162 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 12:54:34,162 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 4.0
+2024-05-11 12:54:34,162 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 12:54:34,162 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 12:55:14,892 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 5236 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:55:14,893 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:55:15,153 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:55:15,156 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:55:15,157 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:55:15,157 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:55:15,184 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:55:15,184 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 277 ms
+2024-05-11 12:55:15,294 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:55:15,299 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:55:15,302 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.573 seconds (process running for 0.764)
+2024-05-11 12:55:21,264 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:55:21,264 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:55:21,265 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 12:55:21,305 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:55:21,306 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 3.0
+2024-05-11 12:55:21,306 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 12:55:21,306 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 4.0
+2024-05-11 12:55:21,306 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:55:21,306 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 12:55:49,727 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 5335 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:55:49,728 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:55:49,986 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:55:49,989 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:55:49,990 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:55:49,990 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:55:50,016 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:55:50,017 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 273 ms
+2024-05-11 12:55:50,119 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:55:50,123 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:55:50,126 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.571 seconds (process running for 0.761)
+2024-05-11 12:55:52,166 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:55:52,166 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:55:52,166 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 12:55:52,208 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:55:52,208 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 3.0
+2024-05-11 12:55:52,208 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 12:55:52,209 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 4.0
+2024-05-11 12:55:52,209 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:55:52,209 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 12:56:00,387 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 5432 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:56:00,388 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:56:00,654 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:56:00,657 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:56:00,657 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:56:00,657 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:56:00,684 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:56:00,684 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 281 ms
+2024-05-11 12:56:00,790 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:56:00,794 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:56:00,798 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.586 seconds (process running for 0.774)
+2024-05-11 12:56:02,708 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:56:02,708 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:56:02,709 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 12:56:02,751 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 12:56:02,751 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 3.0
+2024-05-11 12:56:02,751 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 12:56:02,752 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 4.0
+2024-05-11 12:56:02,752 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:56:02,752 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 12:56:09,863 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 12:56:09,864 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 3.0
+2024-05-11 12:56:09,864 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 0
+2024-05-11 12:56:09,864 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 4.0
+2024-05-11 12:56:09,864 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 12:56:09,864 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 12:56:15,798 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 12:56:15,798 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 0.0
+2024-05-11 12:56:15,798 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 0
+2024-05-11 12:56:15,798 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 4.0
+2024-05-11 12:56:15,798 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 12:56:15,798 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 12:56:20,783 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 12:56:20,783 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 1.0
+2024-05-11 12:56:20,783 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 0
+2024-05-11 12:56:20,783 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 4.0
+2024-05-11 12:56:20,783 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 12:56:20,783 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.1
+2024-05-11 12:56:24,073 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 12:56:24,073 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 2.0
+2024-05-11 12:56:24,074 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 0
+2024-05-11 12:56:24,074 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 4.0
+2024-05-11 12:56:24,074 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 12:56:24,074 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.1
+2024-05-11 12:56:31,719 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] x0: 5.0
+2024-05-11 12:56:31,720 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] y0: 2.0
+2024-05-11 12:56:31,720 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] func: 0
+2024-05-11 12:56:31,720 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] xn: 4.0
+2024-05-11 12:56:31,720 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] step: 1.0
+2024-05-11 12:56:31,720 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] eps: 0.1
+2024-05-11 12:56:37,862 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] x0: 5.0
+2024-05-11 12:56:37,863 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] y0: 7.0
+2024-05-11 12:56:37,863 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] func: 0
+2024-05-11 12:56:37,863 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] xn: 4.0
+2024-05-11 12:56:37,863 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] step: 1.0
+2024-05-11 12:56:37,863 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] eps: 0.1
+2024-05-11 12:56:42,579 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] x0: 5.0
+2024-05-11 12:56:42,579 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] y0: 7.0
+2024-05-11 12:56:42,580 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] func: 0
+2024-05-11 12:56:42,580 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] xn: 9.0
+2024-05-11 12:56:42,580 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] step: 1.0
+2024-05-11 12:56:42,580 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] eps: 0.1
+2024-05-11 12:57:15,102 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 5547 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:57:15,103 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:57:15,369 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:57:15,371 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:57:15,372 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:57:15,372 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:57:15,399 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:57:15,399 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 281 ms
+2024-05-11 12:57:15,500 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:57:15,505 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:57:15,508 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.566 seconds (process running for 0.743)
+2024-05-11 12:57:18,550 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:57:18,551 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:57:18,551 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 12:57:18,588 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 5.0
+2024-05-11 12:57:18,588 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 7.0
+2024-05-11 12:57:18,588 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 12:57:18,588 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 9.0
+2024-05-11 12:57:18,588 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:57:18,588 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 12:57:26,780 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 5.0
+2024-05-11 12:57:26,781 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 7.0
+2024-05-11 12:57:26,781 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 0
+2024-05-11 12:57:26,781 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 9.0
+2024-05-11 12:57:26,781 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 12:57:26,781 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 1.0
+2024-05-11 12:57:37,604 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 5644 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 12:57:37,605 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 12:57:37,869 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 12:57:37,872 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:57:37,873 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 12:57:37,873 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 12:57:37,900 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 12:57:37,900 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 281 ms
+2024-05-11 12:57:38,004 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 12:57:38,008 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 12:57:38,012 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.62 seconds (process running for 0.829)
+2024-05-11 12:57:41,117 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 12:57:41,117 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 12:57:41,117 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 12:57:41,160 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 5.0
+2024-05-11 12:57:41,160 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 7.0
+2024-05-11 12:57:41,160 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 0
+2024-05-11 12:57:41,160 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 9.0
+2024-05-11 12:57:41,160 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 12:57:41,160 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 1.0
+2024-05-11 12:58:08,940 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 5.0
+2024-05-11 12:58:08,940 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 7.0
+2024-05-11 12:58:08,940 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 1
+2024-05-11 12:58:08,940 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 9.0
+2024-05-11 12:58:08,940 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 12:58:08,940 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 1.0
+2024-05-11 12:58:27,189 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 5.0
+2024-05-11 12:58:27,189 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 7.0
+2024-05-11 12:58:27,189 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 12:58:27,190 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 9.0
+2024-05-11 12:58:27,190 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 12:58:27,190 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 1.0
+2024-05-11 12:58:36,535 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 5.0
+2024-05-11 12:58:36,535 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 7.0
+2024-05-11 12:58:36,535 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 2
+2024-05-11 12:58:36,535 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 9.0
+2024-05-11 12:58:36,535 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 12:58:36,535 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.1
+2024-05-11 12:58:53,923 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 5.0
+2024-05-11 12:58:53,923 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 3.0
+2024-05-11 12:58:53,923 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 2
+2024-05-11 12:58:53,924 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 9.0
+2024-05-11 12:58:53,924 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 12:58:53,924 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.1
+2024-05-11 12:58:59,227 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] x0: 5.0
+2024-05-11 12:58:59,228 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] y0: 1.0
+2024-05-11 12:58:59,228 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] func: 2
+2024-05-11 12:58:59,228 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] xn: 9.0
+2024-05-11 12:58:59,228 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] step: 1.0
+2024-05-11 12:58:59,228 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] eps: 0.1
+2024-05-11 12:59:59,442 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] x0: 5.0
+2024-05-11 12:59:59,443 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] y0: 4.0
+2024-05-11 12:59:59,443 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] func: 2
+2024-05-11 12:59:59,443 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] xn: 9.0
+2024-05-11 12:59:59,443 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] step: 1.0
+2024-05-11 12:59:59,443 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] eps: 0.1
+2024-05-11 13:00:23,766 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] x0: 5.0
+2024-05-11 13:00:23,766 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] y0: 4.0
+2024-05-11 13:00:23,766 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] func: 2
+2024-05-11 13:00:23,766 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] xn: 9.0
+2024-05-11 13:00:23,766 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] step: 1.0
+2024-05-11 13:00:23,766 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] eps: 0.01
+2024-05-11 13:02:58,434 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 5.0
+2024-05-11 13:02:58,435 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 4.0
+2024-05-11 13:02:58,435 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 1
+2024-05-11 13:02:58,435 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 9.0
+2024-05-11 13:02:58,435 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 13:02:58,435 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.01
+2024-05-11 13:03:24,774 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 13:03:24,775 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 0.0
+2024-05-11 13:03:24,775 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 1
+2024-05-11 13:03:24,775 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 2.0
+2024-05-11 13:03:24,775 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 13:03:24,776 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 13:03:31,603 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 13:03:31,603 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 0.0
+2024-05-11 13:03:31,604 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 1
+2024-05-11 13:03:31,604 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 2.0
+2024-05-11 13:03:31,604 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 13:03:31,604 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.01
+2024-05-11 13:03:34,166 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 13:03:34,166 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 0.0
+2024-05-11 13:03:34,166 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 1
+2024-05-11 13:03:34,167 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 2.0
+2024-05-11 13:03:34,167 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 13:03:34,167 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.001
+2024-05-11 13:03:57,180 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 13:03:57,181 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 0.0
+2024-05-11 13:03:57,181 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 1
+2024-05-11 13:03:57,181 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 4.0
+2024-05-11 13:03:57,181 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 13:03:57,181 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.001
+2024-05-11 13:04:29,780 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] x0: 0.0
+2024-05-11 13:04:29,780 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] y0: 0.0
+2024-05-11 13:04:29,780 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] func: 0
+2024-05-11 13:04:29,780 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] xn: 10.0
+2024-05-11 13:04:29,780 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] step: 1.0
+2024-05-11 13:04:29,780 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] eps: 1.0
+2024-05-11 13:04:57,946 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] x0: 0.0
+2024-05-11 13:04:57,946 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] y0: 0.0
+2024-05-11 13:04:57,946 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] func: 1
+2024-05-11 13:04:57,946 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] xn: 10.0
+2024-05-11 13:04:57,947 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] step: 1.0
+2024-05-11 13:04:57,947 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] eps: 1.0
+2024-05-11 13:05:26,837 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] x0: 0.0
+2024-05-11 13:05:26,838 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] y0: 0.0
+2024-05-11 13:05:26,838 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] func: 0
+2024-05-11 13:05:26,838 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] xn: 3.0
+2024-05-11 13:05:26,838 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] step: 1.0
+2024-05-11 13:05:26,838 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] eps: 0.1
+2024-05-11 13:05:34,412 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] x0: 0.0
+2024-05-11 13:05:34,413 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] y0: 0.0
+2024-05-11 13:05:34,413 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] func: 0
+2024-05-11 13:05:34,413 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] xn: 3.0
+2024-05-11 13:05:34,413 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] step: 1.0
+2024-05-11 13:05:34,413 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] eps: 1.0
+2024-05-11 13:05:39,759 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] x0: 0.0
+2024-05-11 13:05:39,759 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] y0: 0.0
+2024-05-11 13:05:39,759 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] func: 1
+2024-05-11 13:05:39,759 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] xn: 3.0
+2024-05-11 13:05:39,759 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] step: 1.0
+2024-05-11 13:05:39,759 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] eps: 1.0
+2024-05-11 13:06:27,406 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 13:06:27,406 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 13:06:27,407 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 1
+2024-05-11 13:06:27,407 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 13:06:27,407 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 13:06:27,407 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 1.0
+2024-05-11 13:09:58,511 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 6057 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 13:09:58,512 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 13:09:58,779 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 13:09:58,782 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:09:58,783 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 13:09:58,783 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 13:09:58,809 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 13:09:58,809 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 282 ms
+2024-05-11 13:09:58,915 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:09:58,919 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 13:09:58,923 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.591 seconds (process running for 0.789)
+2024-05-11 13:10:01,865 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 13:10:01,866 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 13:10:01,866 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 13:10:01,910 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 13:10:01,910 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 13:10:01,910 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 1
+2024-05-11 13:10:01,910 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 13:10:01,910 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 13:10:01,910 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 1.0
+2024-05-11 13:10:12,333 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 6154 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 13:10:12,334 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 13:10:12,598 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 13:10:12,601 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:10:12,601 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 13:10:12,602 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 13:10:12,629 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 13:10:12,629 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 280 ms
+2024-05-11 13:10:12,736 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:10:12,741 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 13:10:12,745 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.574 seconds (process running for 0.75)
+2024-05-11 13:10:13,968 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 13:10:13,968 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 13:10:13,969 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 13:10:14,009 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 13:10:14,009 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 13:10:14,009 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 1
+2024-05-11 13:10:14,009 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 13:10:14,009 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 13:10:14,009 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 1.0
+2024-05-11 13:12:09,617 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 6268 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 13:12:09,617 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 13:12:09,880 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 13:12:09,883 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:12:09,884 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 13:12:09,884 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 13:12:09,912 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 13:12:09,912 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 280 ms
+2024-05-11 13:12:10,013 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:12:10,017 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 13:12:10,020 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.562 seconds (process running for 0.739)
+2024-05-11 13:12:25,219 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 6362 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 13:12:25,220 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 13:12:25,473 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 13:12:25,476 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:12:25,477 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 13:12:25,477 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 13:12:25,503 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 13:12:25,503 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 269 ms
+2024-05-11 13:12:25,604 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:12:25,608 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 13:12:25,612 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.57 seconds (process running for 0.746)
+2024-05-11 13:12:28,018 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 13:12:28,019 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 13:12:28,019 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 13:12:28,059 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 13:12:28,059 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 13:12:28,059 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 1
+2024-05-11 13:12:28,059 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 13:12:28,059 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 13:12:28,059 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 1.0
+2024-05-11 13:13:29,406 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 6464 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 13:13:29,407 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 13:13:29,668 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 13:13:29,671 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:13:29,672 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 13:13:29,672 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 13:13:29,698 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 13:13:29,699 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 275 ms
+2024-05-11 13:13:29,800 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:13:29,804 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 13:13:29,807 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.559 seconds (process running for 0.735)
+2024-05-11 13:13:32,077 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 13:13:32,077 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 13:13:32,078 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 13:13:32,118 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 13:13:32,118 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 13:13:32,119 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 1
+2024-05-11 13:13:32,119 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 13:13:32,119 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 13:13:32,119 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 1.0
+2024-05-11 13:13:51,413 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 13:13:51,414 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 6.0
+2024-05-11 13:13:51,414 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 13:13:51,414 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 3.0
+2024-05-11 13:13:51,414 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 13:13:51,414 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 1.0
+2024-05-11 13:13:58,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 13:13:58,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 6.0
+2024-05-11 13:13:58,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 13:13:58,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 3.0
+2024-05-11 13:13:58,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 13:13:58,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.1
+2024-05-11 13:14:19,718 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 6564 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 13:14:19,719 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 13:14:20,002 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 13:14:20,005 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:14:20,005 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 13:14:20,005 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 13:14:20,031 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 13:14:20,032 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 293 ms
+2024-05-11 13:14:20,133 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 13:14:20,138 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 13:14:20,141 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.612 seconds (process running for 0.813)
+2024-05-11 13:14:22,932 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 13:14:22,933 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 13:14:22,933 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 13:14:22,979 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 13:14:22,980 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 13:14:22,980 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 13:14:22,980 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 13:14:22,980 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 13:14:22,980 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 14:25:28,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 14:25:28,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 6.0
+2024-05-11 14:25:28,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 2
+2024-05-11 14:25:28,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 3.0
+2024-05-11 14:25:28,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 14:25:28,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.1
+2024-05-11 14:25:47,333 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 14:25:47,333 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 6.0
+2024-05-11 14:25:47,333 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 2
+2024-05-11 14:25:47,333 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 3.0
+2024-05-11 14:25:47,333 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 14:25:47,333 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.01
+2024-05-11 14:35:53,722 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 7283 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 14:35:53,723 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 14:35:53,982 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 14:35:53,985 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:35:53,985 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 14:35:53,986 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 14:35:54,011 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 14:35:54,012 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 274 ms
+2024-05-11 14:35:54,112 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:35:54,117 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 14:35:54,120 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.567 seconds (process running for 0.795)
+2024-05-11 14:35:59,139 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 14:35:59,139 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 14:35:59,140 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 14:35:59,175 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 14:35:59,176 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 14:35:59,176 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 14:35:59,176 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 14:35:59,176 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 14:35:59,176 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.01
+2024-05-11 14:35:59,178 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.UnknownFormatConversionException: Conversion = '.'] with root cause
+java.util.UnknownFormatConversionException: Conversion = '.'
+	at java.base/java.util.Formatter.parse(Formatter.java:2842)
+	at java.base/java.util.Formatter.format(Formatter.java:2763)
+	at java.base/java.util.Formatter.format(Formatter.java:2717)
+	at java.base/java.lang.String.format(String.java:4155)
+	at com.example.web4.math.ImprovedEulerMethod.formatPoint(ImprovedEulerMethod.java:39)
+	at com.example.web4.math.ImprovedEulerMethod.solve(ImprovedEulerMethod.java:11)
+	at com.example.web4.controllers.AttemptController.createPoint(AttemptController.java:52)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-05-11 14:37:20,649 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 7415 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 14:37:20,650 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 14:37:20,907 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 14:37:20,910 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:37:20,910 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 14:37:20,910 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 14:37:20,937 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 14:37:20,937 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 271 ms
+2024-05-11 14:37:21,040 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:37:21,044 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 14:37:21,048 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.562 seconds (process running for 0.736)
+2024-05-11 14:37:22,928 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 14:37:22,928 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 14:37:22,929 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 14:37:22,968 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 14:37:22,968 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 14:37:22,968 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 14:37:22,968 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 14:37:22,968 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 14:37:22,968 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.01
+2024-05-11 14:37:58,220 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 14:37:58,220 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 6.0
+2024-05-11 14:37:58,220 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 14:37:58,220 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 3.0
+2024-05-11 14:37:58,221 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 14:37:58,221 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 14:38:30,898 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 7531 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 14:38:30,899 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 14:38:31,157 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 14:38:31,160 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:38:31,161 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 14:38:31,161 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 14:38:31,190 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 14:38:31,190 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 276 ms
+2024-05-11 14:38:31,295 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:38:31,299 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 14:38:31,303 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.57 seconds (process running for 0.751)
+2024-05-11 14:38:33,265 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 14:38:33,265 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 14:38:33,266 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 14:38:33,307 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 14:38:33,307 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 14:38:33,307 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 14:38:33,307 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 14:38:33,307 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 14:38:33,307 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 14:38:42,687 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 7626 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 14:38:42,688 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 14:38:42,955 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 14:38:42,958 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:38:42,959 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 14:38:42,959 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 14:38:42,986 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 14:38:42,987 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 285 ms
+2024-05-11 14:38:43,093 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:38:43,098 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 14:38:43,101 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.592 seconds (process running for 0.766)
+2024-05-11 14:38:44,686 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 14:38:44,686 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 14:38:44,687 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 14:38:44,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 14:38:44,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 14:38:44,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 14:38:44,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 14:38:44,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 14:38:44,726 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 14:38:52,642 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 7721 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 14:38:52,643 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 14:38:52,912 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 14:38:52,915 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:38:52,915 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 14:38:52,915 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 14:38:52,941 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 14:38:52,942 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 281 ms
+2024-05-11 14:38:53,044 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:38:53,049 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 14:38:53,052 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.583 seconds (process running for 0.761)
+2024-05-11 14:38:55,513 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 14:38:55,513 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 14:38:55,514 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 14:38:55,554 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 14:38:55,554 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 14:38:55,554 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 14:38:55,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 14:38:55,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 14:38:55,555 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 14:39:28,394 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 7818 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 14:39:28,395 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 14:39:28,674 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 14:39:28,677 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:39:28,677 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 14:39:28,678 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 14:39:28,703 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 14:39:28,704 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 292 ms
+2024-05-11 14:39:28,803 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:39:28,807 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 14:39:28,811 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.601 seconds (process running for 0.788)
+2024-05-11 14:39:58,727 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 7920 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 14:39:58,728 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 14:39:58,997 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 14:39:59,001 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:39:59,001 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 14:39:59,001 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 14:39:59,028 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 14:39:59,028 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 282 ms
+2024-05-11 14:39:59,131 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:39:59,135 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 14:39:59,138 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.583 seconds (process running for 0.792)
+2024-05-11 14:47:39,803 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 14:47:39,803 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 14:47:39,804 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 14:47:39,845 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 14:47:39,846 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 14:47:39,846 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 14:47:39,846 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 3.0
+2024-05-11 14:47:39,846 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 14:47:39,846 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 14:48:04,474 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 8180 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 14:48:04,475 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 14:48:04,734 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 14:48:04,737 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:48:04,737 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 14:48:04,738 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 14:48:04,765 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 14:48:04,765 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 275 ms
+2024-05-11 14:48:04,867 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:48:04,871 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 14:48:04,875 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.568 seconds (process running for 0.78)
+2024-05-11 14:48:36,842 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 14:48:36,843 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 14:48:36,843 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 14:48:36,884 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 14:48:36,885 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 14:48:36,885 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 1
+2024-05-11 14:48:36,885 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 2.0
+2024-05-11 14:48:36,885 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 14:48:36,885 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 14:49:02,382 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 14:49:02,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 6.0
+2024-05-11 14:49:02,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 1
+2024-05-11 14:49:02,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 2.0
+2024-05-11 14:49:02,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 0.5
+2024-05-11 14:49:02,383 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 14:50:31,767 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 8307 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 14:50:31,769 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 14:50:32,035 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 14:50:32,038 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:50:32,038 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 14:50:32,039 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 14:50:32,065 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 14:50:32,065 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 282 ms
+2024-05-11 14:50:32,165 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 14:50:32,169 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 14:50:32,173 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.564 seconds (process running for 0.743)
+2024-05-11 14:50:35,657 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 14:50:35,657 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 14:50:35,657 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 14:50:35,701 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 14:50:35,701 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 6.0
+2024-05-11 14:50:35,701 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 1
+2024-05-11 14:50:35,701 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 2.0
+2024-05-11 14:50:35,701 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 0.5
+2024-05-11 14:50:35,701 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.01
+2024-05-11 14:50:35,704 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Euler success
+2024-05-11 14:50:35,704 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Runge success
+2024-05-11 15:02:16,293 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 8499 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 15:02:16,295 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 15:02:16,558 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 15:02:16,561 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:02:16,562 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 15:02:16,562 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 15:02:16,588 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 15:02:16,588 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 275 ms
+2024-05-11 15:02:16,689 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:02:16,694 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 15:02:16,697 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.612 seconds (process running for 0.799)
+2024-05-11 15:02:20,734 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 15:02:20,734 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 15:02:20,734 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 15:02:20,785 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 15:02:20,786 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 6.0
+2024-05-11 15:02:20,786 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 15:02:20,786 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 2.0
+2024-05-11 15:02:20,786 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 0.5
+2024-05-11 15:02:20,786 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.01
+2024-05-11 15:02:20,788 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Euler success
+2024-05-11 15:02:20,789 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Runge success
+2024-05-11 15:02:20,790 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Invalid function index] with root cause
+java.lang.IllegalArgumentException: Invalid function index
+	at com.example.web4.math.Functions.getYRight(Functions.java:25)
+	at com.example.web4.math.AdaptiveAdamsMethod.solve(AdaptiveAdamsMethod.java:39)
+	at com.example.web4.controllers.AttemptController.createPoint(AttemptController.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-05-11 15:12:46,797 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 8822 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 15:12:46,798 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 15:12:47,060 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 15:12:47,063 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:12:47,064 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 15:12:47,064 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 15:12:47,091 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 15:12:47,091 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 278 ms
+2024-05-11 15:12:47,199 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:12:47,203 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 15:12:47,206 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.583 seconds (process running for 0.782)
+2024-05-11 15:12:49,301 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 15:12:49,301 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 15:12:49,302 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 15:12:49,341 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 15:12:49,342 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 15:12:49,342 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 15:12:49,342 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 2.0
+2024-05-11 15:12:49,342 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 0.5
+2024-05-11 15:12:49,342 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.01
+2024-05-11 15:12:49,343 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Euler success
+2024-05-11 15:12:49,344 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Runge success
+2024-05-11 15:12:49,345 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Adam success
+2024-05-11 15:13:25,990 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 15:13:25,990 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 6.0
+2024-05-11 15:13:25,990 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 15:13:25,990 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 2.0
+2024-05-11 15:13:25,990 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 15:13:25,990 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.01
+2024-05-11 15:13:25,990 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Euler success
+2024-05-11 15:13:25,991 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Runge success
+2024-05-11 15:13:25,991 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Adam success
+2024-05-11 15:13:52,197 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 15:13:52,197 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 6.0
+2024-05-11 15:13:52,197 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 1
+2024-05-11 15:13:52,197 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 2.0
+2024-05-11 15:13:52,197 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 15:13:52,197 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.01
+2024-05-11 15:13:52,198 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Euler success
+2024-05-11 15:13:52,198 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Runge success
+2024-05-11 15:13:52,198 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Adam success
+2024-05-11 15:14:17,083 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 15:14:17,083 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 6.0
+2024-05-11 15:14:17,083 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 1
+2024-05-11 15:14:17,083 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 3.0
+2024-05-11 15:14:17,083 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 15:14:17,083 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.1
+2024-05-11 15:14:17,083 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Euler success
+2024-05-11 15:14:17,083 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Runge success
+2024-05-11 15:14:17,084 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Adam success
+2024-05-11 15:14:39,029 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 15:14:39,029 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 6.0
+2024-05-11 15:14:39,029 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 1
+2024-05-11 15:14:39,029 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 2.0
+2024-05-11 15:14:39,029 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 15:14:39,029 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.1
+2024-05-11 15:14:39,030 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Euler success
+2024-05-11 15:14:39,030 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Runge success
+2024-05-11 15:14:39,030 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Adam success
+2024-05-11 15:14:56,468 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] x0: 0.0
+2024-05-11 15:14:56,468 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] y0: 6.0
+2024-05-11 15:14:56,468 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] func: 2
+2024-05-11 15:14:56,468 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] xn: 7.0
+2024-05-11 15:14:56,468 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] step: 1.0
+2024-05-11 15:14:56,468 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] eps: 0.1
+2024-05-11 15:14:56,468 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Euler success
+2024-05-11 15:14:56,469 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Runge success
+2024-05-11 15:14:56,469 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Adam success
+2024-05-11 15:15:36,783 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] x0: 0.0
+2024-05-11 15:15:36,784 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] y0: 6.0
+2024-05-11 15:15:36,784 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] func: 2
+2024-05-11 15:15:36,784 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] xn: 2.0
+2024-05-11 15:15:36,784 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] step: 1.0
+2024-05-11 15:15:36,784 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] eps: 0.1
+2024-05-11 15:15:36,784 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Euler success
+2024-05-11 15:15:36,784 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Runge success
+2024-05-11 15:15:36,784 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Adam success
+2024-05-11 15:16:04,616 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] x0: 0.0
+2024-05-11 15:16:04,616 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] y0: 2.0
+2024-05-11 15:16:04,616 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] func: 2
+2024-05-11 15:16:04,616 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] xn: 2.0
+2024-05-11 15:16:04,616 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] step: 1.0
+2024-05-11 15:16:04,616 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] eps: 0.1
+2024-05-11 15:16:04,617 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Euler success
+2024-05-11 15:16:04,617 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Runge success
+2024-05-11 15:16:04,617 INFO c.e.w.c.AttemptController [http-nio-8080-exec-8] Adam success
+2024-05-11 15:16:15,131 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] x0: 0.0
+2024-05-11 15:16:15,131 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] y0: 1.0
+2024-05-11 15:16:15,131 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] func: 2
+2024-05-11 15:16:15,132 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] xn: 2.0
+2024-05-11 15:16:15,132 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] step: 1.0
+2024-05-11 15:16:15,132 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] eps: 0.1
+2024-05-11 15:16:15,132 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Euler success
+2024-05-11 15:16:15,132 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Runge success
+2024-05-11 15:16:15,132 INFO c.e.w.c.AttemptController [http-nio-8080-exec-9] Adam success
+2024-05-11 15:16:19,577 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] x0: 0.0
+2024-05-11 15:16:19,577 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] y0: 6.0
+2024-05-11 15:16:19,578 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] func: 2
+2024-05-11 15:16:19,578 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] xn: 2.0
+2024-05-11 15:16:19,578 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] step: 1.0
+2024-05-11 15:16:19,578 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] eps: 0.1
+2024-05-11 15:16:19,578 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Euler success
+2024-05-11 15:16:19,578 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Runge success
+2024-05-11 15:16:19,578 INFO c.e.w.c.AttemptController [http-nio-8080-exec-10] Adam success
+2024-05-11 15:16:27,795 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 15:16:27,796 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 15:16:27,796 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 15:16:27,796 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 6.0
+2024-05-11 15:16:27,796 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 15:16:27,796 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 15:16:27,796 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Euler success
+2024-05-11 15:16:27,796 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Runge success
+2024-05-11 15:16:27,796 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Adam success
+2024-05-11 15:31:02,986 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 9196 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 15:31:02,987 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 15:31:03,246 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 15:31:03,249 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:31:03,250 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 15:31:03,250 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 15:31:03,276 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 15:31:03,276 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 274 ms
+2024-05-11 15:31:03,377 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:31:03,382 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 15:31:03,385 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.58 seconds (process running for 0.818)
+2024-05-11 15:31:07,594 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 15:31:07,595 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 15:31:07,595 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 15:31:07,637 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 15:31:07,637 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 15:31:07,637 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 15:31:07,637 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 6.0
+2024-05-11 15:31:07,637 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 15:31:07,637 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 15:31:07,638 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Euler success
+2024-05-11 15:31:07,639 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Runge success
+2024-05-11 15:31:07,640 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 7] with root cause
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 7
+	at com.example.web4.math.AdaptiveAdamsMethod.solve(AdaptiveAdamsMethod.java:49)
+	at com.example.web4.controllers.AttemptController.createPoint(AttemptController.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-05-11 15:35:44,002 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 15:35:44,003 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 6.0
+2024-05-11 15:35:44,003 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 15:35:44,003 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 6.0
+2024-05-11 15:35:44,003 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 15:35:44,003 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 15:35:44,003 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Euler success
+2024-05-11 15:35:44,003 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Runge success
+2024-05-11 15:35:44,003 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 7] with root cause
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 7
+	at com.example.web4.math.AdaptiveAdamsMethod.solve(AdaptiveAdamsMethod.java:49)
+	at com.example.web4.controllers.AttemptController.createPoint(AttemptController.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2024-05-11 15:35:49,776 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 9334 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 15:35:49,777 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 15:35:50,043 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 15:35:50,046 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:35:50,046 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 15:35:50,046 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 15:35:50,073 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 15:35:50,074 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 281 ms
+2024-05-11 15:35:50,178 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:35:50,183 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 15:35:50,186 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.588 seconds (process running for 0.772)
+2024-05-11 15:35:51,654 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 15:35:51,655 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 15:35:51,655 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 15:35:51,695 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 15:35:51,695 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 15:35:51,695 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 15:35:51,695 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 6.0
+2024-05-11 15:35:51,695 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 15:35:51,696 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 15:35:51,696 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Euler success
+2024-05-11 15:35:51,697 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Runge success
+2024-05-11 15:35:51,697 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Adam success
+2024-05-11 15:38:58,835 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 9483 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 15:38:58,835 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 15:38:59,102 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 15:38:59,105 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:38:59,106 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 15:38:59,106 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 15:38:59,132 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 15:38:59,133 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 282 ms
+2024-05-11 15:38:59,233 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:38:59,238 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 15:38:59,241 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.587 seconds (process running for 0.788)
+2024-05-11 15:39:05,879 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 15:39:05,879 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 15:39:05,880 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-11 15:39:05,921 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] x0: 0.0
+2024-05-11 15:39:05,921 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] y0: 6.0
+2024-05-11 15:39:05,921 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] func: 2
+2024-05-11 15:39:05,921 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] xn: 6.0
+2024-05-11 15:39:05,921 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] step: 1.0
+2024-05-11 15:39:05,921 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] eps: 0.1
+2024-05-11 15:39:05,922 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Euler success
+2024-05-11 15:39:05,922 INFO c.e.w.c.AttemptController [http-nio-8080-exec-1] Runge success
+2024-05-11 15:40:48,411 INFO o.s.b.StartupInfoLogger [main] Starting Web4Application using Java 20.0.2.1 with PID 9637 (/home/alwx/Рабочий стол/cm_math/lab6/cm6/target/classes started by alwx in /home/alwx/Рабочий стол/cm_math/lab6/cm6)
+2024-05-11 15:40:48,412 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-11 15:40:48,679 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-05-11 15:40:48,681 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:40:48,682 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-11 15:40:48,682 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2024-05-11 15:40:48,709 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-11 15:40:48,709 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 283 ms
+2024-05-11 15:40:48,811 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-11 15:40:48,815 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-11 15:40:48,819 INFO o.s.b.StartupInfoLogger [main] Started Web4Application in 0.579 seconds (process running for 0.758)
+2024-05-11 15:40:50,652 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-11 15:40:50,652 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-11 15:40:50,652 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-11 15:40:50,698 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] x0: 0.0
+2024-05-11 15:40:50,698 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] y0: 6.0
+2024-05-11 15:40:50,698 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] func: 2
+2024-05-11 15:40:50,698 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] xn: 6.0
+2024-05-11 15:40:50,698 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] step: 1.0
+2024-05-11 15:40:50,698 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] eps: 0.1
+2024-05-11 15:40:50,699 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Euler success
+2024-05-11 15:40:50,700 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Runge success
+2024-05-11 15:40:50,701 INFO c.e.w.c.AttemptController [http-nio-8080-exec-2] Adam success
+2024-05-11 15:41:10,307 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] x0: 0.0
+2024-05-11 15:41:10,308 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] y0: 6.0
+2024-05-11 15:41:10,308 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] func: 2
+2024-05-11 15:41:10,308 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] xn: 6.0
+2024-05-11 15:41:10,308 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] step: 1.0
+2024-05-11 15:41:10,308 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] eps: 0.01
+2024-05-11 15:41:10,308 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Euler success
+2024-05-11 15:41:10,308 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Runge success
+2024-05-11 15:41:10,312 INFO c.e.w.c.AttemptController [http-nio-8080-exec-3] Adam success
+2024-05-11 15:41:35,224 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] x0: 0.0
+2024-05-11 15:41:35,224 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] y0: 0.0
+2024-05-11 15:41:35,224 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] func: 2
+2024-05-11 15:41:35,224 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] xn: 3.0
+2024-05-11 15:41:35,224 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] step: 1.0
+2024-05-11 15:41:35,224 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] eps: 0.1
+2024-05-11 15:41:35,224 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Euler success
+2024-05-11 15:41:35,224 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Runge success
+2024-05-11 15:41:35,224 INFO c.e.w.c.AttemptController [http-nio-8080-exec-4] Adam success
+2024-05-11 15:41:41,488 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] x0: 0.0
+2024-05-11 15:41:41,488 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] y0: 1.0
+2024-05-11 15:41:41,488 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] func: 2
+2024-05-11 15:41:41,488 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] xn: 3.0
+2024-05-11 15:41:41,489 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] step: 1.0
+2024-05-11 15:41:41,489 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] eps: 0.1
+2024-05-11 15:41:41,489 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Euler success
+2024-05-11 15:41:41,489 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Runge success
+2024-05-11 15:41:41,489 INFO c.e.w.c.AttemptController [http-nio-8080-exec-5] Adam success
+2024-05-11 15:41:47,646 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] x0: 0.0
+2024-05-11 15:41:47,646 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] y0: 1.0
+2024-05-11 15:41:47,646 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] func: 2
+2024-05-11 15:41:47,646 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] xn: 3.0
+2024-05-11 15:41:47,646 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] step: 1.0
+2024-05-11 15:41:47,646 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] eps: 0.01
+2024-05-11 15:41:47,646 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Euler success
+2024-05-11 15:41:47,646 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Runge success
+2024-05-11 15:41:47,647 INFO c.e.w.c.AttemptController [http-nio-8080-exec-6] Adam success
+2024-05-11 15:41:55,577 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] x0: 0.0
+2024-05-11 15:41:55,577 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] y0: 1.0
+2024-05-11 15:41:55,577 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] func: 2
+2024-05-11 15:41:55,577 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] xn: 5.0
+2024-05-11 15:41:55,577 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] step: 1.0
+2024-05-11 15:41:55,577 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] eps: 0.01
+2024-05-11 15:41:55,577 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Euler success
+2024-05-11 15:41:55,577 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Runge success
+2024-05-11 15:41:55,578 INFO c.e.w.c.AttemptController [http-nio-8080-exec-7] Adam success
