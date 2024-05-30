@@ -24,7 +24,7 @@ public class ImprovedEulerMethod extends Method{
                 x += h;
                 points.add("("+formatScientificNotation(x)+", "+formatScientificNotation(y)+")");
             }
-            h *= R > eps ? 0.5 : 1;
+            h *= R > eps ? 0.5 : 1.25;
         }
         return points;
     }

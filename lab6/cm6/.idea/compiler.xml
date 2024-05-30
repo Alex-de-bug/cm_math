@@ -10,6 +10,7 @@
         <module name="cm2" />
         <module name="cm5" />
         <module name="cm4" />
+        <module name="cm6" />
         <module name="web4" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="cm3" options="-parameters" />
       <module name="cm4" options="-parameters" />
       <module name="cm5" options="-parameters" />
+      <module name="cm6" options="-parameters" />
       <module name="web4" options="-parameters" />
     </option>
   </component>
